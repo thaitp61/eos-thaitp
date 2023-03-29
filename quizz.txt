@@ -163,7 +163,7 @@ C. Action button
 D. PendingIntent that's sent when the user taps the action button<term>D<row>Which libraries can be used to display an image from the internet? (Choose 3 answers)
 A. Picasso
 B. Retrofit
-C.Volley
+C. Volley
 D. Glide<term>ACD<row>To open an URL in Android application, we use
 A. Explicit Intent
 B. Implicit Intent
@@ -184,8 +184,7 @@ D. launchService<term>AB<row>What is broadcast reciever in android?
 A. It will react on broadcast annoucements 
 B. It will do background functionalities as service
 C. It will pass the data between activitiese 
-D. All of above<term>A<row>What is the tool that is used to create an emulator to simulate the configuration of a particular type
-of Android device?
+D. All of above<term>A<row>What is the tool that is used to create an emulator to simulate the configuration of a particular type of Android device?
 A. Theme Editor 
 B. Android SDK Manager 
 C. AVD Manager 
@@ -221,7 +220,7 @@ D. CircularLayoutManager<term>AC<row>Which structure do shared preference use to
 A. hashmap 
 B. key-value pair 
 C. built in database
-D. B-Tree<term>A<row>Explain android activity life cycle?
+D. B-Tree<term>B<row>Explain android activity life cycle?
 A. onCreate() −> onStart() −> onActivityStarted() −> onResume() −> onPause() −> onStop()
 −>onActivityDistroy() −> onDestroy()
 B. OnCreate() −> onStart() −>onResume() −> onPause() −> onStop() −> onRestart() −> onDestroy()
@@ -328,9 +327,9 @@ D.none of these<term>A<row>26. insert data into a content provider, you need to 
 1) insert() 
 2) bulkInsert() 
 3) getContentProvider() 
-4)update()
+4) update()
 
-A 1 and 2 
+A. 1 and 2 
 B. 3 and 4 
 C. all of the above 
 D. none of these<term>A<row>What is mean by ANR?
@@ -369,9 +368,9 @@ A. Device driver
 B. video driver 
 C. WiFi driver 
 D. Bluetooth driver<term>C<row>What is an anonymous class in android?
-A. nterface class 
+A. Interface class 
 B. A class that does not have a name but have functionalities in it
-C. ava class<term>B<row>What are return types of startActivityForResult() in android?
+C. Java class<term>B<row>What are return types of startActivityForResult() in android?
 A. RESULT_OK 
 B. RESULT_CANCEL 
 C. RESULT_CRASH
@@ -426,8 +425,8 @@ A. True
 B. False<term>B<row>The openFile () method opens a named file for writing, with the mode specified. 
 A. True 
 B. False<term>B<row>Identify the correct statements about a task in Android:
-A. A task is a collection of related applications.
-B. A task is capable of spanning multiple processes. 
+A) A task is a collection of related applications.
+B) A task is capable of spanning multiple processes. 
 
 A. B is correct 
 B. Both are incorrect 
@@ -467,8 +466,8 @@ A. ResultSet
 B. Cursor
 C. Table
 D. DataSet<term>B<row>Identify the correct statements about a task in Android:
-A. A task is a collection of related Activities.
-B. A task is capable of spanning multiple processes.
+A) A task is a collection of related Activities.
+B) A task is capable of spanning multiple processes.
 
 A. A is correct
 B. B is correct
@@ -755,9 +754,9 @@ A. All of these and more
 B. Location
 C. Sensor Readings
 D. WiFi, Hot Spots<term>A<row>What does the Gargenta mean in his Design Philosophy when hesays that the project will, "Always be whole and complete"?
-A. He means that when we finish the entire project we will have a workingapplication, even though there will be points along the way when we will stop andthe application will not run.
+A. He means that when we finish the entire project we will have a working application, even though there will be points along the way when we will stop andthe application will not run.
 B. He means that the program must always be able to compile.
-C. He means that we will work on the program by adding self contained chunks toit so that at every stopping point the application runs as though it were a wholeand complete application. Each additional chunk simply adds a new functionalityto the application.
+C. He means that we will work on the program by adding self contained chunks toit so that at every stopping point the application runs as though it were a wholeand complete application. Each additional chunk simply adds a new functionality to the application.
 D. None of the above<term>C<row>An Android application is a loose collection of content providers,activities, broadcast receivers, and services.
 A. True
 B. False<term>A<row>The timeline receiver will receive messages from the Androidsystem.
@@ -951,7 +950,7 @@ D. onSavelnstanceState() is called before the onDestroy() method<term>A<row>Whic
 A. Dynamic
 B. Ordered
 C. Static
-D. Normal<term>AC<row>Which of the following statements is true about ViewHolder?
+D. Normal<term>BD<row>Which of the following statements is true about ViewHolder?
 A. An adapter can use multiple ViewHolder classes to hold headers and various types of data
 B. You can have exactly one view holder for data and one view holder for a header
 C. A RecyclerView supports multiple types of headers, but the data has to be uniform
@@ -995,4 +994,555 @@ D. Theme AppCompat NoActionBar<term>B<row>Which permission should Android app us
 A. android.permission ACCESS_FINE_LOCATION
 B. android.permission.ACCESS_COARSE_LOCATION
 C. android.permission.ACCESS_LOCATION
-D. android.permission. INTERNET<term>A<row>
+D. android.permission. INTERNET<term>A<row>PT1=Q1=What is AVD?
+A. Android Virtual Display
+B. Android Virtual Device
+C. Active Virtual Device
+D. Application Virtual Display<term>B<row>PT1=Q2=In a ConstrainLayout, which of the following contraints are needed to position a view onscreen?
+A. There is no need to constraint the view
+B. Two horizontal constraints
+C. One vertical constraint
+D. At least one horizental and one vertical constraint<term>D<row>PT1=Q3=For EditText views, it's not a good practice to provide hints because hints clutter the input field. True or false? 
+A. True
+B. False<term>B<row>PT1=Q4=All layout classes are the subclasses of____________
+A. android.widget
+B. None
+C. android.view.ViewGroup
+D. android.view.View<term>C<row>PT1=Q5=All ViewGroup classes are subclasses of which of the following?
+A. android.view.Layout
+B. android.widget
+C. None
+D. android.view.View<term>C<row>PT1=Q6=How can we kill an activity in android? 
+A. Neither (1) nor (2)
+B. 2) Using finishActivity(int requestCode)
+C. Both (1) and (2)
+D. 1) Using finish() method<term>C<row>PT1=Q7=Which of the following callback is called when an activity starts interacting with the user?
+A. onDestroy 
+B .onStop 
+C. onResume
+D. onCreate<term>C<row>PT1=Q8=Each Android application runs in its own process and with its own instance of ART on devices running Android version 8.0 (APl Level 26) or higher 
+A. True
+B. False<term>A<row>PT1=Q9=Which of the following choices is the best answer to fll the empty space in the following sentence? 
+Adding a new color to the colors xmi file in Android Studio Ures Values/colors.xmi ) helps the app developers to use this new color as text color attribute value for the _______ attribute in all these app layouts.
+A. color:textformat
+B. android:textColor
+C. Kotlin:textcolor
+D. java:textcolor<term>B<row>PT1=Q10=Which of the following choices is the recommended syntax to change the font size to 18?
+A. android:textSize="18pt"
+B. android:textSize="18dip"
+C. android:textSize="18sp"
+D. android:textSize="18dp"<term>C<row>PT1=Q11=Which of the below choices is the best answer to fill the empty space in the following sentence? 
+If you want to give all text widgets in an app the same format such as font color, font size, and font family, you should add the style attribute to the TextView XML tags in layout file and set the attribute value to the same style name. You should define that style by adding a new style tag inside _____
+A. AndroidManifest.xml file
+B. styles.xml file
+C. activity_main.xml file
+D. MainActivity.java or MainActivity.kt file<term>B<row>PT1=Q12=To configure your style as the theme for all your app activities (entire app), open AndroidManifest.xml, and set the theme by adding android:theme="@style/your_style_name" attribute to the _________ 
+A. <activity> tag
+B. <intent-filter> tag
+C. <manifest> tag
+D. <application> tag<term>D<row>PT1=Q13=Android SDK platform is a set of libraries and APIs that provide necessary classes, methods and interfaces to develop Android applications and allow you to compile your code.
+A. True
+B. False<term>A<row>PT1=Q14=To preserve the visible size of your Ul on screens with different densities, you must design your Ul using density-(A) _______ pixels (dp) as your unit of measurement. One dp is a virtual pixel unit that's roughly equal to one pixel on a (B) _______ -density screen (160dpi: the "baseline" density). Android translates this value to the appropriate number of real pixels for each other density.
+A. A independent, B normal 
+B. A independent, B medium
+C. A independent, B high
+D. A resolution, B medium<term>B<row>PT1=Q15=What is resource in Android?
+A. Static content and the additional files that you code uses 
+B. Converts the code into APK
+C. None of these
+D. It's used to handle API<term>A<row>PT1=Q16=What is the purpose of super.onCreate in android?
+A. It allows the developers to write the program
+B. To create an activity
+C. None of these
+D. To create a graphical window for subclass<term>D<row>PT1=Q17=Resource Manager is used for?
+A. Allows applications to display alerts and notifications to the user
+B. Provides access to non-code embedded resources such as strings, color settings and user interface layouts
+C. Allows applications to publish and share data with other applications
+D. Controls all aspects of the application lifecycle and activity stack<term>B<row>PT1=Q18=Which of the following is not a layer in Android Architecture?
+A. Android real time
+B. Application Framework
+C. Linux kernel
+D. Libraries<term>A<row>PT1=Q19=The root element of AndroidManifest.xml is:
+A. action
+B. application
+C. manifest
+D. activity<term>C<row>PT1=Q20=Which is NOT state of and activity?
+A. Stopped
+B. Active
+C. Stored
+D. Paused<term>C<row>PT1=Q21=Paused is used
+A. If the activity is not visible
+B. If the activity is at the foreground and visible
+C. If the activity is at the foreground
+D. If the activityis at the background and still visible<term>D<row>PT1=Q22=What is NOT an activity lifetime?
+A. Visible lifetime
+B. Background lifetime
+C. Entire lifetime
+D. Foreground lifetime<term>B<row>PT1=Q23=Which one is a touch action?
+A. ACTION_MOVING
+B. ACTION PRESS
+C. ACTION_MOVE
+D. ACTION_TAP<term>C<row>PT1=Q24=Which is NOT a callback method for event listener
+A. onTouchListener()
+B. onClickedListener()
+C. onLongClickListener()
+D. onClickListener()<term>B<row>PT1=Q25=If you want to increase the whitespace between widgets, you will need to use the _____ property
+A. Android:distance
+B. Android:text-align
+C. Android:margin
+D. Android:autoText<term>C<row>PT1=Q26=_____ represents a single user interface screen
+A. Activity
+B. Fragment
+C. Layout
+D. View<term>A<row>PT1=Q27=Specify the directory name where the XML layout files are stored:
+A. /src
+B. /res/layout
+C. /assets
+D. /res/values<term>B<row>PT1=Q28=Android is based on which kernel?
+A. Linux kernel
+B. MAC kernel
+C. Windows kernel
+D. Hybrid Kernel<term>A<row>PT1=Q29=Which one is NOT an Android layout?
+A. RectangleLayout
+B. GridLayout
+C. ConstraintLayout
+D. FrameLayout<term>A<row>PT1=Q30=Which one is make the size of an element in the layout fit with the children of its?
+A. match-parent
+B. fixed
+C. wrap-constraint
+D. wrap-content<term>D<row>PT2=Q1=A service can handle:
+A. performfile I/O
+B. interact with a content provider
+C. network transactions
+D. play music<term>ABCD<row>PT2=Q2=A handler can recieve messages from many _____ threads, and update user interface
+A. Main Thread
+B. Worker thread
+C. Ul thread<term>A<row>PT2=Q3=When use a recycler view, before set adapter for the recycler, you must:
+A. setLinearManager
+B. setManagerLayout
+C. setLayoutManager<term>B<row>PT2=Q4=Which statement is not a method of Asyntask?
+A. onProgressUpdate
+B. doOnBackground
+C. onPreExecute
+D. onPostExecute<term>B<row>PT2=Q5=When use asyntask, we can update Ul on below methods:
+A. onProgressUpdate
+B. onPreExecute
+C. onPostExecute
+D. dolnBackground<term>ABC<row>PT2=Q6=Which statement is not allowed on the below block ?
+Thread t = new Thread(new Runnable() {
+@Override public void run() {
+try{
+synchronized (this){
+wait(1000);
+Toast.makeText(getApplicationContext(), "Thread running",
+Toast.LENGTH_LONG).show();
+}
+}catch (InterruptedException e) { e.printStackTrace(); }};
+t.start();
+A. synchronized.statment
+B. All statements are allowed
+C. Toast statment
+D. wait statment<term>A<row>PT2=Q7=How to pass an object to other activity?
+A. object extends Serializable putExtra object to intent
+B. only putExtra object to intent 
+C. object have to implements Serializable, then putExtra object to intent 
+D. Can't pass object by intent<term>C<row>PT2=Q8=Which method is called first when press to soft back button of android device?
+A. finish()
+B. destroyActivity()
+C.endActivity()<term>A<row>PT2=Q9=When use implicit intents. If there's more than one app that can handle the intent, the system will:
+A. presents the user with a dialog to pick which app to use
+B. application crash
+C. show an error dialog<term>A<row>PT2=Q10=When set small icon for a notification, what happen when we use icon format .xm|?
+A. The iconis displayed normally
+B. The icon is not displayed
+C. Android studio will show error statement<term>A<row>PT2=Q11=One pair thread - handler can replace by an asyntask ?
+A. True
+B. False<term>A<row>PT2=Q12=Explicit intents allows a component from another app to handle it
+A. True
+B. False<term>A<row>PT2=Q13=Explicit intents is only used to start activities?
+A. True
+B. False<term>A<row>PT2=Q14=This statement is correct or not:
+The RecyclerView can display the list of items by vertical, horizontal and grid Iayout
+A. True
+B. False<term>A<row>PT2=Q15=An application listens for specific broadcast intents by registering a _______?
+A. BroadcastDetector
+B. BroadcastReceiver 
+C. None of the others 
+D. BroadcastListener<term>B<row>PT2=Q16=RecyclerView provides a choice of three built-in layout:
+A. FramelLayout, GridLayout, ConstraintLayout
+B. LinearLayout, FrameLayout, StaggredGridLayout
+C. ConstraintLayout, GridLayout, StaggredGridLayout
+D. LinearLayout, GridLayout, StaggredGridLayout<term>D<row>PT2=Q17=Which statement is used to launch Main2Activity?
+A. intent.startActivity(intent);
+B. intent.startActivity(Main2Activity);
+C. this.startActivity(intent);
+D. this.startActivity(Main2Activity.class);<term>C<row>PT2=Q18=Which statement is used to pass a string to another activity?
+A. intent.putData("key", "text");
+B. intent.putString("key", "text");
+C. intent.putExtras("key", "text");
+D. intent.putExtra("key", "text");<term>D<row>PT2=Q19=Which method using to return data from sub-activity to main-activity?
+A. public void receiveData() {} 
+B. protected void onActivityResult(int requestCode, int resultCode, Intent data){} 
+C. public void finish() {} 
+D. public void returnDatal() {}<term>C<row>PT2=Q20=Thread handlers are implemented in the main thread of an application and are primarily used to make updates to the _________ in response to messages sent by other threads running within the application's process.
+A. user interface 
+B. process 
+C. data 
+D. thread<term>A<row>PT2=Q21=Which one is NOT an Android service?
+A. Local bound service
+B. Intent serivce
+C. Remote bound service
+D. Binder service<term>D<row>PT2=Q22=A bound service must, at a minimum, implement the which method?
+A. onCreate()
+B. onStartCommand()
+C. onBind()
+D. onDestroy()<term>C<row>PT2=Q23=Which importance level of notification will make a sound when it appears?
+A. High and urgent level
+B. Only urgent level
+C. Medium and higher level
+D. Only high level<term>A<row>PT2=Q24=Which level of android API version that notification can make a direct reply?
+A. APl level 24 or higher
+B. API level 20 or higher 
+C. APl level 27 or higher
+D. APl level 7 or higher<term>D<row>PT2=Q25=The _________ class allows a request for user input to be included in the PendingIntent object along with the intent
+A. NotificationCompact
+B. Remotelnput
+C. NotificationManager
+D. NotificationCompat.Action<term>B<row>PT2=Q26=Which class can launch an activity from a notification?
+A. Pendinglntent
+B. Action
+C. Remotelnput
+D. Intent<term>A<row>PT2=Q27=In class SQLiteOpenHelper class, there are 2 methods we should usually override. What are they?
+A. onStart() and onStop()
+B. onCreate() and onUpgrade()
+C. onStart() and onResume()
+D. onCreate() and onDestroy()<term>B<row>PT2=Q28=Android: How do we execute Queries?
+A. rawQuery()/query()
+B. rawQuery()
+C. query()
+D. doQuery()<term>A<row>PT2=Q29=Which method perform a single SQL statement that does NOT return result data.
+A. rawQuery()
+B. doQuery)
+C. execSQL() 
+D. query()<term>C<row>PT2=Q30=Fragment life cycle in android is _____
+A. onAttach()-> onResume()->onCreate() -> onCreateView() -> on ActivityCreated() -> onStart()
+B. onAttach()->onCreate() -> onCreateView() -> on ActivityCreated|() -> onStart() -> onResume()
+C. onStart() ->onAttach()->on ActivityCreated() -> onResume()
+D. onStart()-> onResume() ->onAttach()->on ActivityCreated()<term>B<row>PT3=Q1=Choose the right answer to fill in blank
+To develop your own service in Android, which of the following step you need to do?
+Step 1. extends Service based class
+Step 2. _______ {blank} _________
+A. implements onBind, onUnbind, onRebind, onCreate, onDestroy methods
+B. implements onStartCommand, onBind, onUnbind, onRebind methods
+C. implements onStartCommand, onBind, enUnbind, onRebind, onCreate, cnDestray methads
+D. implements onCreate, onDestroy methods<term>C<row>PT3=Q2=What is a broadcast receiver in android?
+A. It will do background functionalities as services
+B. It will react to broadcast announcements
+C None of these
+D. It will pass the data between activities<term>B<row>PT3=Q3=Which type of Google map display the standard view consisting of the classic road map?
+A. GoogleMap.MAP_TYPE_SATELLITE
+B. GoogleMap.MAP_TYPE_NONE
+C. GoogleMap.MAP_TYPE_NORMAL
+D. GoogleMap.MAP_TYPE_TERRAIN
+E. GoogleMap.MAP_TYPE_HYBRID<term>C<row>PT3=Q4=You define each Room entity as a class that is annotated with @Entity. Each instance of class represents a (1) _________ in a (2) ________ in the app's database
+A. 1 table, 2. field
+B. 4.None of the others
+C. 1. column, 2. table
+D. 1. row, 2. table<term>C<row>PT3=Q5=How many types of Android service do we have? 
+A. 3
+B. 1
+C. 4
+D. 2<term>C<row>PT3=Q6=Android: How do we execute Queries?
+A. doQuery()
+B. rawQuery() / query()
+C. rawQuery()
+D. query()<term>B<row>PT3=Q7=How to handle the Permissions Request Response when reguest a permission at runtime? 
+A. isPermissionDenied()
+B. onRequestPermissionsResult(}
+C. shouldShowRequestPermissionRationale()
+D. isPermissionGranted()<term>B<row>PT3=Q8=Which class must be implement to using SQLite database?
+A. SQLiteOpenHelper
+B. SQLiteDataHandler
+C. SQLiteHandler
+D. SQLiteDatabase<term>A<row>PT3=Q9=A socket is a software endpoint that can plug into or be plugged into to create a bi-directional communication link between software processes
+A. True
+B. False<term>A<row>PT3=Q10=Do we need AP key for displaying Google Maps in Android?
+A. No
+B. Optional
+C. Yes<term>C<row>PT3=Q11=If you have embedded the Google Maps AP| into your Android application but it does not show the map when the application is loaded, what could be the likely reasons? 
+A. All of others
+B. Missing INTERNET permission in the AndroidManifest xmi file
+C. Incorrect placement of the <uses-library> element in the AndroidManifest xml file
+D. No Internet connection<term>A<row>PT3=Q12=Which method is called when called to do final clean up of the fragment's state but Not guaranteed to be called by the Android platform?
+A. onDestroy
+B. onPause
+C. onDestroyView
+D. onCreateView<term>A<row>PT3=Q13=In android, which manifest permission is needed when use GPS location
+A. <uses-permission android-name="android.permission ACCESS_FINE_LOCATION"/>
+B. <uses-permission android:name="android.permission ACCESS_COARSE_LOCATION"/>
+C. <uses-permission android:name="android permission ACCESS_GIS_LOCATION"/>
+D. <uses-permission android:name="android.permission ACCESS_GPS_LOCATION"/><term>A<row>PT3=Q14=The Room persistence library provides an abstraction layer to store the data easily. Where does the ROOM library store data?
+A. XML files
+B. Room database
+C. SQLite database
+D. Json Text files<term>B<row>PT3=Q15=Which file contain Android permissions for and application? 
+A. Permission.xml
+B. Manifest.xml
+C ApplicationManifest.xml
+D. AndroidManifest.xml<term>D<row>PT3=Q16=On android services, onStart() and onBind{) are the same?
+A. True
+B. False<term>B<row>PT3=Q17=Which method is NOT an override method of class ContentProvider?
+A. insert()
+B. delete()
+C. update()
+D. select()<term>D<row>PT3=Q18=The difference between SQLite and Content provider is:
+A. Content provider is not a local dstabase and SQLite is a local database
+B. Content provider is faster that SQLite
+C. Content provider can share data with other application but SQLite cannot
+D. None of the others<term>C<row>PT3=Q19=FragmentManager is the class responsible for performing actions on your app's fragments, such as adding, removing, or replacing them, and adding them to the back stack.
+A. True
+B. False<term>A<row>PT3=Q20=Which element use to define a permission in Android?
+A. user-permission
+B. define-permission
+C. uses-permission
+D. using-permission<term>C<row>PT3=Q21=Which method perform a single SQL statement that does NOT return result data.
+A. query()
+B. doQueryf()
+C. execSQL()
+D. rawQuery()<term>C<row>PT3=Q22=What are location providers in Android?
+A. 3G & Wifi
+B. 3G & Network
+C. GPS & Network
+D. GPS & Wifi<term>C<row>PT3=Q23=What is the purpose of Data access object (DAO)?
+A. provides the methods that the rest of the app uses to interact with sharedpreferences
+B. None of the others
+C. provides the methods that the rest of the app uses to interact with data in reference table provides the methods that the rest of
+the app uses to interact with Ul in the activity
+D. provides the methods that the rest of the app uses to interact with data in reference table<term>D<row>PT3=Q24=To access through the result of database query, we can use class:
+A. DataTable
+B. Dataset
+C. Iterator 
+D. Cursor<term>D<row>PT3=Q25=Android: Which attribute will be used in XML if the Java code needs a reference to View?
+A. android:index
+B. android:id
+C. android:gravity
+D. android:background<term>B<row>PT3=Q26=Which method use to check permission is granted by user or not?
+A. checkSelfPermission()
+B. checkUserPermission()
+C. checkPermission()
+D. checkGrantedPermission()<term>A<row>PT3=Q27=To share data for other application, the other application must be using ______ to access data from content provider. 
+A. Content provider name
+B. Data model
+C. Path to data file
+D. Content Uri<term>D<row>PT3=Q28=What is the life cycle of broadcast receivers in android?
+A. onReceive()
+B. implicitBroadcast()
+C. sendBroadcast(), sendOrderBroadcast(), and sendStickyBroadcast()
+D. send intent()<term>A<row>PT3=Q29=What is true about Fragments?
+A. All of the others
+B. You can combine multiple fragments in a single activity to build a multi-pane UI
+C. A fragment has its own layout and its own behaviour with its own life cycle callbacks
+D. You can add or remove fragments in an activity while the activity is running<term>A<row>PT3=Q30=In class SQLiteOpenHelper class, there are 2 methods we should usually override. What are they?
+A. onStart() and onResume()
+B. onStart() and onStop()
+C. onCreate() and onDestroy()
+D. onCreate() and onUpgrade()<term>D<row>
+1. Which of the following is NOT the PhoneGap Events ?
+A None of the others
+B Forward
+C batterystatus
+D. searchbutton<term>B Forward<row>2. Which type of the button control is available on the Android platform ?
+A. ImageButton
+B. None of the others
+C. DrawableButton
+D. RoundCornerButton<term>A. ImageButton<row>3. Which kind of notification is NOT supported in android ?
+A. Dialog notification
+B. Toast notification
+C. None of the others
+D. Permission notification<term>D. Permission notification<row>4. Which of the following attribute of AndroidManifest.xml is NOT a must have attribute when
+application on Android Market ?
+A. android:versioncode
+B. android:versionAndroid
+C. android:versionName
+D. None of the others<term>B. android:versionAndroid<row>5. Which of the following statements about PhoneGap is False?
+A. It only the purpose of PhoneGap to distribute the web application to application store.
+B. It is an open sourse development framework for building cross platform mobile app.
+C. It allow to package your mobile web application code and resources into a binary app anc
+distribute
+D. None of the others<term>A. It only the purpose of PhoneGap to distribute the web application to application store.<row>6. Which of the following is the advantage of the SQLiteOpenHelper class that makes it preferred on
+SQLiteDatabase class when manipulating database ?
+A. It can read and write a database
+B. It can initialize tables of a newly-created database while SQLiteDatabase can not
+C. It caches database instances and closes them when they are no longer needed
+D. It has better performance than SQLiteDatabase<term>B. It can initialize tables of a newly-created database while SQLiteDatabase can not<row>7. Which of the following application should be installed on Internal Storage ?
+A. Game applications
+B. Alarm service
+C. App Widgets
+D. None of the others<term>D. None of the others<row>8. In the Android Licensing Service, what does LVL stand for ?
+A. License Verification Library
+B. None of the others
+C. License Virtual Library
+D. Level Verification Library<term>A. License Verification Library<row>9. How do you action items to the Action Bar ?
+A. Simply handle the onCreateOptionsMenu() and onOptionsItemSelected() events.
+B. Simply handle the onCreateItems() and on OptionsItemSelected() events.
+C. Simply handle the onCreateActionBar() and onActionBarItemSelected() events.
+D. Simply handle the onMenuCreate() and onItemSelected() events.<term>A. Simply handle the onCreateOptionsMenu() and onOptionsItemSelected() events.<row>10. How is Android OS divided ?
+A. Five section in four main layers.
+B. Four section in four main layers.
+C. Four section in five main layers.
+D. None of the others<term>A. Five section in four main layers.<row>11. Which of the following is correctly describes when you call method "onDestroy()" ?
+A. Called as part of the activity lifecycle when an activity is going into the background, nut have...
+killed.
+B. Called when you are no longer visible to the user
+C. Called when the activity is finishing
+D. Called after your activity has been stopped, prior to it being started again<term>C. Called when the activity is finishing<row>12. What does the part <authority> in Content URI format describe ?
+A. specify the unique name of content provider
+B. None of the others
+C. specify the path no data which is provided
+D. specify the particular record which user requires<term>A. specify the unique name of content provider<row>13. What is a back slack used for ?
+A. Fragment and Activity
+B. Activity
+C. None of the others
+D. Runtime process<term>A. Fragment and Activity<row>14. Which of the following is CORRECT definition of Toast ?
+A. Show a short message and auto dismiss after very short time.
+B. Show a complicate message, include image, button, choice...
+C. None of the others
+D. Show a message and wait for user respond.<term>A. Show a short message and auto dismiss after very short time.<row>15. How does a tag specify which fragment to use ?
+A. use attribute "class"
+B. use attribute "android:id"
+C. use attribute "android:fragment"
+D. None of the others<term>C. use attribute "android:fragment"<row>16. Which of the following statement is TRUE about PhoneGap?
+A. NodeJS is a mandatory dependency for PhoneGap development.
+B. The Cordova CLI is built on the top of the PhoneGap CLI.
+C. PhoneGap framework is a cloud-based service built on the top of the PhoneGap build.
+D. A PhoneGap application may only use PHP and JavaScript<term>B. The Cordova CLI is built on the top of the PhoneGap CLI.<row>17. In HTML5, which method is used to get the current location of a user ?
+A. getCurrentPosition()
+B. getPosition()
+C. getUserPosition()
+D. None of the others<term>A. getCurrentPosition()<row>18. What is the name of the class which is inherited to create a user interface screen ?
+A. Activity
+B. ViewGroup
+C. View
+D. Canvas<term>A. Activity<row>19. Which layout manager do you use android:layout_toRightOf with ?
+A. RelativeLayout
+B. LinearLayout
+C. FrameLayout
+D. None of the others<term>A. RelativeLayout<row>20. If I send a broadcast with implicit intent, and there is no maching intent-filter.
+What happen does user get ?
+A. Compile time error
+B. It will throw run time exception - BroadcastReceiverNotFoundException, and crashes if it property
+C. Nothing will happen, somehow it launches target component
+D. Nothing will happen, but it will not launch any receive<term>D. Nothing will happen, but it will not launch any receive<row>21. When you create a backup agent by extending BackupAgent, which callback methods should
+A. onBackUp(), onRestore()
+B. onChange(), onBackup()
+C. onModify(), onRestore()
+D. None of the others<term>A. onBackUp(), onRestore()<row>22. What will happen when setting the choice mode on a ListView object to CHOICE_MODE_SIN
+A. Make the ListView track only "selected" item
+B. Do nothing (this is the default)
+C. Add a Radiobutton to each item.
+D. Add a CheckBox to each item.<term>A. Make the ListView track only "selected" item<row>23. Which one of the following does describe the way in which color can be applied to an element in an HTML page ?
+A. Hex color or Describe Color
+B. Hex color of color name
+C. CMYK color or color name
+D. Hex color of CMYK<term>B. Hex color of color name<row>24. Which of the following statement about function of class NotificationCompat.Builder is FALSE ?
+A. setContentIntent(Pending Intent intent)
+B. setSmallIcon(int icon)
+C. setContentText(CharSequence text)
+D. setContentView(View view)<term>D. setContentView(View view)<row>25. Which of the following statement about PhoneGap is FALSE ?
+A. Access Native Features
+B. Deploy app to Multiple Platforms
+C. Use Java to write your code
+D. Take addvantage of HTML5 and CSS3<term>C. Use Java to write your code<row>26. Which of the folowing methods are called when the screen changes orientation from portrait
+Android?
+A. onCreate(), onRestart(), onRestoreInstanceState()
+B. onCreate(), onStop(), onActivityResult()
+C. onRestart), onActiviyResut(), onStop()
+D. onCreate(), onStop(), onRestorelnstanceState()<term>D. onCreate(), onStop(), onRestorelnstanceState()<row>27. Which features does a fragment same as an activity?
+A. They have a Lifecycle that includes multiple of callback methods.
+B. Those instances are administered by the Android OS
+C. None of the others.
+D. A device screen can contain multiple instances of them<term>A. They have a Lifecycle that includes multiple of callback methods.<row>28. Which levels does user interact with your UI?
+A. The activity level and the view level.
+B. The activity level and layout level.
+C. None of the others
+D. The Ul activity level and the view level.<term>A. The activity level and the view level.<row>29. Which one of the following does describe how to get data from another activity through intent
+A. call getIntent() method, then getBundle() method
+B. call getIntent() method, then getExtras() method
+C. call getActivity() method, then getPara() method
+D. call getActivity () method, then getData() method<term>B. call getIntent() method, then getExtras() method<row>30. Which of the following is used to send data between 2 activities?
+A. Bundle
+B. None of the others
+C. Toast
+D. View<term>A. Bundle<row>31. Which method is used to broadcast an Intent?
+A. sendBroadcast()
+B. IntentBroadcast()
+C. forwardIntent()
+D. None of the others<term>A. sendBroadcast()<row>32. Which permissions do you need to declare for sending and receiving SMS messages in And
+file?
+A. SEND_SMS and RECEIVE_SMS
+B. None of the others
+C. PERMISSION_SMS_DELIVER and PERMISSION_SMS_CONSUME
+D. PERMISSION_SMS_SEND and PERMISSION_SMS_RECEIVE<term>A. SEND_SMS and RECEIVE_SMS<row>33. Which one of the following describes for the following sentence?
+Intent i = new Intent(MainActivity. this, TargetActivity class);
+startActivity (i),
+A. TargetActivity is the top of the stack activity, and start MainActivity
+B. MainActivity transmits data to TargerActivity, and start TargetActivity
+C. Create an instance of the TargerActivity, and start TargetActivity
+D. Create an instance of the MainActivity, and start MainActivity<term>C. Create an instance of the TargerActivity, and start TargetActivity<row>34. Which of the following view object is used in a video application?
+A. Web View
+B. Video view
+C. None of the others
+D. Surface view<term>B. Video view<row>35. Which statement is TRUE about Action Bar?
+A. Replaces the traditional title bar for older versions of Android.
+B. Action items are displayed on the right of the Action Bar. They are created just like options
+C. Anchoring, and resizing and repositioning.
+D. Title bar for older versions of Android.<term>A. Replaces the traditional title bar for older versions of Android.<row>36. For reading the contacts from the Contacts via ContentProvider, which permission will you
+AndroidManifest. xml file?
+A. READ_CONTACTS
+B. GET_CONTACTS
+C. CONTACTS_ACCESS
+D. None of the others<term>A. READ_CONTACTS<row>37. Which of the following is CORRECT definition of external storage ?
+A. None of the others
+B. Used for files without access restrictions
+C. Upon uninstall all application related files are deleted
+D. Secure because only the related application can access files<term>B. Used for files without access restrictions<row>38. The Context class's method is used to call for creating files under the application data direct
+What is its name?
+A. openFileOutput()
+B. openFile()
+C. createFile()
+D. None of the others<term>A. openFileOutput()<row>39. What is the difference between the onPause() method and he onSavelnstanceState() method
+A. the onSavelnstanceState() method is not fired when an activity is being unicaded from the
+B. onPause() method is always fired whenever an activity is killed or pushed into the background
+C. onSavelnstanceState() method is always fired whenever an activity is kiled or pushed in
+D. All of the others<term>B. onPause() method is always fired whenever an activity is killed or pushed into the background<row>40. Does android application need to be certificated in order to deploy to Android market?
+A. Yes, Android uses this certificate to identify the author of an app.
+B. No, Android will identity author of an app through Google account
+C. Yes, this certificate include Google account of author
+D. No, certificate is not required for the author of an app.<term>A. Yes, Android uses this certificate to identify the author of an app.<row>41. Which of the following is the best correct statement for catching exception of the following
+Intent intent = new Intent (MainActivity.this, DestActivity.class),
+A. NotFoundActivity
+B. NulPointerException
+C. BroadeastException
+D. SocurtyException<term>B. NulPointerException<row>42. Which type of layout is most appropriate for aligning child View controls in relation to the par.
+A. Relativelayout
+B. Absolutelayout
+C. Linoart ayout
+D. None of the others<term>A. Relativelayout<row>43. Which permission do you need to declare for an HTTP connection in AndroidManifest.xml file
+A. INTERNET
+B. ACCESS_INTERNET
+C. PERMISSION_ACCESS_INTERNET
+D. PERMISSION_INTERNET<term>A. INTERNET<row>44. Which of the following methods is used to get result when a picture is taken?
+A. onActivityResult()
+B. onCreate()
+C. onResume()
+D. None of the others<term>A. onActivityResult()<row>45. When doss developer use AsyncTask instead of Thread?
+A. Run a time-consuming task but don't want to block the UI
+B. Run a task and reflect the progess and completion of the task in the UI
+C. Download a file in background
+D. Get a list of items from an API and display them on the Ul using onPostExecute method<term>A. Run a time-consuming task but don't want to block the UI<row>46. This behaves simiarty to a SQLite table - but reads and writes fo an object in memory via ...
+of to a database file
+What is the above definition of the object?
+A. Virtual table.
+B. Application resources.
+C. None of the others.
+D. Android backup service.<term>A. Virtual table.<row>
