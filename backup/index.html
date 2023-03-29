@@ -1,0 +1,51 @@
+<html>
+    <style>
+        html {
+            background: #252525;
+        }
+
+        body {
+            background-image: url(./img/2.jpg);
+            background-size: 100% 100%;
+        }
+
+        .quest {
+            width: 80%;
+            height: 60%;
+            overflow: auto;
+            font-size: 16px;
+            background-color: transparent;
+            position: fixed;
+            top: 25%;
+            left: 10%;
+        }
+
+        input {
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
+
+        .xxx {
+            margin: 10px;
+            user-select: none;
+        }
+    </style>
+
+    <body>
+        <div class="main">
+            <input type="text" onchange="search(this)" onkeyup="search(this)" id="inp"></input>
+            <div class="quest" id="container">
+                <div id="text"></div>
+            </div>
+        </div>
+        
+        <div>
+            
+        </div>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
