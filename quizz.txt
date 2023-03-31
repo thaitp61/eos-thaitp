@@ -1,795 +1,1473 @@
-What is software modeling?
-(a) Developing models of software.
-(b) Designing software applications before coding.
-(c) Developing software diagrams.
-(d) Developing software prototypes.<term>B<row>What is the Unified Modeling Language?
-(a) A programming language for describing object-oriented models.
-(b) A diagramming tool for drawing object-oriented models.
-(c) A graphical language for describing object-oriented models.
-(d) A standardized graphical language and notation for describing object-oriented models.<term>D<row>What is a software architecture?
-(a) The software inside a building.
-(b) The structure of a client/server system.
-(c) The overall structure of a software system.
-(d) The software classes and their relationships.<term>C<row>What is a software design notation?
-(a) Notes about the software design.
-(b) A graphical or textual description of the software.
-(c) Documentation of the software.
-(d) A systematic approach for producing a design.<term>B<row>What is a software design concept?
-(a) A graphical or textual description of the software.
-(b) Documentation of the software.
-(c) A fundamental idea that can be applied to designing a system.
-(d) A systematic approach for producing a design.<term>C<row>What is a software design strategy?
-(a) A graphical or textual descriptionof the software.
-(b) A fundamental idea that can be applied to designing a system.
-(c) A systematic approach for producing a design.
-(d) An overall plan and direction for developing a design.<term>D<row>What are software structuring criteria?
-(a) Fundamental ideas that can be applied to designing a system.
-(b) Systematic approaches for producing a design.
-(c) Guidelines used to help in structuring a software system into its components.
-(d) Overall plans for developing a design.<term>C<row>What is a software design method?
-(a) A systematic approach for producing a design.
-(b) Guidelines used to help in structuring a software system into its components.
-(c) An overall plan for developing a design.
-(d) A graphical or textual description of the software.<term>A<row>What is a platform-independent model(PIM)?
-(a) A software platform before a commitment is made to a specific hardware platform.
-(b) A precise model of the software architecture before a commitment is made to a specific platform.
-(c) A precise model of the software architecture mapped to a specific platform.
-(d) A graphical or textual description of the software.<term>B<row>What is a platform-specific model(PSM)?
-(a) A specific hardware platform.
-(b) A precise model of the software architecture before a commitment is made to a specific platform.
-(c) A precise model of the software architecture mapped to a specific platform.
-(d) A graphical or textual description of the software.<term>C<row>How is an actor depicted on a use case diagram?
-(a) An oval
-(b) A stick figure
-(c) A box
-(d) A dashed line<term>B<row>How is a use case depicted on a use case diagram?
-(a) An oval
-(b) A stick figure
-(c) A box
-(d) A dashed line<term>A<row>How is a class depicted on a class diagram?
-(a) A box with one compartment
-(b) A box with one or two compartments
-(c) A box with one, two, or three compartments
-(d) An oval<term>C<row>How is an association depicted on a class diagram?
-(a) A solid line joining two class boxes
-(b) A dashed line joining two class boxes
-(c) A diamond touching the upper class box
-(d) An arrowhead touching the upper class box<term>A<row>How is public visibility depicted for aclass element on a class diagram?
-(a) + sign
-(b) - sign
-(c) # sign
-(d) ∗ sign<term>A<row>What are the two kinds of UML interaction diagrams?
-(a) Class diagram and sequence diagram
-(b) Sequence diagram and communication diagram
-(c) Class diagram and communication diagram
-(d) Statechart and communication diagram<term>B<row>What does an interaction diagram depict?
-(a) Objects and links
-(b) Classes and relationships
-(c) Objects and messages
-(d) States and events<term>C<row>What does a statechart diagram depict?
-(a) Objects and links
-(b) Classes and relationships
-(c) Objects and messages
-(d) States and events<term>D<row>What is a UML package?
-(a) A box
-(b) A grouping of classes
-(c) A grouping of use cases
-(d) A grouping of model elements<term>D<row>What does a deployment diagram depict?
-(a) The physical configuration of the system in terms of physical classes and physical connections between the classes
-(b) The physical configuration of the system in terms of physical objects and physical connections between the objects
-(c) The physical configuration of the system in terms of physical nodes and physical connections between the nodes
-(d) The physical configuration of the system in terms of physical computers and physical networks between the computers<term>C<row>What is a software life cycle?
-(a) The life of the software
-(b) A cyclic approach to developing software
-(c) A phased approach to developing software
-(d) The life of software developed incycles<term>C<row>What is the waterfall life cycle model?
-(a) Software developed under a waterfall
-(b) A process model in which each phase is completed before the next phase is started
-(c) A process model in which phases are overlapped
-(d) A process model in which phases are cyclic<term>B<row>Which of the following is a limitation of the waterfall life cycle model?
-(a) Software is developed in phases.
-(b) Each phase is completed before thenext phase is started.
-(c) Software development is cyclic.
-(d) Software requirements are not properly tested until a working system is available.<term>D<row>Which of the following approaches can overcome the limitation in the previous question?
-(a) Phased software development
-(b) Throwaway prototyping
-(c) Evolutionary prototyping
-(d) Incremental development<term>B<row>What is evolutionary prototyping?
-(a) Phased software development
-(b) Throwaway prototyping
-(c) Risk-driven development
-(d) Incremental development<term>D<row>What approach does the spiral modelemphasize?
-(a) Phased software development
-(b) Throwaway prototyping
-(c) Risk-driven development
-(d) Incremental development<term>C<row>What is the goal of software validation?
-(a) Building the system
-(b) Building the right system
-(c) Building the system right
-(d) Testing the system<term>B<row>What is the goal of software verification?
-(a) Building the system
-(b) Building the right system
-(c) Building the system right
-(d) Testing the system<term>C<row>What is "white box" testing?
-(a) Unit testing
-(b) Integration testing
-(c) Testing with knowledge of the system internals
-(d) Testing without knowledge of thesoftware internals<term>C<row>What is "black box" testing?
-(a) System testing
-(b) Integration testing
-(c) Testing with knowledge of the system internals
-(d) Testing without knowledge of the software internals<term>D<row>Which of the following are object-oriented concepts?
-(a) Modules and interfaces
-(b) Modules and information hiding
-(c) Classes, information hiding, and inheritance
-(d) Concurrency and information hiding<term>C<row>Which of the following is a characteristic of an object?
-(a) A function or subroutine
-(b) A module
-(c) Groups data and procedures that operate on the data
-(d) Groups a function and an algorithm<term>C<row>What is a class?
-(a) An object instance
-(b) The implementation of the object
-(c) A collection of objects with the same characteristics
-(d) A collection of objects with different characteristics<term>C<row>What is an operation (also known as method) of a class?
-(a) Specification and the implementation of a function performed by a class
-(b) Specification and the implementation of a subroutine provided by a class
-(c) Specification and the implementation of a function or procedure provided by a class
-(d) Specification and the implementation of an interface provided by a class<term>C<row>What is the signature of an operation?
-(a) The operation's name
-(b) The operation's function or subroutine
-(c) The operation's name, parameters, and return value
-(d) The object's interface<term>C<row>What is the interface of a class?
-(a) The signature of a class
-(b) The specification of operations provided by the class
-(c) The internals of the class
-(d) The implementation of the class<term>B<row>What is an attribute?
-(a) A description of a class
+There are two categories of data-centered architecture
+
+A. Batch sequential and Repository
+B. Pipe-filter and Batch sequential
+C. Repository and Blackboard
+D. Blackboard and Pipe-filter <term>C<row>Sam realized that her DeliveryDriver class had some behaviour and attributes that could be shared by other classes, like BusDriver and TaxiDriver, so she made a class called Driver that these classes inherited behaviour from. Which object-oriented design principle did she use?
+
+A. abstraction
+B. encapsulation
+C. decomposition
+D. generalization <term>D<row>Which of these UML diagrams might be useful for the logical view of a system?
+
+A. Class diagram and Sequence diagram
+B. Sequence diagram and Deployment diagram
+C. State diagram and Class diagram
+D. Deployment diagram and State diagram <term>C<row>There is a common technique that used in event architectures to indicate whether or not a particular resource is being accessed by another process at that moment. What is it called?
+
+A. semaphore 
+B. access switch
+C. toggle
+D. occupied <term>B<row>What is NOT the essential parts of an HTTP request?
+
+A. A blank space
+B. A message body
+C. Headers
+D. Request-line <term>A<row>Which of the following attributes can be improved by installing firewalls, establishing authentication and authorization processes, and using encryption?
+
+A. availability
+B. usability
+C. performance
+D. security <term>D<row>Which of the following quality attribute pairs is tradeoff?
+
+A. Scalability and Performance
+B. Reliability and Availibility
+C. Availability and Interoperability
+D. Reusability and Interoperability <term>A<row>What is the name for a physical result of the development process, such as an executable file?
+
+A. node
+B. leaf
+C. package
+D. artifact <term>D<row>What might NOT contain in architecture style?
+
+A. Rules that how to structure the system
+B. How to design user interface
+C. Constraints that how to structure the system
+D. Patterns that that how to structure the system <term>B<row>Which connector type allows one of its incident elements to send a request (method call or message) to another and wait for a response (method return value or message)
+
+A. Unblocking
+B. Blocking
+C. Two-initiator
+D. One-initiator <term>B<row>Which of these is not desirable characteristic of a web service?
+
+A. composable
+B. platform-independent
+C. modular
+D. simple <term>B<row>Which of these quality attributes is most important from the developer's perspective?
+
+A. usability
+B. availability
+C. flexibility
+D. security <term>C<row>What are the main software elements at software development time?
+
+A. Source code modules or files
+B. Binary versions of the project modules and files
+C. Processes and threads
+D. All of the others <term>A<row>Consider statements about MVC:
+1. It is expensive to change data model in case of multiple pairs of controllers and views based on the same data model.
+2. The division between the View and the Controller is not clear in some cases.
+
+A. 1 and 2 are false
+B. 1 and 2 are true
+C. 1 is true, 2 is false
+D. 1 is false, 2 is true <term>B<row>What are some advantages of object-oriented programing in a language like Java?
+
+A. computing efficiency, abstract data types and data management
+B. mimic the real-world structure of the problem, computing efficiency and data management
+C. mimic the real-world structure of the problem, abstract data types and data management
+D. mimic the real-world structure of the problem, abstract data types and computing efficiency <term>C<row>"Maintenance Downtime" is an attribute refinement of what quality attribute?
+
+A. Conceptual Integrity
+B. Performance
+C. Maintainability
+D. Availability <term>C<row>Which attribute quality is NOT from a user's perspective?
+
+A. Availability
+B. Interoperability
+C. Flexibility
+D. Performance <term>C<row>The "+1" in Kruchten's 4+1 View Model refers to a scenario. What is a scenario?
+
+A. an unexpected use case of the software
+B. one of the tools that is used to implement the software
+C. a representation of a normal use case
+D. a representation of the system-wide state <term>C<row>There are three different relationships that objects can have. Which of these best describes the relationship between a Chair and its Legs?
+
+A. association
+B. generalization
+C. composition
+D. aggregation <term>C<row>The process of establishing a connection between the client stub and server stub is called..
+
+A. interfacing
+B. marshaling
+C. handshaking
+D. binding <term>B<row>Select the object pairing that has an association relationship:
+
+A. Book - Page
+B. Tree - Root
+C. Hiker - Trail
+D. Car - Door <term>C<row>Which of these terms are used to describe coupling?
+
+A. degree, ease, exposed
+B. frequency, degree, ease
+C. ease, degree, flexibility
+D. flexibility, frequency, exposed <term>C<row>Marlon is creating a web page. It's a simple page, Which has a list of his current project, a short bio about himself, and some GIF images of some projects that he uploaded to the sever himself. What type of web page is this?
+
+A. static web page
+B. dynamic web page
+C. web app
+D. web service <term>B<row>Which of the following attributes relates to the output accuracy, the ability to recover from failure?
+
+A. maintainability
+B. performance
+C. availability
+D. reliability <term>D<row>Read the following statements. Which of them are true?
+1. Project managers are stakeholders in the architecture
+2. End users are stakeholders in the architecture
+
+A. Only the second statement is true
+B. Only the first statement is true
+C. Neither statement is true
+D. Both statements are true <term>D<row>Which of these is a drawback of n-Tier architecture?
+
+A. Every tier demands extra resources to manage the client/server relationships
+B. n-Tier architecture is not scalable
+C. Only asynchronous messaging is possible, leading to challenging development decisions
+D. More hardware nodes are necessary <term>B<row>Which of diagram is used for descript procedural detail?
+
+A. ER diagram
+B. class diagram
+C. box diagram
+D. decision table <term>C<row>Which of the following files are binary software component modules?
+
+A. Resource files
+B. Descriptor files
+C. Files in form of DLLs [dynamic linking libraries], JavaBeans, and Enterprise JavaBeans
+D. Executable files <term>C<row>Which of these is advantage of main program and subroutine architectural style?
+1. Efficient for computation focused problems
+2. Easily mapped to all kinds of real-world problem spaces
+3. Abstract data types are easy to define and extend
+4. Promotes function modularity and reuse
+
+A. 2 and 3
+B. 3 and 4
+C. 1 and 2
+D. 1 and 4 <term>B<row>An object which is responsible for showing data to the user could be considered which category of object?
+
+A. Boundary
+B. Entity
+C. Control
+D. Representation <term>A<row>Which of these is NOT shown on an activity diagram?
+
+A. activities
+B. interfaces
+C. concurrency
+D. decisions <term>A<row>At software development time, which of the following attributes may connectors exhibit?
+
+A. Universally invocable
+B. Direction
+C. Distance and connection media
+D. Multiplicity <term>B<row>Select the one accurate statement about layered architecture:
+
+A. Enforcing communication only between adjacent layers and within a layer is key to good, layered architecture
+B. Upper layers act as service providers to lower layers
+C. Layered architecture is often based on layers of abstraction
+D. Pass-through should be avoided at all costs. <term>A<row>Which of the following is one of the benefits of asynchronous architecture?
+
+A. Multiple independent agents
+B. Flexible GUI interfaces
+C. Multiple views
+D. Loose coupling of modules <term>D<row>Another web page allows interacting with a spreadsheet is a browser. You can enter in values, sum them up, perform operations on them, format them, etc. What type of web page in this?
+
+A. dynamic web page
+B. web service
+C. web app
+D. static web page <term>C<row>What are the advantages of Common Object Request Broker Architecture (CORBA)?
+1. Method calls can be treated locally or remotely
+2. It allows for object-oriented paradigms in distributed computing
+
+A. Only 1
+B. Only 2
+C. Neither 1 nor 2
+D. Either 1 or 2 <term>B<row>Which of following statements concern with Software architecture design guidelines is FALSE?
+
+A. Make all implementation decisions depend on the concrete interfaces instead of abstract ones because those are more stable
+B. Design always starts with abstraction
+C. Balance the quality attributes, and consider heterogeneous architecture styles when necessary
+D. It is not possible to find a design that meets all quality attributes <term>A<row>Which of these formats can NOT be used to express and structure content to be sent over the internet?
+
+A. XML
+B. CSS
+C. HTML
+D. JSON <term>B<row>For showing scenarios, which one of the following OOAD artifacts is the MOST useful?
+
+A. Use Cases
+B. State Diagrams
+C. Activity Diagrams
+D. Class Diagrams
+E. Interaction Diagrams <term>A<row>Which architecture supports fault tolerance and system reliability?
+
+A. Layered architecture
+B. Main/ subroutine
+C. Virtual machine
+D. Master/ slave <term>D<row>What does the component of 'component diagram' refer to?
+
+A. a general name for a "part" of the software system. It could be a method, variable, class, object, or grouping of any of these
+B. the basic parts of the software, which it could not run without a library
+C. an external part of the software system, like a library that must be imported
+D. an independent, encapsulated unit in the system <term>D<row>Which of these is often used to add dynamic content to a web page?
+
+A. HTML
+B. JavaScript
+C. HTML DOM
+D. CSS <term>B<row>Systems that optimize ease of use and those that are designed to be Reusable and Interoperable with other software or hardware components often incur a ............ penalty
+
+A. Performance
+B. None of others
+C. Security
+D. Reliability <term><row>On which of the following attributes does Portability has a positive effect?
+
+A. Reusability
+B. All of the others
+C. Interoperability
+D. Verifiability <term>B<row>Sam identified the important attributes and behaviours of a delivery driver and put them all into a DeliveryDriver class, like "takeOrder", "deliverOrder", and "DeliveryArea." She exposed some of these to other classes. She just demonstrated an important part of object-oriented design. Which of these concepts best describes what you did?
+
+A. generalization
+B. abstraction
+C. encapsulation
+D. decomposition <term>C<row>What is the correct term for a machine that hosts a server?
+
+A. server-host
+B. server-machine
+C. Called by type: e.g. print server or media server
+D. server-tier <term>B<row>Which architecture is suitable for producer/consumer model?
+
+A. Main/ subroutine
+B. Process Control
+C. Pipe and filter
+D. Batch sequential <term>C<row>On which attribute does increasing of Reliability has a negative effect?
+
+A. Scalability
+B. Performance
+C. Usability
+D. Availability <term>D<row>Which of these is NOT an advantage of event-based architecture?
+
+A. The event source cannot determine
+B. Reliability may be an issue
+C. Difficult to maintain system
+D. Difficult to test and debug the system <term>A<row>Beverly is asked to develop a system to measure the height of liquid in a tank, and when the tank is almost full, a pump turns on to empty the tank. Which type of architecture will she use?
+
+A. Process control
+B. Message-based
+C. Master/ slave
+D. Pipe and filter <term>A<row>What is the term for the action that converts the parameters into a standardized message on the client side?
+
+A. invocation
+B. blocking
+C. binding
+D. marshaling <term>D<row>Asynchronous message invocation can be expressed in the following diagram
+
+A. sequence
+B. state
+C. object
+D. class <term>A<row>General quality attributes like performance and security have more specific components like throughput and latency for performance. What are these called?
+
+A. attribute refinement
+B. architecture specifications
+C. architecture significant requirements
+D. sensitivity points <term>D<row>Which quality attribute includes communication protocols, data formats, and with whom the system can exchange information?
+
+A. Modifiability
+B. Flexibility
+C. Interoperability
+D. Security <term>C<row>A connector with .......... attribute set to true allows any external software system, no matter what hardware/ software platforms they run on and in which programming languages or software frameworks they are developed
+
+A. Universally invocable
+B. Multiplicity
+C. Self-descriptive
+D. Distance and connection media <term>A<row>Which of the following statements is (are) advantage of Pipe and filter?
+1. This architecture can be used for interactive applications
+2. Filters are loosely coupled
+
+A. Both statements are true
+B. Only the first statement is true
+C. Only the second statement is true
+D. Neither statement is true <term>A<row>In which method evaluations do not need to be familiar with the architecture or the problem space?
+
+A. ARID
+B. SAAM
+C. ALL
+D. ATAM <term>D<row>Which is the most desirable?
+
+A. low cohesion, loose coupling
+B. high cohesion, loose coupling
+C. high cohesion, tight coupling
+D. low cohesion, tight coupling <term>B<row>You need to show how your software elements are mapped to hardware nodes and execution environments. Which view do you need?
+
+a. physical view
+b. development view
+c. process view
+d. scenario <term>A<row>The feature in object-oriented programming that allows the same operation to be carried out differently, depending on the calling object, is:
+
+A. Inheritance
+B. Polymorphism
+C. Encapsulation
+D. Abstraction <term>B<row>Which of the following are considered as Business attributes?
+
+A. Cost: This refers to expense of building, maintaining, and operating the system
+B. Lifetime: This refers to the period of time that the product is "alive" before retirement 
+C. All of others
+D. Time to market: This refers to the time it takes from requirement analysis to the date product is released
+E. None of others <term>E<row>Which definition best describes an object?
+
+A. Instance of itself
+B. Child of a class
+C. Instance of a class
+D. Overview of a class <term>C<row>What is NOT a good software design?
+
+A. Leads to software products have higher quality attributes
+B. Reduces bugs in software production
+C. Coordinates development teams to work together orderly
+D. Makes the system traceable for implementation and testing <term>B<row>What are NOT the tasks of Software architect?
+
+A. Map the software requirements specification to the software architecture
+B. Consider and evaluate alternative architecture styles for the problem at hand.
+C. Guarantee that the software architecture satisfies functional and non-functional requirements.
+D. Establish good communication between stakeholders <term>D<row>The static and runtime structures are based on the same element types.
+
+A. True
+B. False <term>B<row>Fill in the blank: Objects send and receive ......... to invoke methods
+
+A. output
+B. delay
+C. error
+D. messages <term>D<row>Which of followings refers to the level of independence of the system on software and hardware platforms?
+
+A. Portability
+B. Extensibility
+C. Interoperability
+D. Maintainability <term>A<row>Which is correct about class?
+
+A. The behavior is expressed by the functions of the object
+B. An object is an instance of a class
+C. A class is an abstract description of a set of objects having similar properties, common behavior, common relationship with other objects
+D. Object is the concept describing an entity in the real world <term>C<row>Concurrency is described in
+
+A. Activity diagram
+B. Sequence diagram
+C. Communication diagram
+D. Package diagram <term>A<row>There are two aspects of software requirements: functional and non-functional. A functional requirement specifies the qualities, constraints, and system behaviors
+
+A. True
+B. False <term>B<row>Which of the followings are not the key components of an architecture style?
+
+A. Constraints that define how elements can be integrated to form the system
+B. None of the others
+C. Connectors that enable communication, coordination, and cooperation among elements
+D. Elements that perform functions required by a system
+E. All of the others
+F. Attributes that describe the advantages and disadvantages of the chosen structure <term>B<row>Composition relationship is represented by hollow diamond arrow
+
+A. True
+B. False <term>B<row>In an interaction diagram, boxes on top of the diagram can represent classes, objects, and actors. Which of the following is true?
+
+A. "Customer:Joe" represents an object named "Joe" whose class is "Customer"
+B. when there is a ":" preceding a name, it represents an class
+C. "Customer:" represents an object named "Customer"
+D. ":Customer" represents a class named "Customer" <term>A<row>Asynchronous message invocation can be expressed in sequence diagrams
+
+A. State diagram
+B. Class diagram
+C. Object diagram
+D. Sequence diagram <term>D<row>Which of the following attributes are considered as business attribute?
+
+A. Security: This refers to the ability to cope with malicious attacks from outside or inside of the system. Security can be improved by installing firewalls and establishing authentication and authorization processes, and using encryption
+B. None of others
+C. Availability: This refers to the ability of a system to be available 24x7. Availability can be achieved via replication and careful design to cope with failures of hardware, software, or the network
+D. All of others
+E. Usability: This refers to the level of "satisfaction" from a human perspective in using the system. Usability includes completeness, correctness, compatibility, and user friendliness such as friendly user interface, complete documentation, and help support
+F. Reliability: This refers to the failure frequency, the accuracy of output results, the mean-time-to-failure (MTTF), the ability to recover from failure, and the failure predictability <term>B<row>Which is correct about class diagram
+
+A. Describing the static view of the system
+B. Describing a set of objects
+C. Describing the classes and their relationship
+D. Describing the classes and their relationship, describing the static view of the system <term>D<row>There is a one-to-one correspondence between the elements of the static structure and the elements of the runtime structure for the same design project
+
+A. True
+B. False <term>B<row>Public interface of a class consists of the following:
+
+A. aggregation and composition relationship
+B. private attributes
+C. private operations
+D. public attributes and public operations <term>D<row>Which among the following best describes encapsulation?
+
+A. It is a way of combining various data members into a single unit
+B. It is a way of combining various member functions into a single unit
+C. It is a way of combining various data members and member functions into a single unit which can operate on any data
+D. It is a way of combining various data members and member functions that operate on those data members into a single unit <term>D<row>Which of followings are not key components of an architectural style?
+
+A. Operations
+B. Elements
+C. Constraints
+D. Connectors <term>A<row>Information hiding can also be termed as:
+
+A. Inheritance
+B. Abstraction
+C. Encapsulation
+D. Data hiding <term>C<row>Identify the incorrect statements:
+
+A. The architectural design embodies earliest decisions that have a decisive impact on the ultimate success of the software product
+B. Software Architecture bridges between requirements and implementation
+C. Software architecture plays a very important role in software development.
+D. SDD contains a set of rules, constraints, and patterns of how to structure a system into a set of elements and connectors. <term>D<row>Which is correct about state diagram
+
+A. Modeling the dynamic view of the system
+B. Describing the internal behaviour of the system, modeling the dynamic view of the system
+C. Describing the internal behaviour of the system
+D. Describing the information flows in the system <term>B<row>Identify the incorrect statements about Software architecture
+
+A. Software architecture also specifies the guidelines for how to writing the source code.
+B. The design of software architecture must conform to the functional and non-functional requirements of the software project
+C. Software architecture describes the collection of Components, Connections and Interactions between these components
+D. Software architecture is a high-level of abstraction of a software system by employing decomposition, composition, architectural styles, and quality attributes <term>A<row>Which of the following structures describe the dynamic properties of software architecture?
+
+A. Software deployment structure
+B. Software management structure
+C. Software code structure
+D. Software runtime structure <term>D<row>What is an alternative sequence in a use case?
+
+A. A sequence that describes interactions with a secondary actor
+B. A sequence that is different from the main sequence
+C. A sequence that describes an error case
+D. A sequence that describes interactions with a primary actor <term>B<row>Which of these statements about Component Diagrams is true?
+
+A. The give a dynamic view of the system
+B. They are useful to clarifying the artifacts that will be produced from development
+C. They do not show third-party libraries
+D. They clarify dependency relationships <term>D<row>What is the purpose of a stereotype in class structuring?
+
+A. To label a class according to its class structuring criterion
+B. To identify the objects that belong to the same class
+C. To distinguish between external objects and software objects
+D. To identify the association between two classes <term>A<row>How is an association depicted on a class diagram?
+
+A. A solid line joining two class boxes
+B. A dashed line joining two class boxes
+C. A diamond touching the upper class box
+D. An arrowhead touching the upper class box <term>A<row>Which of these UML diagrams are likely to be part of the process view? 
+
+A. Activity diagram
+B. Class diagram
+C. Sequence Diagram
+D. State Diagram <term>AC<row>Which of the following is a common messaging pattern in client/server relationships?
+
+A. one-way
+B. solicit-response
+C. handshake
+D. request-response <term>D<row>What are the two major styles of SOAP requests?
+
+A. RPC style
+B. request-response
+C. document style
+D. envelope <term>AC<row>A whole/part relationship is a generalization/specialization hierarchy
+
+A. True
+B. False <term>B<row>Which of these can be found in Common Object Request Broker Architecture (CORBA)?
+
+A. object request broker
+B. facilities
+C. client and server stubs
+D. interface definition language <term>ABD<row>Which of these is an advantage of event-based architecture?
+
+A. Events trigger responses in a predictable manner
+B. Events are processed with more efficiency
+C. All interactions happen synchronously
+D. Event generators and event consumers are loosely coupled <term>D<row>Divide-and-conquer is a suitable methodology for architecture design
+
+A. True
+B. False <term>A<row>What is a state-dependent control object?
+
+A. An object that executes a state machine
+B. An object that communicates with a state machine
+C. An object that controls a state machine
+D. An object that depends on a state machine <term>A<row>What is the interface of a class?
+
+A. The internals of the class
+B. The implementation of the class
+C. The specification of operations provided by the class
+D. The signature of a class <term>C<row>What does a statechart diagram depict?
+
+A. Classes and relationships
+B. Objects and messages
+C. Objects and links
+D. States and events <term>D<row>Architecture design is about choosing the right single architecture style for a project
+
+A. True
+B. False <term>B<row>What does a deployment diagram depict?
+
+A. The physical configuration of the system in terms of physical classes and physical connections between the classes
+B. The physical configuration of the system in terms of physical objects and physical connections between the objects
+C. The physical configuration of the system in terms of physical nodes and physical connections between the nodes
+D. The physical configuration of the system in terms of physical computers and physical networks between the computers <term>C<row>What is software modeling? 
+
+(a) Developing models of software. 
+(b) Designing software applications before coding. 
+(c) Developing software diagrams. 
+(d) Developing software prototypes <term>B<row>What is the Unified Modeling Language? 
+
+(a) A programming language for describing object-oriented models. 
+(b) A diagramming tool for drawing object-oriented models. 
+(c) A graphical language for describing object-oriented models. 
+(d) A standardized graphical language and notation for describing object oriented models. <term>D<row>What is a software architecture? 
+
+(a) The software inside a building. 
+(b) The structure of a client/server system. 
+(c) The overall structure of a software system. 
+(d) The software classes and their relationships. <term>C<row>What is a software design notation? 
+
+(a) Notes about the software design. 
+(b) A graphical or textual description of the software. 
+(c) Documentation of the software. 
+(d) A systematic approach for producing a design. <term>B<row>What is a software design concept? 
+
+(a) A graphical or textual description of the software. 
+(b) Documentation of the software. 
+(c) A fundamental idea that can be applied to designing a system. 
+(d) A systematic approach for producing a design. <term>C<row>What is a software design strategy? 
+
+(a) A graphical or textual description of the software. 
+(b) A fundamental idea that can be applied to designing a system. 
+(c) A systematic approach for producing a design. 
+(d) An overall plan and direction for developing a design. <term>D<row>What are software structuring criteria? 
+
+(a) Fundamental ideas that can be applied to designing a system. 
+(b) Systematic approaches for producing a design. 
+(c) Guidelines used to help in structuring a software system into its components. 
+(d) Overall plans for developing a design. <term>C<row>What is a software design method? 
+
+(a) A systematic approach for producing a design. 
+(b) Guidelines used to help in structuring a software system into its components. 
+(c) An overall plan for developing a design. 
+(d) A graphical or textual description of the software. <term>A<row>What is a platform-independent model (PIM)? 
+
+(a) A software platform before a commitment is made to a specific hardware platform. 
+(b) A precise model of the software architecture before a commitment is made to a specific platform. 
+(c) A precise model of the software architecture mapped to a specific platform. 
+(d) A graphical or textual description of the software. <term>B<row>What is a platform-specific model (PSM)? 
+
+(a) A specific hardware platform. 
+(b) A precise model of the software architecture before a commitment is made to a specific platform. 
+(c) A precise model of the software architecture mapped to a specific platform. 
+(d) A graphical or textual description of the software. <term>C<row>How is an actor depicted on a use case diagram? 
+
+(a) An oval 
+(b) A stick figure 
+(c) A box 
+(d) A dashed line <term>B<row>How is a use case depicted on a use case diagram? 
+
+(a) An oval 
+(b) A stick figure 
+(c) A box 
+(d) A dashed line <term>A<row>How is a class depicted on a class diagram? 
+
+(a) A box with one compartment 
+(b) A box with one or two compartments 
+(c) A box with one, two, or three compartments 
+(d) An oval <term>C<row>How is public visibility depicted for a class element on a class diagram? 
+
+(a) + sign 
+(b) − sign 
+(c) # sign 
+(d) ∗sign <term>A<row>What are the two kinds of UML interaction diagrams? 
+
+(a) Class diagram and sequence diagram 
+(b) Sequence diagram and communication diagram 
+(c) Class diagram and communication diagram 
+(d) Statechart and communication diagram <term>B<row>What does an interaction diagram depict? 
+
+(a) Objects and links 
+(b) Classes and relationships 
+(c) Objects and messages 
+(d) States and events <term>C<row>What is a UML package? 
+
+(a) A box 
+(b) A grouping of classes 
+(c) A grouping of use cases 
+(d) A grouping of model elements <term>D<row>What is a software life cycle? 
+
+(a) The life of the software 
+(b) A cyclic approach to developing software 
+(c) A phased approach to developing software 
+(d) The life of software developed in cycles <term>C<row>What is the waterfall life cycle model? 
+
+(a) Software developed under a waterfall 
+(b) A process model in which each phase is completed before the next phase is started 
+(c) A process model in which phases are overlapped 
+(d) A process model in which phases are cyclic <term>B<row>Which of the following is a limitation of the waterfall life cycle model? 
+
+(a) Software is developed in phases. 
+(b) Each phase is completed before the next phase is started. 
+(c) Software development is cyclic. 
+(d) Software requirements are not properly tested until a working system is available. <term>D<row>Which of the following approaches can overcome the limitation in the previous question? 
+
+(a) Phased software development 
+(b) Throwaway prototyping 
+(c) Evolutionary prototyping 
+(d) Incremental development <term>B<row>What is evolutionary prototyping? 
+
+(a) Phased software development 
+(b) Throwaway prototyping 
+(c) Risk-driven development 
+(d) Incremental development <term>D<row>What approach does the spiral model emphasize? 
+
+(a) Phased software development 
+(b) Throwaway prototyping 
+(c) Risk-driven development 
+(d) Incremental development <term>C<row>What is the goal of software validation? 
+
+(a) Building the system 
+(b) Building the right system 
+(c) Building the system right 
+(d) Testing the system <term>B<row>What is the goal of software verification? 
+
+(a) Building the system 
+(b) Building the right system 
+(c) Building the system right 
+(d) Testing the system <term>C<row>What is "white box" testing? 
+
+(a) Unit testing 
+(b) Integration testing 
+(c) Testing with knowledge of the system internals 
+(d) Testing without knowledge of the software internals <term>C<row>What is "black box" testing? 
+
+(a) System testing 
+(b) Integration testing 
+(c) Testing with knowledge of the system internals 
+(d) Testing without knowledge of the software internals <term>D<row>Which of the following are object oriented concepts? 
+
+(a) Modules and interfaces 
+(b) Modules and information hiding 
+(c) Classes, information hiding, and inheritance 
+(d) Concurrency and information hiding <term>C<row>Which of the following is a characteristic of an object? 
+
+(a) A function or subroutine 
+(b) A module 
+(c) Groups data and procedures that operate on the data 
+(d) Groups a function and an algorithm <term>C<row>What is a class? 
+
+(a) An object instance 
+(b) The implementation of the object 
+(c) A collection of objects with the same characteristics 
+(d) A collection of objects with different characteristics <term>C<row>What is an operation (also known as method) of a class? 
+
+(a) Specification and the implementation of a function performed by a class 
+(b) Specification and the implementation of a subroutine provided by a class 
+(c) Specification and the implementation of a function or procedure provided by a class 
+(d) Specification and the implementation of an interface provided by a class <term>C<row>What is the signature of an operation? 
+
+(a) The operation's name 
+(b) The operation's function or subroutine 
+(c) The operation's name, parameters, and return value 
+(d) The object's interface <term>C<row>What is an attribute? 
+
+(a) A description of a class 
 (b) An internal property of a class
-(c) A data item held by a class
-(d) A parameter of a class<term>C<row>What is information hiding in software design?
-(a) Hiding information so that it cannot be found
-(b) Hiding a design decision that is considered likely to change
-(c) Hiding information to make it secure
-(d) Encapsulating data in a class<term>B<row>What is data abstraction?
-(a) Another name for information hiding
-(b) Encapsulating data so that its structure is hidden
-(c) Storing data in a database
-(d) Storing data in a data structure<term>B<row>What is inheritance?
-(a) A mechanism for inheriting characteristics from a parent
-(b) A mechanism for sharing and reusing code between classes
-(c) A mechanism for sharing data between classes
-(d) A mechanism for hiding information between classes<term>B<row>What is carried out during requirements modeling?
-(a) Functional requirements of the system are described in terms of functions, inputs, and outputs.
-(b) Functional requirements of the system are described in terms of actors and use cases.
-(c) Functional requirements of the system are described textually.
-(d) Functional requirements of the system are determined by interviewing users.<term>B<row>What is carried out during analysis modeling?
-(a) Developing use case models
-(b) Developing data flow and entityrelationship diagrams
-(c) Developing static and dynamic models
-(d) Developing software architectures<term>C<row>What is carried out during design modeling?
-(a) Developing use case models
-(b) Developing data flow and entity relationship diagrams
-(c) Developing static and dynamic models
-(d) Developing software architectures<term>D<row>What is carried out during incremental software construction?
-(a) Detailed design and coding of the classes in a subset of the system
-(b) Detailed design, coding, and unit testing of the classes in a subset of the system
-(c) Coding and unit testing of the classes in a subset of the system
-(d) Unit and integration testing of the classes in a subset of the system<term>B<row>What is carried out during incremental software integration?
-(a) Implementation of the classes in each software increment
-(b) Unit testing of the classes in each software increment
-(c) Integration testing of the classes in each software increment
-(d) System testing of the classes in each software increment<term>C<row>What is carried out during system testing?
-(a) White box testing
-(b) Black box testing
-(c) Unit testing
-(d) Integration testing<term>B<row>What is a use case?
-(a) A case study involving users
-(b) A sequence of interactions between the user and the system
-(c) A sequence of interactions between the user and the objects in the system
-(d) A sequence of user inputs to the system<term>C<row>What is an actor in a use case?
-(a) An object inside the system
-(b) A person who performs on stage
-(c) An external entity that interacts with the system
-(d) The customer to whom the system will be delivered<term>C<row>What is a primary actor?
-(a) The actor who goes on stage first
-(b) The actor that starts the use case
-(c) An actor that participates in the use case
-(d) An object inside the system<term>B<row>What is a secondary actor?
-(a) The actor who goes on stage second
-(b) The actor that starts the use case
-(c) An actor that participates in the use case
-(d) An object inside the system<term>C<row>What is an alternative sequence in a use case?
-(a) A sequence that describes an error case
-(b) A sequence that is different from the main sequence
-(c) A sequence that describes interactions with a secondary actor
-(d) A sequence that describes interactions with a primary actor<term>B<row>What can an inclusion use case be used for?
-(a) To describe an inclusive use case
-(b) To describe a lengthy interaction with an actor
-(c) To describe functionality that is common to more than one use case
-(d) To describe a use case that includes other use cases<term>C<row>What can an extension use case be used for?
-(a) To describe a lengthy interaction with an actor
-(b) To describe functionality that is common to more than one use case
-(c) To describe the functionality of a use case that is extended by another use case(s)
-(d) To describe a conditional part of a different use case that is only executed under certain circumstances<term>D<row>What can an activity diagram be used for in use case modeling?
-(a) To depict the sequence of activities executed by all the use cases in the system
-(b) To depict the sequence of external activities that the use case interacts with
-(c) To depict the sequence of active objects in a use case
-(d) To depict the activities in the main and alternative sequences of a use case<term>D<row>How can a nonfunctional requirement be described in a use case model?
-(a) In a separate section of the use case description
-(b) As a use case precondition
-(c) As a use case postcondition
-(d) In a separate document<term>A<row>What is a use case package?
-(a) A package describing the actors in the system
-(b) A package describing the use cases in the system
-(c) A group of related use cases
-(d) The package of objects that participate in the use case<term>C<row>What is a class?
-(a) A course
-(b) An object instance
-(c) A client or server in the system
-(d) A collection of objects with the same characteristics<term>D<row>What is an attribute?
-(a) A relationship between two classes
-(b) A parameter of an operation or method
-(c) A data value held by an object in a class
-(d) The return value from an operation<term>C<row>What is an association?
-(a) A relationship between two classes
-(b) A relationship between two objects
-(c) A link between two classes
-(d) A link between two objects<term>A<row>What is meant by the multiplicity of an association?
-(a) The number of associations in a class
-(b) The number of associations between two classes
-(c) How many instances of one class relate to how many instances of another class
-(d) How many instances of one class relate to a single instance of another class.<term>D<row>What is an association class?
-(a) A class with multiple associations
-(b) A class with one association
-(c) A class that models an association between two or more classes
-(d) A class that models an association between two or more objects<term>C<row>What is a generalization/specialization hierarchy?
-(a) A whole/part relationship
-(b) An inheritance relationship
-(c) An association between a generalized class and a specialized class
-(d) A layered hierarchy<term>B<row>What is a composition hierarchy?
-(a) A weak form of a generalization/specialization hierarchy
-(b) A strong form of a generalization/specialization hierarchy
-(c) A weak form of a whole/part relationship
-(d) A strong form of a whole/part relationship<term>D<row>What is an aggregation hierarchy?
-(a) A weak form of a generalization/specialization hierarchy
-(b) A strong form of a generalization/specialization hierarchy
-(c) A weak form of a whole/part relationship
-(d) A strong form of a whole/part relationship<term>C<row>What does the system context class diagram define?
-(a) The entity classes in the system
-(b) How the system interfaces to other systems
-(c) The boundary between the system and the external environment
-(d) The context classes in the system<term>C<row>What is an entity class?
-(a) A class on an entity/relationship diagram
-(b) A class that stores data
-(c) A class that interfaces to an external entity
-(d) An external class<term>B<row>What is a boundary object?
-(a) An external object
-(b) An object that stores data
-(c) An object that communicates with an external object
-(d) An object that controls other objects<term>C<row>What is a control object?
-(a) An object that depends on other objects
-(b) An object that communicates with an external object
-(c) An object that controls other objects
-(d) An object that is controlled by other objects<term>C<row>What is a state-dependent control object?
-(a) An object that depends on a state machine
-(b) An object that communicates with a state machine
-(c) An object that controls a state machine
-(d) An object that executes a state machine<term>D<row>What is a coordinator object?
-(a) A manager object
-(b) An object that makes decisions based on a state machine
-(c) A decision-making object
-(d) An object that decides which entity object to interact with<term>C<row>How would you determine a boundary class from the context diagram?
-(a) By looking at it
-(b) By selecting the external classes on the context diagram
-(c) By determining the software classes that communicate with the external classes
-(d) By drawing the boundary between the hardware and software classes<term>C<row>What is a timer object?
-(a) An external clock
-(b) An internal clock
-(c) An object that is awakened by an external timer
-(d) An object that interacts with a clock<term>C<row>What do class structuring criteria help with?
-(a) Structuring an application into classes
-(b) Defining the attributes of a class
-(c) Defining the associations of a class
-(d) Defining the operations of a class<term>A<row>What is the classification process for application classes analogous to?
-(a) Categorizing books in a library
-(b) Deciding how many copies of a book are needed
-(c) Finding the classrooms in a school
-(d) Identifying what labs the school has<term>A<row>What is the purpose of a stereotype in class structuring?
-(a) To label a class according to its class structuring criterion
-(b) To identify the objects that belong to the same class
-(c) To distinguish between external objects and software objects
-(d) To identify the association between two classes<term>A<row>What is a business logic object?
-(a) An object used in business applications
-(b) An object that defines businessspecific application logic
-(c) The internal logic of an object
-(d) A business object that determines whether a client request is logical<term>B<row>What does an interaction diagram depict?
-(a) The state and transitions inside a control object
-(b) Classes and their relationships
-(c) Software objects and the sequence of their interactions
-(d) The external objects communicating with the system<term>C<row>How is an actor depicted on an interaction diagram?
-(a) An actor has an association with the interaction diagram.
-(b) An actor can provide input to or receive output from a boundary object.
-(c) An actor can provide input to or receive output from a boundary class.
-(d) An instance of an actor can provide input to or receive output from a boundary object.<term>D<row>What does a sequence diagram depict?
-(a) The sequence of external objects communicating with each other
-(b) Classes and their relationships
-(c) Software objects and the sequence of their interactions
-(d) The external objects communicating with the system<term>C<row>What does a communication diagram depict?
-(a) The sequence of external objects communicating with each other
-(b) Classes and their relationships
-(c) Software objects and the sequence of their interactions
-(d) The external objects communicating with the system<term>C<row>What is the instance form of an interaction diagram?
-(a) Depicts several object instances interacting with each other
-(b) Depicts one possible sequence of interactions among object instances
-(c) Depicts all possible interactions among object instances
-(d) Depicts all object instances and their links to each other<term>B<row>What is the generic form of an interaction diagram?
-(a) Depicts several objects interacting with each other
-(b) Depicts one possible sequence of interactions among objects
-(c) Depicts all possible interactions among objects
-(d) Depicts all classes and their associations with each other<term>C<row>During dynamic interaction modeling, use cases are realized as follows:
-(a) Determine objects that participate in each use case and the sequence of interactions among them.
-(b) Determine external objects and the sequence in which they provide inputs to and receive outputs from each use case.
-(c) Determine sequence of interactions among use cases.
-(d) Determine how a use case is depicted through internal states and transitions between them.<term>A<row>Which of the following interactions could happen on an interaction diagram?
-(a) An external user sends a message to a user interaction object.
-(b) An external user sends a message to an entity object.
-(c) An external user sends a message to an I/O object.
-(d) An external user sends a message to a printer object.<term>A<row>Which of the following interactions is NOT likely to happen on an interaction diagram?
-(a) A user interaction object sends a message to an entity object.
-(b) An input object sends a message to a state-dependent control object.
-(c) An input object sends a message to a printer object.
-(d) A user interaction object sends a message to a proxy object.<term>C<row>What kind of object would be the first object to receive an input from an external object?
-(a) A user interaction object
-(b) A proxy object
-(c) An entity object
-(d) A boundary object<term>D<row>What is a state in a state machine?
-(a) A recognizable situation that exists over an interval of time
-(b) A condition that is True or False
-(c) An input from the external environment
-(d) An output from the system<term>A<row>What is an event in a state machine?
-(a) A discrete signal that causes a change of state
-(b) An input from the external environment
-(c) An input that is True or False
-(d) The result of a state transition<term>A<row>What is an action in a state machine?
-(a) An occurrence at a point in time
-(b) A cause of a state transition
-(c) An interval between two successive events
-(d) A computation that executes as a result of a state transition<term>D<row>What is an entry action in a state machine?
-(a) An action that is performed when the state is entered
-(b) An action that is performed when the state is left
-(c) An action that starts executing when the state is entered and completes executing when the state is left
-(d) An action that executes as a result of a state transition<term>A<row>What is an exit action in a state machine?
-(a) An action that is performed when the state is entered
-(b) An action that is performed when the state is left
-(c) An action that starts executing when the state is entered and completes executing when the state is left
-(d) An action that executes as a result of a state transition<term>B<row>What is a condition used for in a state machine?
-(a) A conditional action
-(b) A conditional state
-(c) A conditional state transition
-(d) A conditional event<term>C<row>What is a state transition into a composite state equivalent to?
-(a) A transition into only one of the substates
-(b) A transition into each of the substates
-(c) A transition into none of the substates
-(d) A transition into any one of the substates<term>A<row>What is a state transition out of a composite state equivalent to?
-(a) A transition out of only one of the substates
-(b) A transition out of each of the substates
-(c) A transition out of none of the substates
-(d) A transition out of any one of the substates<term>B<row>How does a composite state relate to a substate?
-(a) A composite state is decomposed into substates.
-(b) Composite states are composed into substates.
-(c) A composite state transitions to a substate.
-(d) A substate transitions to a composite state.<term>A<row>If two actions are shown on a given state transition, which of the following is true?
-(a) The two actions are dependent on each other.
+(c) A data item held by a class 
+(d) A parameter of a class <term>C<row>What is information hiding in software design? 
+
+(a) Hiding information so that it cannot be found 
+(b) Hiding a design decision that is considered likely to change 
+(c) Hiding information to make it secure 
+(d) Encapsulating data in a class <term>B<row>What is data abstraction? 
+
+(a) Another name for information hiding 
+(b) Encapsulating data so that its structure is hidden 
+(c) Storing data in a database 
+(d) Storing data in a data structure <term>B<row>What is inheritance? 
+
+(a) A mechanism for inheriting characteristics from a parent 
+(b) A mechanism for sharing and reusing code between classes 
+(c) A mechanism for sharing data between classes 
+(d) A mechanism for hiding information between classes <term>B<row>What is carried out during requirements modeling? 
+
+(a) Functional requirements of the system are described in terms of functions, inputs, and outputs. 
+(b) Functional requirements of the system are described in terms of actors and use cases. 
+(c) Functional requirements of the system are described textually. 
+(d) Functional requirements of the system are determined by interviewing users. <term>B<row>What is carried out during analysis modeling? 
+
+(a) Developing use case models 
+(b) Developing data flow and entity relationship diagrams 
+(c) Developing static and dynamic models 
+(d) Developing software architectures <term>C<row>What is carried out during design modeling? 
+
+(a) Developing use case models 
+(b) Developing data flow and entity relationship diagrams 
+(c) Developing static and dynamic models 
+(d) Developing software architectures <term>D<row>What is carried out during incremental software construction? 
+
+(a) Detailed design and coding of the classes in a subset of the system 
+(b) Detailed design, coding, and unit testing of the classes in a subset of the system 
+(c) Coding and unit testing of the classes in a subset of the system 
+(d) Unit and integration testing of the classes in a subset of the system <term>B<row>What is carried out during incremental software integration? 
+
+(a) Implementation of the classes in each software increment 
+(b) Unit testing of the classes in each software increment 
+(c) Integration testing of the classes in each software increment 
+(d) System testing of the classes in each software increment <term>C<row>What is carried out during system testing? 
+
+(a) White box testing 
+(b) Black box testing 
+(c) Unit testing 
+(d) Integration testing <term>B<row>What is a use case? 
+
+(a) A case study involving users 
+(b) A sequence of interactions between the user and the system 
+(c) A sequence of interactions between the user and the objects in the system 
+(d) A sequence of user inputs to the system <term>C<row>What is an actor in a use case? 
+
+(a) An object inside the system 
+(b) A person who performs on stage 
+(c) An external entity that interacts with the system 
+(d) The customer to whom the system will be delivered <term>C<row>What is a primary actor? 
+
+(a) The actor who goes on stage first 
+(b) The actor that starts the use case 
+(c) An actor that participates in the use case 
+(d) An object inside the system <term>B<row>What is a secondary actor? 
+
+(a) The actor who goes on stage second 
+(b) The actor that starts the use case 
+(c) An actor that participates in the use case 
+(d) An object inside the system <term>C<row>What can an inclusion use case be used for? 
+
+(a) To describe an inclusive use case 
+(b) To describe a lengthy interaction with an actor 
+(c) To describe functionality that is common to more than one use case 
+(d) To describe a use case that includes other use cases <term>C<row>What can an extension use case be used for? 
+
+(a) To describe a lengthy interaction with an actor 
+(b) To describe functionality that is common to more than one use case 
+(c) To describe the functionality of a use case that is extended by another use case(s) 
+(d) To describe a conditional part of a different use case that is only executed under certain circumstances <term>D<row>What can an activity diagram be used for in use case modeling? 
+
+(a) To depict the sequence of activities executed by all the use cases in the system 
+(b) To depict the sequence of external activities that the use case interacts with 
+(c) To depict the sequence of active objects in a use case 
+(d) To depict the activities in the main and alternative sequences of a use case <term>D<row>How can a nonfunctional requirement be described in a use case model? 
+
+(a) In a separate section of the use case description 
+(b) As a use case precondition 
+(c) As a use case postcondition 
+(d) In a separate document <term>A<row>What is a use case package? 
+
+(a) A package describing the actors in the system 
+(b) A package describing the use cases in the system 
+(c) A group of related use cases 
+(d) The package of objects that participate in the use case <term>C<row>What is a class? 
+
+(a) A course 
+(b) An object instance 
+(c) A client or server in the system 
+(d) A collection of objects with the same characteristics <term>D<row>What is an attribute? 
+
+(a) A relationship between two classes 
+(b) A parameter of an operation or method 
+(c) A data value held by an object in a class 
+(d) The return value from an operation <term>C<row>What is an association? 
+
+(a) A relationship between two classes 
+(b) A relationship between two objects 
+(c) A link between two classes 
+(d) A link between two objects <term>A<row>What is meant by the multiplicity of an association? 
+
+(a) The number of associations in a class 
+(b) The number of associations between two classes 
+(c) How many instances of one class relate to how many instances of another class 
+(d) How many instances of one class relate to a single instance of another class. <term>D<row>What is an association class? 
+
+(a) A class with multiple associations 
+(b) A class with one association 
+(c) A class that models an association between two or more classes 
+(d) A class that models an association between two or more objects <term>C<row>What is a generalization/specialization hierarchy? 
+
+(a) A whole/part relationship 
+(b) An inheritance relationship 
+(c) An association between a generalized class and a specialized class 
+(d) A layered hierarchy <term>B<row>What is a composition hierarchy? 
+
+(a) A weak form of a generalization/ specialization hierarchy 
+(b) A strong form of a generalization/ specialization hierarchy 
+(c) A weak form of a whole/part relationship 
+(d) A strong form of a whole/part relationship <term>D<row>What is an aggregation hierarchy? 
+
+(a) A weak form of a generalization/ specialization hierarchy 
+(b) A strong form of a generalization/specialization hierarchy 
+(c) A weak form of a whole/part relationship 
+(d) A strong form of a whole/part relationship <term>C<row>What does the system context class diagram define? 
+
+(a) The entity classes in the system 
+(b) How the system interfaces to other systems 
+(c) The boundary between the system and the external environment 
+(d) The context classes in the system <term>C<row>What is an entity class? 
+
+(a) A class on an entity/relationship diagram 
+(b) A class that stores data 
+(c) A class that interfaces to an external entity 
+(d) An external class <term>B<row>What is a boundary object? 
+
+(a) An external object 
+(b) An object that stores data 
+(c) An object that communicates with an external object 
+(d) An object that controls other objects <term>C<row>What is a control object? 
+
+(a) An object that depends on other objects 
+(b) An object that communicates with an external object 
+(c) An object that controls other objects 
+(d) An object that is controlled by other objects <term>C<row>What is a coordinator object? 
+
+(a) A manager object 
+(b) An object that makes decisions based on a state machine 
+(c) A decision-making object 
+(d) An object that decides which entity object to interact with <term>C<row>How would you determine a boundary class from the context diagram? 
+
+(a) By looking at it 
+(b) By selecting the external classes on the context diagram 
+(c) By determining the software classes that communicate with the external classes 
+(d) By drawing the boundary between the hardware and software classes <term>C<row>What is a timer object? 
+
+(a) An external clock 
+(b) An internal clock 
+(c) An object that is awakened by an external timer 
+(d) An object that interacts with a clock <term>C<row>What do class structuring criteria help with? 
+
+(a) Structuring an application into classes 
+(b) Defining the attributes of a class 
+(c) Defining the associations of a class 
+(d) Defining the operations of a class <term>A<row>What is the classification process for application classes analogous to? 
+
+(a) Categorizing books in a library 
+(b) Deciding how many copies of a book are needed 
+(c) Finding the classrooms in a school 
+(d) Identifying what labs the school has <term>A<row>What is a business logic object? 
+
+(a) An object used in business applications 
+(b) An object that defines business specific application logic 
+(c) The internal logic of an object 
+(d) A business object that determines whether a client request is logical <term>B<row>What does an interaction diagram depict? 
+
+(a) The state and transitions inside a control object 
+(b) Classes and their relationships 
+(c) Software objects and the sequence of their interactions 
+(d) The external objects communicating with the system <term>C<row>How is an actor depicted on an interaction diagram? 
+
+(a) An actor has an association with the interaction diagram. 
+(b) An actor can provide input to or receive output from a boundary object. 
+(c) An actor can provide input to or receive output from a boundary class. 
+(d) An instance of an actor can provide input to or receive output from a boundary object. <term>D<row>What does a sequence diagram depict? 
+
+(a) The sequence of external objects communicating with each other 
+(b) Classes and their relationships 
+(c) Software objects and the sequence of their interactions 
+(d) The external objects communicating with the system <term>C<row>What does a communication diagram depict? 
+
+(a) The sequence of external objects communicating with each other 
+(b) Classes and their relationships 
+(c) Software objects and the sequence of their interactions 
+(d) The external objects communicating with the system <term>C<row>What is the instance form of an interaction diagram? 
+
+(a) Depicts several object instances interacting with each other 
+(b) Depicts one possible sequence of interactions among object instances 
+(c) Depicts all possible interactions among object instances 
+(d) Depicts all object instances and their links to each other <term>B<row>What is the generic form of an interaction diagram? 
+
+(a) Depicts several objects interacting with each other 
+(b) Depicts one possible sequence of interactions among objects 
+(c) Depicts all possible interactions among objects 
+(d) Depicts all classes and their associations with each other <term>C<row>During dynamic interaction modeling, use cases are realized as follows: 
+
+(a) Determine objects that participate in each use case and the sequence of interactions among them. 
+(b) Determine external objects and the sequence in which they provide inputs to and receive outputs from each use case. 
+(c) Determine sequence of interactions among use cases. 
+(d) Determine how a use case is depicted through internal states and transitions between them. <term>A<row>Which of the following interactions could happen on an interaction diagram? 
+
+(a) An external user sends a message to a user interaction object. 
+(b) An external user sends a message to an entity object. 
+(c) An external user sends a message to an I/O object. 
+(d) An external user sends a message to a printer object. <term>A<row>Which of the following interactions is NOT likely to happen on an interaction diagram? 
+
+(a) A user interaction object sends a message to an entity object. 
+(b) An input object sends a message to a state-dependent control object. 
+(c) An input object sends a message to a printer object. 
+(d) A user interaction object sends a message to a proxy object. <term>C<row>What kind of object would be the first object to receive an input from an external object? 
+
+(a) A user interaction object 
+(b) A proxy object 
+(c) An entity object 
+(d) A boundary object <term>D<row>What is a state in a state machine? 
+
+(a) A recognizable situation that exists over an interval of time 
+(b) A condition that is True or False 
+(c) An input from the external environment 
+(d) An output from the system <term>A<row>What is an event in a state machine? 
+
+(a) A discrete signal that causes a change of state 
+(b) An input from the external environment 
+(c) An input that is True or False 
+(d) The result of a state transition <term>A<row>What is an action in a state machine? 
+
+(a) An occurrence at a point in time 
+(b) A cause of a state transition 
+(c) An interval between two successive events 
+(d) A computation that executes as a result of a state transition <term>D<row>What is an entry action in a state machine? 
+
+(a) An action that is performed when the state is entered 
+(b) An action that is performed when the state is left 
+(c) An action that starts executing when the state is entered and completes executing when the state is left 
+(d) An action that executes as a result of a state transition <term>A<row>What is an exit action in a state machine? 
+
+(a) An action that is performed when the state is entered 
+(b) An action that is performed when the state is left 
+(c) An action that starts executing when the state is entered and completes executing when the state is left 
+(d) An action that executes as a result of a state transition <term>B<row>What is a condition used for in a state machine? 
+
+(a) A conditional action 
+(b) A conditional state 
+(c) A conditional state transition 
+(d) A conditional event <term>C<row>What is a state transition into a composite state equivalent to? 
+
+(a) A transition into only one of the substates 
+(b) A transition into each of the substates 
+(c) A transition into none of the substates 
+(d) A transition into any one of the substates <term>A<row>What is a state transition out of a composite state equivalent to? 
+
+(a) A transition out of only one of the substates 
+(b) A transition out of each of the substates 
+(c) A transition out of none of the substates 
+(d) A transition out of any one of the substates <term>B<row>How does a composite state relate to a substate? 
+
+(a) A composite state is decomposed into substates. 
+(b) Composite states are composed into substates. 
+(c) A composite state transitions to a substate. 
+(d) A substate transitions to a composite state. <term>A<row>If two actions are shown on a given state transition, which of the following is true? 
+
+(a) The two actions are dependent on each other. 
 (b) The two actions are independent of each other.
-(c) One action provides an input to the other action.
-(d) The second action executes when the first action completes execution.<term>B<row>What does a state-dependent interaction involve?
-(a) A control object
-(b) A state-dependent entity object
+(c) One action provides an input to the other action. 
+(d) The second action executes when the first action completes execution. <term>B<row>What does a state-dependent interaction involve? 
+
+(a) A control object 
+(b) A state-dependent entity object 
 (c) A state-dependent control object
-(d) A state-dependent user interaction object<term>C<row>Which kind of object executes a state machine
-(a) Any software object
-(b) An entity object
-(c) A state-dependent control object
-(d) A statechart<term>C<row>An input message to a state-dependent control object corresponds to:
-(a) An event on the internal state machine
-(b) An action on the internal state machine
-(c) A condition on the internal state machine
-(d) A state on the internal state machine<term>A<row>An output message from a statedependent control object corresponds to:
-(a) An event on the internal state machine
-(b) An action on the internal state machine
-(c) A condition on the internal state machine
-(d) A state on the internal state machine<term>B<row>An interaction diagram should be developed for:
-(a) Only the main sequence of the use case
-(b) The main sequence and every alternative sequence of the use case
-(c) The main sequence and a representative alternative sequence of the use case
-(d) The alternative sequences of the use case<term>B<row>Which of the following could happen on an interaction diagram?
-(a) A state-dependent control object sends a message to an entity object.
-(b) A state-dependent control object sends a message to a coordinator object.
-(c) A state-dependent control object sends a message to a printer object.
-(d) All of the above<term>D<row>If the same state machine is used in more than one use case, how is this modeled on interaction diagrams?
-(a) Develop one state-dependent control object for each use case.
-(b) Develop one state-dependent control object containing states from each use case.
-(c) Develop a hierarchical state machine.
-(d) Develop a coordinator object<term>B<row>How would two state-dependent control objects communicate with each other?
-(a) By sending messages to each other
-(b) By transitioning to the same state
-(c) Through an entity object
-(d) Through a proxy object<term>A<row>An object can send alternative messages a or b to a state-dependent control object. How is this handled in the state machine?
-(a) One state with a different transition out of it for each incoming message
-(b) One state for each of the alternative messages
-(c) A composite state to handle the alternative messages
-(d) A substate for each alternative message<term>A<row>In a system in which a client object executes a state machine and communicates with a service, which of the following is true?
-(a) The client has a state-dependent control object but the service does not.
-(b) The service has a state-dependent control object but the client does not.
-(c) Both the client and the service have state-dependent control objects.
-(d) Neither the client nor the service has a state-dependent control object.<term>A<row>What does the software architecture describe?
-(a) The software inside a building
-(b) The structure of a client/server system
-(c) The overall structure of a software system
-(d) The software classes and their relationships<term>C<row>Which of the following statements is NOT true for a component?
-(a) A composite object composed of other objects
-(b) An operation
-(c) A simple object
-(d) Provides an interface<term>B<row>What is a structural view of a software architecture?
-(a) A view in terms of a module hierarchy
-(b) A view in terms of components and connectors
-(c) A view of the physical configuration in terms of nodes and interconnections
-(d) A view in terms of objects and messages<term>B<row>What is a dynamic view of a software architecture?
-(a) A view in terms of a module hierarchy
-(b) A view in terms of components and connectors
-(c) A view of the physical configuration in terms of nodes and interconnections
-(d) A view in terms of objects and messages<term>D<row>What is a deployment view of a software architecture?
-(a) A static view in terms of a module hierarchy
-(b) A static view in terms of components and connectors
-(c) A view of the physical configuration in terms of nodes and interconnections
-(d) A dynamic interaction view in terms of objects and messages<term>C<row>What is a software architectural pattern?
-(a) The structure of the major subsystems of a system
-(b) The components and connectors in a software architecture
-(c) A small group of collaborating objects
-(d) A recurring architecture used in a variety of systems<term>A<row>What happens in a Layers of Abstraction pattern?
-(a) Each layer uses services in the layer immediately below it.
-(b) Each layer uses services in the layer immediately above it.
-(c) Each layer uses services in the layers immediately above it and below it.
-(d) Each layer is independent of the other layers<term>A<row>What happens in a Call/Return pattern?
-(a) A calling operation in the calling object sends a message to an operation (a.k.a. method) in the called object.
-(b) A calling operation in the calling object invokes an operation (a.k.a. method) in the called object.
-(c) The calling object waits for a response from the called object.
-(d) The calling object does not wait for a response from the called object.<term>B<row>A producer sends a message to a consumer. Which one of the following is asynchronous message communication?
-(a) The producer waits for a response from the consumer.
-(b) The producer does not wait for a response from the consumer.
-(c) The producer goes to sleep.
-(d) The producer waits for a timeout.<term>B<row>A producer sends a message to a consumer. Which one of the following is synchronous message communication with reply?
-(a) The producer waits for a response from the consumer.
-(b) The producer does not wait for a response from the consumer.
-(c) The producer goes to sleep.
-(d) The producer waits for a timeout.<term>A<row>What is an integrated communication diagram?
-(a) A communication diagram formed by combining objects
-(b) A synthesis of all the communication diagrams developed to support the use cases
-(c) A communication diagram depicting the objects that realize a use case
-(d) A communication diagram that integrates the entity objects from the static model<term>B<row>Which of the following objects should be assigned to the same subsystem?
-(a) Objects that are part of the same composite object
-(b) Client and server objects
-(c) User interface and entity objects
-(d) Objects that are associated with each other<term>A<row>Objects that are in geographically different locations should be:
-(a) In the same subsystem
-(b) In different subsystems
-(c) In a composite subsystem
-(d) In layered subsystems<term>B<row>If scope of control is used in subsystem structuring, then:
-(a) A user interface object is placed in the same subsystem as an entity object it updates.
-(b) A state-dependent control object is placed in the same subsystem as the objects it controls.
-(c) A state-dependent control object is placed in a different subsystem from the objects it controls.
-(d) A user interface object is placed in a different subsystem from an entity object it updates.<term>B<row>How should an external object be designed to interface to the system?
-(a) It should interface to one subsystem.
-(b) It should interface to several subsystems.
-(c) It should interface to every subsystem.
-(d) It should interface to none of the subsystems.<term>A<row>A user interface subsystem is a type of:
-(a) Control subsystem
-(b) Service subsystem
-(c) Client subsystem
-(d) I/O subsystem<term>C<row>Which of the following objects are NOT likely to be in the same subsystem?
-(a) User interface object and entity object
-(b) State-dependent control object and coordinator object
-(c) Business logic object and entity object
-(d) I/O object and state-dependent control object<term>B<row>Which of the following subsystems is NOT likely to be a client subsystem?
-(a) Control subsystem
-(b) User interaction subsystem
-(c) Service subsystem
-(d) I/O subsystem<term>C<row>When is a coordinator subsystem required?
-(a) If the subsystem needs to coordinate several internal objects
-(b) If the subsystem needs to coordinate multiple I/O devices
-(c) If the subsystem receives messages from multiple client subsystems
-(d) If the subsystem needs to coordinate the execution of other subsystems<term>D<row>When is a control subsystem required?
-(a) If the subsystem needs to control several internal objects
-(b) If the subsystem needs to control multiple I/O devices
-(c) If the subsystem needs to control multiple client subsystems
-(d) If the subsystem needs to control the execution of other subsystems<term>A<row>What is an information hiding object?
-(a) An active object that encapsulates data
-(b) A passive object that encapsulates data
-(c) A class that encapsulates data
-(d) A task that encapsulates data<term>B<row>What is a class interface?
-(a) Specifies the internals of the operations of a class
-(b) Specifies the externally visible operations of a class
-(c) Specifies the parameters of a class operation.
-(d) Specifies the signature of a class operation<term>B<row>Which of the following is NOT an object-oriented concept?
-(a) Information hiding
-(b) Class
-(c) Subclass
-(d) Subroutine<term>D<row>Which of the following is a class that realizes an interface?
-(a) The class calls the interface.
-(b) The class implements the interface.
-(c) The class is called by the interface.
-(d) The class is independent of the interface.<term>C<row>Which of the following is an entity class?
-(a) An information hiding class
-(b) A subclass
-(c) A control class
-(d) A data abstraction class<term>D<row>What does a state machine class encapsulate?
-(a) A state transition table
-(b) A statechart
-(c) The current state of the machine
-(d) A state transition table and the current state of the machine<term>D<row>Which of the following is unlikely to be a graphical user interface class?
-(a) A menu
-(b) A window
-(c) A button
-(d) A pin<term>D<row>Which of the following is unlikely to be encapsulated in a business logic class?
-(a) A business rule
-(b) Calls to operations of an entity class
-(c) Deny cash withdrawal if balance of account is less than $10
-(d) A dialog box<term>D<row>Which of the following is NOT allowed through inheritance?
-(a) Subclass inherits attributes from superclass.
-(b) Subclass inherits operations from superclass.
-(c) Subclass redefines attributes inherited from superclass.
-(d) Subclass redefines operations inherited from superclass.<term>C<row>Which of the following is true for an abstract class?
-(a) It is used as a template for creating objects.
-(b) It is used as a template for creating subclasses.
-(c) It is used as a template for creating classes.
-(d) It is used as a template for creating superclasses.<term>B<row>In object-oriented design, polymorphism means that:
-(a) Different classes may have the same name.
-(b) Different classes may have the same interface name.
-(c) Different classes may have the same superclass name.
-(d) Different classes may have the same operation name.<term>D<row>With polymorphism and dynamic binding, an object can:
-(a) Invoke operation of different names on the same objects.
-(b) Invoke operations of different names on different objects.
-(c) Invoke an operation of the same name on the same object.
-(d) Invoke an operation of the same name on different objects.<term>D<row>What is a server?
-(a) A hardware/software system that serves customers
-(b) A subsystem that makes requests and waits for the responses
-(c) A subsystem that responds to requests from clients
-(d) A hardware/software system that provides one or more services for multiple clients<term>D<row>The basic client/single service architectural pattern states that:
-(a) Multiple clients request services, and multiple services fulfill client requests.
-(b) Multiple clients request services, and a service fulfills client requests.
-(c) A client requests services, and a service fulfills client requests.
-(d) A client requests services, and multiple services fulfill client requests.<term>B<row>In a Multi-tier Client/Service architectural pattern, which of the following is
-true about an intermediate tier?
-(a) An intermediate tier is a client tier.
-(b) An intermediate tier is a service tier.
-(c) An intermediate tier is both a control tier and a service tier.
-(d) An intermediate tier is both a client tier and a service tier.<term>D<row>How is Multiple Client/Multiple Service architectural pattern different from a Multiple Client/Single Service architectural pattern?
-(a) A service can receive requests from multiple clients.
-(b) A client can send requests to multiple services.
-(c) A client can send requests to other clients.
-(d) A service can respond to requests from multiple clients.<term>B<row>How is a sequential service designed?
-(a) One object that responds to requests from clients
-(b) Multiple objects that respond to requests from clients
-(c) One subsystem that responds to requests from clients
-(d) Multiple subsystems that respond to requests from clients<term>A<row>How is a concurrent service designed?
-(a) One object that responds to requests from clients
-(b) Multiple objects that respond to requests from clients
-(c) One subsystem that responds to requests from clients
-(d) Multiple subsystems that respond to requests from clients<term>B<row>What is a database wrapper class?
-(a) A class that encapsulates a data structure
-(b) A class that encapsulates a database
-(c) A class that encapsulates the details of how to access data in a database
-(d) A class that encapsulates a relational table<term>C<row>When designing an entity class as a relational table, which of the following is NOT true?
-(a) The relational table has multiple primary keys.
-(b) The relational table has multiple foreign keys.
-(c) The relational table has a primary key.
-(d) The relational table has a concatenated primary key.<term>A<row>When mapping an aggregation hierarchy to a relational table, which of the following is NOT true?
-(a) The aggregate and part tables have different primary keys.
-(b) The aggregate and part tables have the same primary key.
-(c) The primary key of the aggregate table is a foreign key of the part table.
-(d) The primary key of the part table is a foreign key of the aggregate table.<term>D<row>When mapping a generalization/specialization relationship to a relational database, which of the following is NOT possible?
-(a) The superclass and each subclass are designed as relational tables.
-(b) Only subclasses are designed as relational tables.
-(c) The aggregate and part classes are designed as relational tables.
-(d) Only the superclass is designed as a relational table.<term>C<row>What is a service-oriented architecture (SOA)?
-(a) A distributed software architecture consisting of multiple related services
-(b) A distributed software architecture consisting of multiple autonomous
-services
-(c) A distributed client/service architecture
-(d) A distributed software architecture<term>B<row>Which of the following properties DOES NOT apply to a service?
-(a) Reusable
-(b) Discoverable
-(c) Fixed
-(d) Autonomous<term>C<row>In a SOA, which of the following is NOT true?
-(a) A client communicates with a specific service provided on a fixed server configuration.
-(b) A client discovers and links to a service.
-(c) Multiple clients communicate with a service.
-(d) Standard protocols are provided to allow clients to communicate with services<term>A<row>What is an object broker?
-(a) An object that breaks into a system
-(b) An object that sends requests to other objects
-(c) An object that handles requests sent by other objects
-(d) An object that mediates interactions between clients and services<term>D<row>Why does a service register with a broker?
-(a) So that service requesters can discover it
-(b) So that a service can interrogate the broker
-(c) So that the registry is up to date
-(d) So that the service can relocate<term>A<row>When is it particularly useful to use the Broker Handle pattern in place of the Broker Forwarding pattern?
-(a) If the client only communicates with the service once
-(b) If the client needs to have a dialog with the service
-(c) If the client knows the type of service required but not the specific service
-(d) If the client needs to provide the broker with a handle<term>B<row>Yellow pages brokering is useful when a service requester:
-(a) Needs to discover the location of the service
-(b) Knows the type of service required but not the specific service
-(c) Knows the specific service required but not the type of service
-(d) Needs to discover the broker<term>B<row>What is a transaction?
-(a) Consists of two or more operations
-(b) Consists of one operation
-(c) Consists of two or more operations that are indivisible
-(d) Consists of two or more operations that are divisible<term>C<row>What is a compound transaction?
-(a) The compound transaction is indivisible.
-(b) The compound transaction is atomic.
-(c) The compound transaction is decomposed into atomic transactions.
-(d) The compound transaction is decomposed into subatomic transactions.<term>C<row>With a Negotiation pattern, which of the following is NOT true?
-(a) The client agent can propose a service.
-(b) The service agent can offer a service in response to a client agent proposal.
-(c) The client agent can request a service.
-(d) The service agent can offer a service in response to a client agent request.<term>D<row>In a distributed component-based software architecture, which of the following statements is the most complete description of component deployment?
-(a) Component instances can be deployed to different nodes in a geographically distributed environment.
-(b) Component instances can be deployed to different nodes in a geographically distributed environment before design.
-(c) Component instances can be deployed to different nodes in a geographically distributed environment before implementation.
-(d) Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation.<term>D<row>What does a component interface consist of?
-(a) The externally visible operations of a component
-(b) The operations provided by a component
-(c) The operations required by a component
-(d) The operations that a component supports<term>A<row>What does a component's provided interface consist of?
-(a) The operations that a component must fulfill
-(b) The operations inside a component
-(c) The operations that a component uses
-(d) The operations of a component<term>A<row>What does a component's required interface consist of?
-(a) The operations that a component must fulfill
-(b) The operations inside a component
-(c) The operations that a component uses
-(d) The visible operations of a component<term>B<row>What does a connector join?
-(a) The provided port of one component to the required port of another component
-(b) The provided port of one component to the provided port of another component
-(c) The required port of one component to the provided port of another component
-(d) The required port of one component to the required port of another component<term>C<row>What does a delegation connector join?
-(a) An outer provided port to an inner provided port
-(b) An outer provided port to an inner required port
-(c) An outer required port to an inner provided port
-(d) An outer provided port to an outer required port<term>A<row>What is broadcast message communication?
-(a) A message sent to several recipients
-(b) A message sent to a specific recipient
-(c) A message sent to all recipients
-(d) A message sent to recipients who are members of a group<term>C<row>What are the communication characteristics of subscription/notification?
-(a) A message sent to several recipients
-(b) A message sent to a specific recipient
-(c) A message sent to all recipients
-(d) A message sent to recipients who have joined a group<term>D<row>During application deployment:
-(a) The application is executed.
-(b) Component instances are executed.
-(c) Component instances are assigned to hardware nodes.
-(d) Component instances are instantiated.<term>C<row>What is an advantage of localized autonomy in component-based design?
-(a) If a component goes down, other components can continue to execute.
-(b) Components execute concurrently.
-(c) Components are distributed.
-(d) Components communicate using messages.<term>A<row>What is the difference between an active object and a passive object?
-(a) An active object controls a passive object.
-(b) An active object does not have a thread of control; a passive object has a thread of control.
-(c) An active object executes in a distributed system; a passive object executes in a centralized system.
-(d) An active object has a thread of control; a passive object does not have a thread of control.<term>D<row>What is an event-driven input task?
-(a) A task that executes every few seconds
-(b) A task that controls other tasks
-(c) A task that receives inputs from an external device when it generates interrupts
-(d) A task that checks whether there is new input from an external device<term>C<row>What is a periodic task?
-(a) A task that responds to each message it receives
-(b) A task that is activated by a timer event
-(c) A task that is activated by an external event
-(d) A task that is activated by an input event<term>B<row>What is a demand-driven task?
-(a) A task that responds to each message it receives
-(b) A task that is activated by an internal message or event from another task
-(c) A task that is activated by an external event
-(d) A task that is activated by an input event<term>B<row>What is a control task?
-(a) A task that control other tasks
-(b) A task that executes a statechart
-(c) A task that executes on demand
-(d) A task that controls I/O devices<term>B<row>What is a user interaction task?
-(a) A task that interacts with I/O devices
-(b) A task that interacts with users
-(c) A task that interacts with a user sequentially
-(d) A task that interacts with a user concurrently<term>C<row>Which of the following is true for a Centralized Control architectural pattern?
-(a) Control is divided among various control components.
-(b) It provides the overall control and sequencing of the system.
-(c) It provides overall control by coordinating several control components.
-(d) It provides overall control over various I/O objects.<term>B<row>Which of the following is true for a Distributed Control architectural pattern?
-(a) Control is divided among various control components.
-(b) It responds to multiple requests from client subsystems.
-(c) It provides overall control by coordinating several control components.
-(d) It provides distributed control over various I/O objects.<term>A<row>Which of the following is true for a Hierarchical Control architectural pattern?
-(a) Control is divided among various control components.
-(b) It provides overall control over several client subsystems.
-(c) It provides overall control by coordinating several control components.
-(d) It provides overall control over various I/O objects.<term>C<row>Which of the following is NOT a case of event synchronization?
-(a) External event
-(b) Internal event
-(c) Timer event
-(d) User event<term>D<row>What is a software product line (SPL)?
-(a) A family of systems with some common components and some variable omponents
-(b) An assembly line
-(c) A family of identical systems
-(d) The software products marketed by a company<term>A<row>What is an optional use case?
-(a) A use case with some optional steps
-(b) A use case that does not need to be developed
-(c) A use case that is required by some product line members but not others
-(d) A use case that can be chosen in place of a different use case in a SPL member<term>C<row>What is a use case variation point?
-(a) A variable use case
-(b) A location in the use case at which change can occur
-(c) An alternative use case
-(d) A location in the use case where an alternative path can start<term>B<row>What is a SPL feature?
-(a) A requirement or characteristic that is provided by one or more SPL members
-(b) A marketing need
-(c) A class provided by the SPL
-(d) A SPL use case<term>A<row>What is a SPL feature group?
-(a) A collection of features
-(b) A group of features with a particular constraint on their usage in a SPL member
-(c) A group of mutually exclusive features
-(d) A group of optional features with a particular constraint on their usage in a SPL member<term>B<row>What is a kernel class in a SPL?
-(a) An entity class in the SPL
-(b) A SPL class that stores essential data
-(c) A class that is required by all members of the SPL
-(d) An external class to the SPL<term>C<row>What two categories of stereotypes are used in modeling SPL classes?
-(a) Kernel and optional stereotypes
-(b) Optional and variant stereotypes
-(c) Common and variant stereotypes
-(d) Reuse and application role stereotypes<term>D<row>How are feature conditions used in a SPL state machine?
-(a) A guard condition
-(b) A condition that is True or False
-(c) To identify if a feature is selected or not in the state machine
-(d) To allow state machine inheritance<term>C<row>What is a kernel system in a SPL?
-(a) A member of the SPL only composed of kernel classes
-(b) A member of the SPL composed of kernel classes and possibly some default classes
-(c) A member of the SPL composed of kernel classes and possibly some optional classes
-(d) A member of the SPL composed of kernel classes and possibly some entity classes<term>B<row>What does the SPL software architecture describe?
-(a) The software inside a family of buildings
-(b) The structure of a client/server product family
-(c) The overall structure of the software product line
-(d) The software product line classes and their relationships<term>C<row>What do software quality attributes address?
-(a) Software functional requirements
-(b) Software nonfunctional requirements
-(c) Software performance requirements
-(d) Software availability requirements<term>B<row>What is maintainability?
-(a) The extent to which software is capable of being changed before deployment
-(b) The extent to which software is capable of being changed after deployment
-(c) The extent to which software is capable of being changed during development
-(d) The extent to which software is capable of being changed after development<term>B<row>What is modifiability?
-(a) The extent to which software is capable of being modified after deployment
-(b) The extent to which software is capable of being modified after initial development
-(c) The extent to which software is capable of being modified during and after initial development
-(d) The extent to which software is capable of being changed before deployment<term>C<row>What is testability?
-(a) The extent to which software is capable of being developed
-(b) The extent to which software is capable of being tested before deployment
-(c) The extent to which software is capable of being tested after deployment
-(d) The extent which the software is understood<term>B<row>Traceability is the extent to which a product:
-(a) Can be traced back to products of previous phases
-(b) Traced back to the requirements
-(c) Traced forward to implementation
-(d) Deployed to a hardware configuration<term>A<row>What is scalability?
-(a) The extent to which an application can grow
-(b) The extent to which the system is capable of growing after its initial deployment
-(c) The extent to which the system is capable of growing during development
-(d) The extent to which the system is capable of being scaled<term>B<row>What is reusability?
-(a) The extent to which software implementation is reusable
-(b) The extent to which software is capable of being reused
-(c) The extent to which SPL technology can be introduced
-(d) The extent to which the software is common among a program family<term>B<row>Which of the following is not performance-related?
-(a) System response time
-(b) System throughput
-(c) System availability
-(d) System capacity<term>C<row>Which of the following is not addressed by a secure system?
-(a) System penetration
-(b) Denial of service
-(c) System scalability
-(d) System authorization<term>C<row>Which of the following system problems does availability address?
-(a) Denial of service
-(b) Single point of failure
-(c) System throughput
-(d) System penetration<term><row>
+(d) A state-dependent user interaction object <term>C<row>Which kind of object executes a state machine 
+
+(a) Any software object 
+(b) An entity object 
+(c) A state-dependent control object 
+(d) A statechart <term>C<row>An input message to a state-dependent control object corresponds to: 
+
+(a) An event on the internal state machine 
+(b) An action on the internal state machine 
+(c) A condition on the internal state machine 
+(d) A state on the internal state machine <term>A<row>An output message from a state dependent control object corresponds to: 
+
+(a) An event on the internal state machine 
+(b) An action on the internal state machine 
+(c) A condition on the internal state machine 
+(d) A state on the internal state machine <term>B<row>An interaction diagram should be developed for: 
+
+(a) Only the main sequence of the use case 
+(b) The main sequence and every alternative sequence of the use case 
+(c) The main sequence and a representative alternative sequence of the use case 
+(d) The alternative sequences of the use case <term>B<row>Which of the following could happen on an interaction diagram? 
+
+(a) A state-dependent control object sends a message to an entity object. 
+(b) A state-dependent control object sends a message to a coordinator object. 
+(c) A state-dependent control object sends a message to a printer object. 
+(d) All of the above <term>D<row>If the same state machine is used in more than one use case, how is this modeled on interaction diagrams? 
+
+(a) Develop one state-dependent control object for each use case. 
+(b) Develop one state-dependent control object containing states from each use case. 
+(c) Develop a hierarchical state machine. 
+(d) Develop a coordinator object. <term>B<row>How would two state-dependent control objects communicate with each other? 
+
+(a) By sending messages to each other 
+(b) By transitioning to the same state 
+(c) Through an entity object 
+(d) Through a proxy object <term>A<row>An object can send alternative messages a or b to a state-dependent control object. How is this handled in the state machine? 
+
+(a) One state with a different transition out of it for each incoming message 
+(b) One state for each of the alternative messages 
+(c) A composite state to handle the alternative messages 
+(d) A substate for each alternative message <term>A<row>In a system in which a client object executes a state machine and communicates with a service, which of the following is true? 
+
+(a) The client has a state-dependent control object but the service does not. 
+(b) The service has a state-dependent control object but the client does not. 
+(c) Both the client and the service have state-dependent control objects. 
+(d) Neither the client nor the service has a state-dependent control object. <term>A<row>What does the software architecture describe? 
+
+(a) The software inside a building 
+(b) The structure of a client/server system 
+(c) The overall structure of a software system 
+(d) The software classes and their relationships <term>C<row>Which of the following statements is NOT true for a component? 
+
+(a) A composite object composed of other objects 
+(b) An operation 
+(c) A simple object 
+(d) Provides an interface <term>B<row>What is a structural view of a software architecture? 
+
+(a) A view in terms of a module hierarchy 
+(b) A view in terms of components and connectors 
+(c) A view of the physical configuration in terms of nodes and interconnections 
+(d) A view in terms of objects and messages <term>B<row>What is a dynamic view of a software architecture? 
+
+(a) A view in terms of a module hierarchy 
+(b) A view in terms of components and connectors 
+(c) A view of the physical configuration in terms of nodes and interconnections 
+(d) A view in terms of objects and messages <term>D<row>What is a deployment view of a software architecture? 
+
+(a) A static view in terms of a module hierarchy 
+(b) A static view in terms of components and connectors 
+(c) A view of the physical configuration in terms of nodes and interconnections 
+(d) A dynamic interaction view in terms of objects and messages <term>C<row>What is a software architectural pattern? 
+
+(a) The structure of the major subsystems of a system 
+(b) The components and connectors in a software architecture 
+(c) A small group of collaborating objects 
+(d) A recurring architecture used in a variety of systems <term>A<row>What happens in a Layers of Abstraction pattern? 
+
+(a) Each layer uses services in the layer immediately below it. 
+(b) Each layer uses services in the layer immediately above it. 
+(c) Each layer uses services in the layers immediately above it and below it. 
+(d) Each layer is independent of the other layers. <term>A<row>What happens in a Call/Return pattern? 
+
+(a) A calling operation in the calling object sends a message to an operation (a.k.a. method) in the called object. 
+(b) A calling operation in the calling object invokes an operation (a.k.a. method) in the called object. 
+(c) The calling object waits for a response from the called object. 
+(d) The calling object does not wait for a response from the called object. <term>B<row>A producer sends a message to a consumer. Which one of the following is asynchronous message communication? 
+
+(a) The producer waits for a response from the consumer. 
+(b) The producer does not wait for a response from the consumer. 
+(c) The producer goes to sleep. 
+(d) The producer waits for a timeout. <term>B<row>A producer sends a message to a consumer. Which one of the following is synchronous message communication with reply? 
+
+(a) The producer waits for a response from the consumer. 
+(b) The producer does not wait for a response from the consumer. 
+(c) The producer goes to sleep. 
+(d) The producer waits for a timeout <term>A<row>What is an integrated communication diagram? 
+
+(a) A communication diagram formed by combining objects 
+(b) A synthesis of all the communication diagrams developed to support the use cases 
+(c) A communication diagram depicting the objects that realize a use case 
+(d) A communication diagram that integrates the entity objects from the static model <term>B<row>Which of the following objects should be assigned to the same subsystem? 
+
+(a) Objects that are part of the same composite object 
+(b) Client and server objects 
+(c) User interface and entity objects 
+(d) Objects that are associated with each other <term>A<row>Objects that are in geographically different locations should be: 
+
+(a) In the same subsystem 
+(b) In different subsystems 
+(c) In a composite subsystem 
+(d) In layered subsystems <term>B<row>If scope of control is used in subsystem structuring, then: 
+
+(a) A user interface object is placed in the same subsystem as an entity object it updates. 
+(b) A state-dependent control object is placed in the same subsystem as the objects it controls. 
+(c) A state-dependent control object is placed in a different subsystem from the objects it controls. 
+(d) A user interface object is placed in a different subsystem from an entity object it updates. <term>B<row>How should an external object be designed to interface to the system? 
+
+(a) It should interface to one subsystem. 
+(b) It should interface to several subsystems. 
+(c) It should interface to every subsystem. 
+(d) It should interface to none of the subsystems. <term>A<row>A user interface subsystem is a type of: 
+
+(a) Control subsystem 
+(b) Service subsystem 
+(c) Client subsystem 
+(d) I/O subsystem <term>C<row>Which of the following objects are NOT likely to be in the same subsystem? 
+
+(a) User interface object and entity object 
+(b) State-dependent control object and coordinator object 
+(c) Business logic object and entity object 
+(d) I/O object and state-dependent control object <term>B<row>Which of the following subsystems is NOT likely to be a client subsystem? 
+
+(a) Control subsystem 
+(b) User interaction subsystem 
+(c) Service subsystem 
+(d) I/O subsystem <term>C<row>When is a coordinator subsystem required? 
+
+(a) If the subsystem needs to coordinate several internal objects 
+(b) If the subsystem needs to coordinate multiple I/O devices 
+(c) If the subsystem receives messages from multiple client subsystems 
+(d) If the subsystem needs to coordinate the execution of other subsystems <term>D<row>When is a control subsystem required? 
+
+(a) If the subsystem needs to control several internal objects 
+(b) If the subsystem needs to control multiple I/O devices 
+(c) If the subsystem needs to control multiple client subsystems 
+(d) If the subsystem needs to control the execution of other subsystems <term>A<row>What is an information hiding object? 
+
+(a) An active object that encapsulates data 
+(b) A passive object that encapsulates data 
+(c) A class that encapsulates data 
+(d) A task that encapsulates data <term>B<row>What is a class interface? 
+
+(a) Specifies the internals of the operations of a class 
+(b) Specifies the externally visible operations of a class 
+(c) Specifies the parameters of a class operation. 
+(d) Specifies the signature of a class operation <term>B<row>Which of the following is NOT an object-oriented concept? 
+
+(a) Information hiding 
+(b) Class 
+(c) Subclass 
+(d) Subroutine <term>D<row>Which of the following is a class that realizes an interface? 
+
+(a) The class calls the interface. 
+(b) The class implements the interface. 
+(c) The class is called by the interface. 
+(d) The class is independent of the interface. <term>C<row>Which of the following is an entity class? 
+
+(a) An information hiding class 
+(b) A subclass 
+(c) A control class 
+(d) A data abstraction class <term>D<row>What does a state machine class encapsulate? 
+
+(a) A state transition table 
+(b) A statechart 
+(c) The current state of the machine 
+(d) A state transition table and the current state of the machine <term>D<row>Which of the following is unlikely to be a graphical user interface class? 
+
+(a) A menu 
+(b) A window 
+(c) A button 
+(d) A pin <term>D<row>Which of the following is unlikely to be encapsulated in a business logic class? 
+
+(a) A business rule 
+(b) Calls to operations of an entity class 
+(c) Deny cash withdrawal if balance of account is less than $10 
+(d) A dialog box <term>D<row>Which of the following is NOT allowed through inheritance? 
+
+(a) Subclass inherits attributes from superclass. 
+(b) Subclass inherits operations from superclass. 
+(c) Subclass redefines attributes inherited from superclass. 
+(d) Subclass redefines operations inherited from superclass. <term>C<row>Which of the following is true for an abstract class? 
+
+(a) It is used as a template for creating objects. 
+(b) It is used as a template for creating subclasses. 
+(c) It is used as a template for creating classes. 
+(d) It is used as a template for creating superclasses. <term>B<row>In object-oriented design, polymorphism means that: 
+
+(a) Different classes may have the same name. 
+(b) Different classes may have the same interface name. 
+(c) Different classes may have the same superclass name. 
+(d) Different classes may have the same operation name. <term>D<row>With polymorphism and dynamic binding, an object can: 
+
+(a) Invoke operation of different names on the same objects. 
+(b) Invoke operations of different names on different objects. 
+(c) Invoke an operation of the same name on the same object. 
+(d) Invoke an operation of the same name on different objects. <term>D<row>What is a server? 
+
+(a) A hardware/software system that serves customers 
+(b) A subsystem that makes requests and waits for the responses 
+(c) A subsystem that responds to requests from clients 
+(d) A hardware/software system that provides one or more services for multiple clients <term>D<row>The basic client/single service architectural pattern states that: 
+
+(a) Multiple clients request services, and multiple services fulfill client requests. 
+(b) Multiple clients request services, and a service fulfills client requests. 
+(c) A client requests services, and a service fulfills client requests. 
+(d) A client requests services, and multiple services fulfill client requests. <term>B<row>In a Multi-tier Client/Service architectural pattern, which of the following is true about an intermediate tier? 
+
+(a) An intermediate tier is a client tier. 
+(b) An intermediate tier is a service tier. 
+(c) An intermediate tier is both a control tier and a service tier. 
+(d) An intermediate tier is both a client tier and a service tier. <term>D<row>How is Multiple Client/Multiple Service architectural pattern different from a Multiple Client/Single Service architectural pattern? 
+
+(a) A service can receive requests from multiple clients. 
+(b) A client can send requests to multiple services. 
+(c) A client can send requests to other clients. 
+(d) A service can respond to requests from multiple clients. <term>B<row>How is a sequential service designed? 
+
+(a) One object that responds to requests from clients 
+(b) Multiple objects that respond to requests from clients 
+(c) One subsystem that responds to requests from clients 
+(d) Multiple subsystems that respond to requests from clients <term>A<row>How is a concurrent service designed? 
+
+(a) One object that responds to requests from clients 
+(b) Multiple objects that respond to requests from clients 
+(c) One subsystem that responds to requests from clients 
+(d) Multiple subsystems that respond to requests from clients <term>B<row>What is a database wrapper class? 
+
+(a) A class that encapsulates a data structure 
+(b) A class that encapsulates a database 
+(c) A class that encapsulates the details of how to access data in a database 
+(d) A class that encapsulates a relational table <term>C<row>When designing an entity class as a relational table, which of the following is NOT true? 
+
+(a) The relational table has multiple primary keys. 
+(b) The relational table has multiple foreign keys. 
+(c) The relational table has a primary key. 
+(d) The relational table has a concatenated primary key. <term>A<row>When mapping an aggregation hierarchy to a relational table, which of the following is NOT true? 
+
+(a) The aggregate and part tables have different primary keys. 
+(b) The aggregate and part tables have the same primary key. 
+(c) The primary key of the aggregate table is a foreign key of the part table. 
+(d) The primary key of the part table is a foreign key of the aggregate table. <term>D<row>When mapping a generalization/specialization relationship to a relational database, which of the following is NOT possible? 
+
+(a) The superclass and each subclass are designed as relational tables. 
+(b) Only subclasses are designed as relational tables. 
+(c) The aggregate and part classes are designed as relational tables. 
+(d) Only the superclass is designed as a relational table. <term>C<row>What is a service-oriented architecture (SOA)? 
+
+(a) A distributed software architecture consisting of multiple related services 
+(b) A distributed software architecture consisting of multiple autonomous services 
+(c) A distributed client/service architecture 
+(d) A distributed software architecture <term>B<row>Which of the following properties DOES NOT apply to a service? 
+
+(a) Reusable 
+(b) Discoverable 
+(c) Fixed 
+(d) Autonomous <term>C<row>In a SOA, which of the following is NOT true? 
+
+(a) A client communicates with a specific service provided on a fixed server configuration. 
+(b) A client discovers and links to a service. 
+(c) Multiple clients communicate with a service. 
+(d) Standard protocols are provided to allow clients to communicate with services. <term>A<row>What is an object broker? 
+
+(a) An object that breaks into a system 
+(b) An object that sends requests to other objects 
+(c) An object that handles requests sent by other objects 
+(d) An object that mediates interactions between clients and services <term>D<row>Why does a service register with a broker? 
+
+(a) So that service requesters can discover it 
+(b) So that a service can interrogate the broker 
+(c) So that the registry is up to date 
+(d) So that the service can relocate <term>A<row>When is it particularly useful to use the Broker Handle pattern in place of the Broker Forwarding pattern? 
+
+(a) If the client only communicates with the service once 
+(b) If the client needs to have a dialog with the service 
+(c) If the client knows the type of service required but not the specific service 
+(d) If the client needs to provide the broker with a handle <term>B<row>Yellow pages brokering is useful when a service requester: 
+
+(a) Needs to discover the location of the service 
+(b) Knows the type of service required but not the specific service 
+(c) Knows the specific service required but not the type of service 
+(d) Needs to discover the broker <term>B<row>What is a transaction? 
+
+(a) Consists of two or more operations 
+(b) Consists of one operation 
+(c) Consists of two or more operations that are indivisible 
+(d) Consists of two or more operations that are divisible <term>C<row>What is a compound transaction? 
+
+(a) The compound transaction is indivisible. 
+(b) The compound transaction is atomic. 
+(c) The compound transaction is decomposed into atomic transactions. 
+(d) The compound transaction is decomposed into subatomic transactions. <term>C<row>With a Negotiation pattern, which of the following is NOT true? 
+
+(a) The client agent can propose a service. 
+(b) The service agent can offer a service in response to a client agent proposal. 
+(c) The client agent can request a service. 
+(d) The service agent can offer a service in response to a client agent request. <term>D<row>In a distributed component-based software architecture, which of the following statements is the most complete description of component deployment? 
+
+(a) Component instances can be deployed to different nodes in a geographically distributed environment. 
+(b) Component instances can be deployed to different nodes in a geographically distributed environment before design. 
+(c) Component instances can be deployed to different nodes in a geographically distributed environment before implementation. 
+(d) Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation. <term>D<row>What does a component interface consist of? 
+
+(a) The externally visible operations of a component 
+(b) The operations provided by a component 
+(c) The operations required by a component 
+(d) The operations that a component supports <term>A<row>What does a component's provided interface consist of? 
+
+(a) The operations that a component must fulfill 
+(b) The operations inside a component 
+(c) The operations that a component uses 
+(d) The operations of a component <term>A<row>What does a component's required interface consist of? 
+
+(a) The operations that a component must fulfill 
+(b) The operations inside a component 
+(c) The operations that a component uses 
+(d) The visible operations of a component <term>B<row>What does a connector join? 
+
+(a) The provided port of one component to the required port of another component 
+(b) The provided port of one component to the provided port of another component 
+(c) The required port of one component to the provided port of another component 
+(d) The required port of one component to the required port of another component <term>C<row>What does a delegation connector join? 
+
+(a) An outer provided port to an inner provided port 
+(b) An outer provided port to an inner required port 
+(c) An outer required port to an inner provided port 
+(d) An outer provided port to an outer required port <term>A<row>What is broadcast message communication? 
+
+(a) A message sent to several recipients 
+(b) A message sent to a specific recipient 
+(c) A message sent to all recipients 
+(d) A message sent to recipients who are members of a group <term>C<row>What are the communication characteristics of subscription/notification? 
+
+(a) A message sent to several recipients 
+(b) A message sent to a specific recipient 
+(c) A message sent to all recipients 
+(d) A message sent to recipients who have joined a group <term>B<row>During application deployment: 
+
+(a) The application is executed. 
+(b) Component instances are executed. 
+(c) Component instances are assigned to hardware nodes. 
+(d) Component instances are instantiated. <term>C<row>What is an advantage of localized autonomy in component-based design? 
+
+(a) If a component goes down, other components can continue to execute. 
+(b) Components execute concurrently. 
+(c) Components are distributed. 
+(d) Components communicate using messages. <term>A<row>What is the difference between an active object and a passive object? 
+
+(a) An active object controls a passive object. 
+(b) An active object does not have a thread of control; a passive object has a thread of control. 
+(c) An active object executes in a distributed system; a passive object executes in a centralized system. 
+(d) An active object has a thread of control; a passive object does not have a thread of control. <term>D<row>What is an event-driven input task? 
+
+(a) A task that executes every few seconds 
+(b) A task that controls other tasks 
+(c) A task that receives inputs from an external device when it generates interrupts 
+(d) A task that checks whether there is new input from an external device <term>C<row>What is a periodic task? 
+
+(a) A task that responds to each message it receives 
+(b) A task that is activated by a timer event 
+(c) A task that is activated by an external event 
+(d) A task that is activated by an input event <term>B<row>What is a demand-driven task? 
+
+(a) A task that responds to each message it receives 
+(b) A task that is activated by an internal message or event from another task 
+(c) A task that is activated by an external event 
+(d) A task that is activated by an input event <term>B<row>What is a control task? 
+
+(a) A task that control other tasks 
+(b) A task that executes a statechart 
+(c) A task that executes on demand 
+(d) A task that controls I/O devices <term>B<row>What is a user interaction task? 
+
+(a) A task that interacts with I/O devices 
+(b) A task that interacts with users 
+(c) A task that interacts with a user sequentially 
+(d) A task that interacts with a user concurrently <term>C<row>Which of the following is true for a Centralized Control architectural pattern? 
+
+(a) Control is divided among various control components. 
+(b) It provides the overall control and sequencing of the system. 
+(c) It provides overall control by coordinating several control components. 
+(d) It provides overall control over various I/O objects. <term>B<row>Which of the following is true for a Distributed Control architectural pattern?
+
+(a) Control is divided among various control components. 
+(b) It responds to multiple requests from client subsystems. 
+(c) It provides overall control by coordinating several control components. 
+(d) It provides distributed control over various I/O objects. <term>A<row>Which of the following is true for a Hierarchical Control architectural pattern? 
+
+(a) Control is divided among various control components. 
+(b) It provides overall control over several client subsystems. 
+(c) It provides overall control by coordinating several control components. 
+(d) It provides overall control over various I/O objects. <term>C<row>Which of the following is NOT a case of event synchronization? 
+
+(a) External event 
+(b) Internal event 
+(c) Timer event 
+(d) User event <term>D<row>What is a software product line (SPL)? 
+
+(a) A family of systems with some common components and some variable components 
+(b) An assembly line 
+(c) A family of identical systems 
+(d) The software products marketed by a company <term>A<row>What is an optional use case? 
+
+(a) A use case with some optional steps 
+(b) A use case that does not need to be developed 
+(c) A use case that is required by some product line members but not others 
+(d) A use case that can be chosen in place of a different use case in a SPL member <term>C<row>What is a use case variation point? 
+
+(a) A variable use case 
+(b) A location in the use case at which change can occur 
+(c) An alternative use case 
+(d) A location in the use case where an alternative path can start <term>B<row>What is a SPL feature? 
+
+(a) A requirement or characteristic that is provided by one or more SPL members 
+(b) A marketing need 
+(c) A class provided by the SPL 
+(d) A SPL use case <term>A<row>What is a SPL feature group? 
+
+(a) A collection of features 
+(b) A group of features with a particular constraint on their usage in a SPL member 
+(c) A group of mutually exclusive features 
+(d) A group of optional features with a particular constraint on their usage in a SPL member <term>B<row>What is a kernel class in a SPL? 
+
+(a) An entity class in the SPL 
+(b) A SPL class that stores essential data 
+(c) A class that is required by all members of the SPL 
+(d) An external class to the SPL <term>C<row>What two categories of stereotypes are used in modeling SPL classes? 
+
+(a) Kernel and optional stereotypes 
+(b) Optional and variant stereotypes 
+(c) Common and variant stereotypes 
+(d) Reuse and application role stereotypes <term>D<row>How are feature conditions used in a SPL state machine? 
+
+(a) A guard condition 
+(b) A condition that is True or False 
+(c) To identify if a feature is selected or not in the state machine 
+(d) To allow state machine inheritance <term>C<row>What is a kernel system in a SPL? 
+
+(a) A member of the SPL only composed of kernel classes 
+(b) A member of the SPL composed of kernel classes and possibly some default classes 
+(c) A member of the SPL composed of kernel classes and possibly some optional classes 
+(d) A member of the SPL composed of kernel classes and possibly some entity classes <term>B<row>What does the SPL software architecture describe? 
+
+(a) The software inside a family of buildings 
+(b) The structure of a client/server product family 
+(c) The overall structure of the software product line 
+(d) The software product line classes and their relationships <term>C<row>What do software quality attributes address? 
+
+(a) Software functional requirements 
+(b) Software nonfunctional requirements 
+(c) Software performance requirements 
+(d) Software availability requirements <term>B<row>What is maintainability? 
+
+(a) The extent to which software is capable of being changed before deployment 
+(b) The extent to which software is capable of being changed after deployment 
+(c) The extent to which software is capable of being changed during development 
+(d) The extent to which software is capable of being changed after development <term>B<row>What is modifiability? 
+
+(a) The extent to which software is capable of being modified after deployment 
+(b) The extent to which software is capable of being modified after initial development 
+(c) The extent to which software is capable of being modified during and after initial development 
+(d) The extent to which software is capable of being changed before deployment <term>C<row>What is testability? 
+
+(a) The extent to which software is capable of being developed 
+(b) The extent to which software is capable of being tested before deployment 
+(c) The extent to which software is capable of being tested after deployment 
+(d) The extent to which the software is understood <term>B<row>Traceability is the extent to which a product: 
+
+(a) Can be traced back to products of previous phases 
+(b) Traced back to the requirements 
+(c) Traced forward to implementation 
+(d) Deployed to a hardware configuration <term>A<row>What is scalability? 
+
+(a) The extent to which an application can grow 
+(b) The extent to which the system is capable of growing after its initial deployment 
+(c) The extent to which the system is capable of growing during development 
+(d) The extent to which the system is capable of being scaled <term>B<row>What is reusability? 
+
+(a) The extent to which software implementation is reusable 
+(b) The extent to which software is capable of being reused 
+(c) The extent to which SPL technology can be introduced 
+(d) The extent to which the software is common among a program family <term>B<row>Which of the following is not performance-related? 
+
+(a) System response time 
+(b) System throughput 
+(c) System availability 
+(d) System capacity <term>C<row>Which of the following is not addressed by a secure system? 
+
+(a) System penetration 
+(b) Denial of service 
+(c) System scalability 
+(d) System authorization <term>C<row>Which of the following system problems does availability address? 
+
+(a) Denial of service 
+(b) Single point of failure 
+(c) System throughput 
+(d) System penetration <term>B<row>The purpose of the software design phase is to produce a software requirement specification. 
+
+A. True 
+B. False <term>B<row>Which of the following structures describe the dynamic properties of software architecture? 
+
+A. Software management structure 
+B. Software deployment structure 
+C. Software code structure 
+D. Software runtime structure <term>D<row>
