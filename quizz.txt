@@ -1,1473 +1,1662 @@
-There are two categories of data-centered architecture
-
-A. Batch sequential and Repository
-B. Pipe-filter and Batch sequential
-C. Repository and Blackboard
-D. Blackboard and Pipe-filter <term>C<row>Sam realized that her DeliveryDriver class had some behaviour and attributes that could be shared by other classes, like BusDriver and TaxiDriver, so she made a class called Driver that these classes inherited behaviour from. Which object-oriented design principle did she use?
-
-A. abstraction
-B. encapsulation
-C. decomposition
-D. generalization <term>D<row>Which of these UML diagrams might be useful for the logical view of a system?
-
-A. Class diagram and Sequence diagram
-B. Sequence diagram and Deployment diagram
-C. State diagram and Class diagram
-D. Deployment diagram and State diagram <term>C<row>There is a common technique that used in event architectures to indicate whether or not a particular resource is being accessed by another process at that moment. What is it called?
-
-A. semaphore 
-B. access switch
-C. toggle
-D. occupied <term>B<row>What is NOT the essential parts of an HTTP request?
-
-A. A blank space
-B. A message body
-C. Headers
-D. Request-line <term>A<row>Which of the following attributes can be improved by installing firewalls, establishing authentication and authorization processes, and using encryption?
-
-A. availability
-B. usability
-C. performance
-D. security <term>D<row>Which of the following quality attribute pairs is tradeoff?
-
-A. Scalability and Performance
-B. Reliability and Availibility
-C. Availability and Interoperability
-D. Reusability and Interoperability <term>A<row>What is the name for a physical result of the development process, such as an executable file?
-
-A. node
-B. leaf
-C. package
-D. artifact <term>D<row>What might NOT contain in architecture style?
-
-A. Rules that how to structure the system
-B. How to design user interface
-C. Constraints that how to structure the system
-D. Patterns that that how to structure the system <term>B<row>Which connector type allows one of its incident elements to send a request (method call or message) to another and wait for a response (method return value or message)
-
-A. Unblocking
-B. Blocking
-C. Two-initiator
-D. One-initiator <term>B<row>Which of these is not desirable characteristic of a web service?
-
-A. composable
-B. platform-independent
-C. modular
-D. simple <term>B<row>Which of these quality attributes is most important from the developer's perspective?
-
-A. usability
-B. availability
-C. flexibility
-D. security <term>C<row>What are the main software elements at software development time?
-
-A. Source code modules or files
-B. Binary versions of the project modules and files
-C. Processes and threads
-D. All of the others <term>A<row>Consider statements about MVC:
-1. It is expensive to change data model in case of multiple pairs of controllers and views based on the same data model.
-2. The division between the View and the Controller is not clear in some cases.
-
-A. 1 and 2 are false
-B. 1 and 2 are true
-C. 1 is true, 2 is false
-D. 1 is false, 2 is true <term>B<row>What are some advantages of object-oriented programing in a language like Java?
-
-A. computing efficiency, abstract data types and data management
-B. mimic the real-world structure of the problem, computing efficiency and data management
-C. mimic the real-world structure of the problem, abstract data types and data management
-D. mimic the real-world structure of the problem, abstract data types and computing efficiency <term>C<row>"Maintenance Downtime" is an attribute refinement of what quality attribute?
-
-A. Conceptual Integrity
-B. Performance
-C. Maintainability
-D. Availability <term>C<row>Which attribute quality is NOT from a user's perspective?
-
-A. Availability
-B. Interoperability
-C. Flexibility
-D. Performance <term>C<row>The "+1" in Kruchten's 4+1 View Model refers to a scenario. What is a scenario?
-
-A. an unexpected use case of the software
-B. one of the tools that is used to implement the software
-C. a representation of a normal use case
-D. a representation of the system-wide state <term>C<row>There are three different relationships that objects can have. Which of these best describes the relationship between a Chair and its Legs?
-
-A. association
-B. generalization
-C. composition
-D. aggregation <term>C<row>The process of establishing a connection between the client stub and server stub is called..
-
-A. interfacing
-B. marshaling
-C. handshaking
-D. binding <term>B<row>Select the object pairing that has an association relationship:
-
-A. Book - Page
-B. Tree - Root
-C. Hiker - Trail
-D. Car - Door <term>C<row>Which of these terms are used to describe coupling?
-
-A. degree, ease, exposed
-B. frequency, degree, ease
-C. ease, degree, flexibility
-D. flexibility, frequency, exposed <term>C<row>Marlon is creating a web page. It's a simple page, Which has a list of his current project, a short bio about himself, and some GIF images of some projects that he uploaded to the sever himself. What type of web page is this?
-
-A. static web page
-B. dynamic web page
-C. web app
-D. web service <term>B<row>Which of the following attributes relates to the output accuracy, the ability to recover from failure?
-
-A. maintainability
-B. performance
-C. availability
-D. reliability <term>D<row>Read the following statements. Which of them are true?
-1. Project managers are stakeholders in the architecture
-2. End users are stakeholders in the architecture
-
-A. Only the second statement is true
-B. Only the first statement is true
-C. Neither statement is true
-D. Both statements are true <term>D<row>Which of these is a drawback of n-Tier architecture?
-
-A. Every tier demands extra resources to manage the client/server relationships
-B. n-Tier architecture is not scalable
-C. Only asynchronous messaging is possible, leading to challenging development decisions
-D. More hardware nodes are necessary <term>B<row>Which of diagram is used for descript procedural detail?
-
-A. ER diagram
-B. class diagram
-C. box diagram
-D. decision table <term>C<row>Which of the following files are binary software component modules?
-
-A. Resource files
-B. Descriptor files
-C. Files in form of DLLs [dynamic linking libraries], JavaBeans, and Enterprise JavaBeans
-D. Executable files <term>C<row>Which of these is advantage of main program and subroutine architectural style?
-1. Efficient for computation focused problems
-2. Easily mapped to all kinds of real-world problem spaces
-3. Abstract data types are easy to define and extend
-4. Promotes function modularity and reuse
-
-A. 2 and 3
-B. 3 and 4
-C. 1 and 2
-D. 1 and 4 <term>B<row>An object which is responsible for showing data to the user could be considered which category of object?
-
-A. Boundary
-B. Entity
-C. Control
-D. Representation <term>A<row>Which of these is NOT shown on an activity diagram?
-
-A. activities
-B. interfaces
-C. concurrency
-D. decisions <term>A<row>At software development time, which of the following attributes may connectors exhibit?
-
-A. Universally invocable
-B. Direction
-C. Distance and connection media
-D. Multiplicity <term>B<row>Select the one accurate statement about layered architecture:
-
-A. Enforcing communication only between adjacent layers and within a layer is key to good, layered architecture
-B. Upper layers act as service providers to lower layers
-C. Layered architecture is often based on layers of abstraction
-D. Pass-through should be avoided at all costs. <term>A<row>Which of the following is one of the benefits of asynchronous architecture?
-
-A. Multiple independent agents
-B. Flexible GUI interfaces
-C. Multiple views
-D. Loose coupling of modules <term>D<row>Another web page allows interacting with a spreadsheet is a browser. You can enter in values, sum them up, perform operations on them, format them, etc. What type of web page in this?
-
-A. dynamic web page
-B. web service
-C. web app
-D. static web page <term>C<row>What are the advantages of Common Object Request Broker Architecture (CORBA)?
-1. Method calls can be treated locally or remotely
-2. It allows for object-oriented paradigms in distributed computing
-
-A. Only 1
-B. Only 2
-C. Neither 1 nor 2
-D. Either 1 or 2 <term>B<row>Which of following statements concern with Software architecture design guidelines is FALSE?
-
-A. Make all implementation decisions depend on the concrete interfaces instead of abstract ones because those are more stable
-B. Design always starts with abstraction
-C. Balance the quality attributes, and consider heterogeneous architecture styles when necessary
-D. It is not possible to find a design that meets all quality attributes <term>A<row>Which of these formats can NOT be used to express and structure content to be sent over the internet?
-
-A. XML
-B. CSS
-C. HTML
-D. JSON <term>B<row>For showing scenarios, which one of the following OOAD artifacts is the MOST useful?
-
-A. Use Cases
-B. State Diagrams
-C. Activity Diagrams
-D. Class Diagrams
-E. Interaction Diagrams <term>A<row>Which architecture supports fault tolerance and system reliability?
-
-A. Layered architecture
-B. Main/ subroutine
-C. Virtual machine
-D. Master/ slave <term>D<row>What does the component of 'component diagram' refer to?
-
-A. a general name for a "part" of the software system. It could be a method, variable, class, object, or grouping of any of these
-B. the basic parts of the software, which it could not run without a library
-C. an external part of the software system, like a library that must be imported
-D. an independent, encapsulated unit in the system <term>D<row>Which of these is often used to add dynamic content to a web page?
-
-A. HTML
-B. JavaScript
-C. HTML DOM
-D. CSS <term>B<row>Systems that optimize ease of use and those that are designed to be Reusable and Interoperable with other software or hardware components often incur a ............ penalty
-
-A. Performance
-B. None of others
-C. Security
-D. Reliability <term><row>On which of the following attributes does Portability has a positive effect?
-
-A. Reusability
-B. All of the others
-C. Interoperability
-D. Verifiability <term>B<row>Sam identified the important attributes and behaviours of a delivery driver and put them all into a DeliveryDriver class, like "takeOrder", "deliverOrder", and "DeliveryArea." She exposed some of these to other classes. She just demonstrated an important part of object-oriented design. Which of these concepts best describes what you did?
-
-A. generalization
-B. abstraction
-C. encapsulation
-D. decomposition <term>C<row>What is the correct term for a machine that hosts a server?
-
-A. server-host
-B. server-machine
-C. Called by type: e.g. print server or media server
-D. server-tier <term>B<row>Which architecture is suitable for producer/consumer model?
-
-A. Main/ subroutine
-B. Process Control
-C. Pipe and filter
-D. Batch sequential <term>C<row>On which attribute does increasing of Reliability has a negative effect?
-
-A. Scalability
-B. Performance
-C. Usability
-D. Availability <term>D<row>Which of these is NOT an advantage of event-based architecture?
-
-A. The event source cannot determine
-B. Reliability may be an issue
-C. Difficult to maintain system
-D. Difficult to test and debug the system <term>A<row>Beverly is asked to develop a system to measure the height of liquid in a tank, and when the tank is almost full, a pump turns on to empty the tank. Which type of architecture will she use?
-
-A. Process control
-B. Message-based
-C. Master/ slave
-D. Pipe and filter <term>A<row>What is the term for the action that converts the parameters into a standardized message on the client side?
-
-A. invocation
-B. blocking
-C. binding
-D. marshaling <term>D<row>Asynchronous message invocation can be expressed in the following diagram
-
-A. sequence
-B. state
-C. object
-D. class <term>A<row>General quality attributes like performance and security have more specific components like throughput and latency for performance. What are these called?
-
-A. attribute refinement
-B. architecture specifications
-C. architecture significant requirements
-D. sensitivity points <term>D<row>Which quality attribute includes communication protocols, data formats, and with whom the system can exchange information?
-
-A. Modifiability
-B. Flexibility
-C. Interoperability
-D. Security <term>C<row>A connector with .......... attribute set to true allows any external software system, no matter what hardware/ software platforms they run on and in which programming languages or software frameworks they are developed
-
-A. Universally invocable
-B. Multiplicity
-C. Self-descriptive
-D. Distance and connection media <term>A<row>Which of the following statements is (are) advantage of Pipe and filter?
-1. This architecture can be used for interactive applications
-2. Filters are loosely coupled
-
-A. Both statements are true
-B. Only the first statement is true
-C. Only the second statement is true
-D. Neither statement is true <term>A<row>In which method evaluations do not need to be familiar with the architecture or the problem space?
-
-A. ARID
-B. SAAM
-C. ALL
-D. ATAM <term>D<row>Which is the most desirable?
-
-A. low cohesion, loose coupling
-B. high cohesion, loose coupling
-C. high cohesion, tight coupling
-D. low cohesion, tight coupling <term>B<row>You need to show how your software elements are mapped to hardware nodes and execution environments. Which view do you need?
-
-a. physical view
-b. development view
-c. process view
-d. scenario <term>A<row>The feature in object-oriented programming that allows the same operation to be carried out differently, depending on the calling object, is:
-
-A. Inheritance
-B. Polymorphism
-C. Encapsulation
-D. Abstraction <term>B<row>Which of the following are considered as Business attributes?
-
-A. Cost: This refers to expense of building, maintaining, and operating the system
-B. Lifetime: This refers to the period of time that the product is "alive" before retirement 
-C. All of others
-D. Time to market: This refers to the time it takes from requirement analysis to the date product is released
-E. None of others <term>E<row>Which definition best describes an object?
-
-A. Instance of itself
-B. Child of a class
-C. Instance of a class
-D. Overview of a class <term>C<row>What is NOT a good software design?
-
-A. Leads to software products have higher quality attributes
-B. Reduces bugs in software production
-C. Coordinates development teams to work together orderly
-D. Makes the system traceable for implementation and testing <term>B<row>What are NOT the tasks of Software architect?
-
-A. Map the software requirements specification to the software architecture
-B. Consider and evaluate alternative architecture styles for the problem at hand.
-C. Guarantee that the software architecture satisfies functional and non-functional requirements.
-D. Establish good communication between stakeholders <term>D<row>The static and runtime structures are based on the same element types.
-
-A. True
-B. False <term>B<row>Fill in the blank: Objects send and receive ......... to invoke methods
-
-A. output
-B. delay
-C. error
-D. messages <term>D<row>Which of followings refers to the level of independence of the system on software and hardware platforms?
-
-A. Portability
-B. Extensibility
-C. Interoperability
-D. Maintainability <term>A<row>Which is correct about class?
-
-A. The behavior is expressed by the functions of the object
-B. An object is an instance of a class
-C. A class is an abstract description of a set of objects having similar properties, common behavior, common relationship with other objects
-D. Object is the concept describing an entity in the real world <term>C<row>Concurrency is described in
-
-A. Activity diagram
-B. Sequence diagram
-C. Communication diagram
-D. Package diagram <term>A<row>There are two aspects of software requirements: functional and non-functional. A functional requirement specifies the qualities, constraints, and system behaviors
-
-A. True
-B. False <term>B<row>Which of the followings are not the key components of an architecture style?
-
-A. Constraints that define how elements can be integrated to form the system
-B. None of the others
-C. Connectors that enable communication, coordination, and cooperation among elements
-D. Elements that perform functions required by a system
-E. All of the others
-F. Attributes that describe the advantages and disadvantages of the chosen structure <term>B<row>Composition relationship is represented by hollow diamond arrow
-
-A. True
-B. False <term>B<row>In an interaction diagram, boxes on top of the diagram can represent classes, objects, and actors. Which of the following is true?
-
-A. "Customer:Joe" represents an object named "Joe" whose class is "Customer"
-B. when there is a ":" preceding a name, it represents an class
-C. "Customer:" represents an object named "Customer"
-D. ":Customer" represents a class named "Customer" <term>A<row>Asynchronous message invocation can be expressed in sequence diagrams
-
-A. State diagram
-B. Class diagram
-C. Object diagram
-D. Sequence diagram <term>D<row>Which of the following attributes are considered as business attribute?
-
-A. Security: This refers to the ability to cope with malicious attacks from outside or inside of the system. Security can be improved by installing firewalls and establishing authentication and authorization processes, and using encryption
-B. None of others
-C. Availability: This refers to the ability of a system to be available 24x7. Availability can be achieved via replication and careful design to cope with failures of hardware, software, or the network
-D. All of others
-E. Usability: This refers to the level of "satisfaction" from a human perspective in using the system. Usability includes completeness, correctness, compatibility, and user friendliness such as friendly user interface, complete documentation, and help support
-F. Reliability: This refers to the failure frequency, the accuracy of output results, the mean-time-to-failure (MTTF), the ability to recover from failure, and the failure predictability <term>B<row>Which is correct about class diagram
-
-A. Describing the static view of the system
-B. Describing a set of objects
-C. Describing the classes and their relationship
-D. Describing the classes and their relationship, describing the static view of the system <term>D<row>There is a one-to-one correspondence between the elements of the static structure and the elements of the runtime structure for the same design project
-
-A. True
-B. False <term>B<row>Public interface of a class consists of the following:
-
-A. aggregation and composition relationship
-B. private attributes
-C. private operations
-D. public attributes and public operations <term>D<row>Which among the following best describes encapsulation?
-
-A. It is a way of combining various data members into a single unit
-B. It is a way of combining various member functions into a single unit
-C. It is a way of combining various data members and member functions into a single unit which can operate on any data
-D. It is a way of combining various data members and member functions that operate on those data members into a single unit <term>D<row>Which of followings are not key components of an architectural style?
-
-A. Operations
-B. Elements
-C. Constraints
-D. Connectors <term>A<row>Information hiding can also be termed as:
-
-A. Inheritance
-B. Abstraction
-C. Encapsulation
-D. Data hiding <term>C<row>Identify the incorrect statements:
-
-A. The architectural design embodies earliest decisions that have a decisive impact on the ultimate success of the software product
-B. Software Architecture bridges between requirements and implementation
-C. Software architecture plays a very important role in software development.
-D. SDD contains a set of rules, constraints, and patterns of how to structure a system into a set of elements and connectors. <term>D<row>Which is correct about state diagram
-
-A. Modeling the dynamic view of the system
-B. Describing the internal behaviour of the system, modeling the dynamic view of the system
-C. Describing the internal behaviour of the system
-D. Describing the information flows in the system <term>B<row>Identify the incorrect statements about Software architecture
-
-A. Software architecture also specifies the guidelines for how to writing the source code.
-B. The design of software architecture must conform to the functional and non-functional requirements of the software project
-C. Software architecture describes the collection of Components, Connections and Interactions between these components
-D. Software architecture is a high-level of abstraction of a software system by employing decomposition, composition, architectural styles, and quality attributes <term>A<row>Which of the following structures describe the dynamic properties of software architecture?
-
-A. Software deployment structure
-B. Software management structure
-C. Software code structure
-D. Software runtime structure <term>D<row>What is an alternative sequence in a use case?
-
-A. A sequence that describes interactions with a secondary actor
-B. A sequence that is different from the main sequence
-C. A sequence that describes an error case
-D. A sequence that describes interactions with a primary actor <term>B<row>Which of these statements about Component Diagrams is true?
-
-A. The give a dynamic view of the system
-B. They are useful to clarifying the artifacts that will be produced from development
-C. They do not show third-party libraries
-D. They clarify dependency relationships <term>D<row>What is the purpose of a stereotype in class structuring?
-
-A. To label a class according to its class structuring criterion
-B. To identify the objects that belong to the same class
-C. To distinguish between external objects and software objects
-D. To identify the association between two classes <term>A<row>How is an association depicted on a class diagram?
-
-A. A solid line joining two class boxes
-B. A dashed line joining two class boxes
-C. A diamond touching the upper class box
-D. An arrowhead touching the upper class box <term>A<row>Which of these UML diagrams are likely to be part of the process view? 
-
-A. Activity diagram
-B. Class diagram
-C. Sequence Diagram
-D. State Diagram <term>AC<row>Which of the following is a common messaging pattern in client/server relationships?
-
-A. one-way
-B. solicit-response
-C. handshake
-D. request-response <term>D<row>What are the two major styles of SOAP requests?
-
-A. RPC style
-B. request-response
-C. document style
-D. envelope <term>AC<row>A whole/part relationship is a generalization/specialization hierarchy
-
-A. True
-B. False <term>B<row>Which of these can be found in Common Object Request Broker Architecture (CORBA)?
-
-A. object request broker
-B. facilities
-C. client and server stubs
-D. interface definition language <term>ABD<row>Which of these is an advantage of event-based architecture?
-
-A. Events trigger responses in a predictable manner
-B. Events are processed with more efficiency
-C. All interactions happen synchronously
-D. Event generators and event consumers are loosely coupled <term>D<row>Divide-and-conquer is a suitable methodology for architecture design
-
-A. True
-B. False <term>A<row>What is a state-dependent control object?
-
-A. An object that executes a state machine
-B. An object that communicates with a state machine
-C. An object that controls a state machine
-D. An object that depends on a state machine <term>A<row>What is the interface of a class?
-
-A. The internals of the class
-B. The implementation of the class
-C. The specification of operations provided by the class
-D. The signature of a class <term>C<row>What does a statechart diagram depict?
-
-A. Classes and relationships
-B. Objects and messages
-C. Objects and links
-D. States and events <term>D<row>Architecture design is about choosing the right single architecture style for a project
-
-A. True
-B. False <term>B<row>What does a deployment diagram depict?
-
-A. The physical configuration of the system in terms of physical classes and physical connections between the classes
-B. The physical configuration of the system in terms of physical objects and physical connections between the objects
-C. The physical configuration of the system in terms of physical nodes and physical connections between the nodes
-D. The physical configuration of the system in terms of physical computers and physical networks between the computers <term>C<row>What is software modeling? 
-
-(a) Developing models of software. 
-(b) Designing software applications before coding. 
-(c) Developing software diagrams. 
-(d) Developing software prototypes <term>B<row>What is the Unified Modeling Language? 
-
-(a) A programming language for describing object-oriented models. 
-(b) A diagramming tool for drawing object-oriented models. 
-(c) A graphical language for describing object-oriented models. 
-(d) A standardized graphical language and notation for describing object oriented models. <term>D<row>What is a software architecture? 
-
-(a) The software inside a building. 
-(b) The structure of a client/server system. 
-(c) The overall structure of a software system. 
-(d) The software classes and their relationships. <term>C<row>What is a software design notation? 
-
-(a) Notes about the software design. 
-(b) A graphical or textual description of the software. 
-(c) Documentation of the software. 
-(d) A systematic approach for producing a design. <term>B<row>What is a software design concept? 
-
-(a) A graphical or textual description of the software. 
-(b) Documentation of the software. 
-(c) A fundamental idea that can be applied to designing a system. 
-(d) A systematic approach for producing a design. <term>C<row>What is a software design strategy? 
-
-(a) A graphical or textual description of the software. 
-(b) A fundamental idea that can be applied to designing a system. 
-(c) A systematic approach for producing a design. 
-(d) An overall plan and direction for developing a design. <term>D<row>What are software structuring criteria? 
-
-(a) Fundamental ideas that can be applied to designing a system. 
-(b) Systematic approaches for producing a design. 
-(c) Guidelines used to help in structuring a software system into its components. 
-(d) Overall plans for developing a design. <term>C<row>What is a software design method? 
-
-(a) A systematic approach for producing a design. 
-(b) Guidelines used to help in structuring a software system into its components. 
-(c) An overall plan for developing a design. 
-(d) A graphical or textual description of the software. <term>A<row>What is a platform-independent model (PIM)? 
-
-(a) A software platform before a commitment is made to a specific hardware platform. 
-(b) A precise model of the software architecture before a commitment is made to a specific platform. 
-(c) A precise model of the software architecture mapped to a specific platform. 
-(d) A graphical or textual description of the software. <term>B<row>What is a platform-specific model (PSM)? 
-
-(a) A specific hardware platform. 
-(b) A precise model of the software architecture before a commitment is made to a specific platform. 
-(c) A precise model of the software architecture mapped to a specific platform. 
-(d) A graphical or textual description of the software. <term>C<row>How is an actor depicted on a use case diagram? 
-
-(a) An oval 
-(b) A stick figure 
-(c) A box 
-(d) A dashed line <term>B<row>How is a use case depicted on a use case diagram? 
-
-(a) An oval 
-(b) A stick figure 
-(c) A box 
-(d) A dashed line <term>A<row>How is a class depicted on a class diagram? 
-
-(a) A box with one compartment 
-(b) A box with one or two compartments 
-(c) A box with one, two, or three compartments 
-(d) An oval <term>C<row>How is public visibility depicted for a class element on a class diagram? 
-
-(a) + sign 
-(b) − sign 
-(c) # sign 
-(d) ∗sign <term>A<row>What are the two kinds of UML interaction diagrams? 
-
-(a) Class diagram and sequence diagram 
-(b) Sequence diagram and communication diagram 
-(c) Class diagram and communication diagram 
-(d) Statechart and communication diagram <term>B<row>What does an interaction diagram depict? 
-
-(a) Objects and links 
-(b) Classes and relationships 
-(c) Objects and messages 
-(d) States and events <term>C<row>What is a UML package? 
-
-(a) A box 
-(b) A grouping of classes 
-(c) A grouping of use cases 
-(d) A grouping of model elements <term>D<row>What is a software life cycle? 
-
-(a) The life of the software 
-(b) A cyclic approach to developing software 
-(c) A phased approach to developing software 
-(d) The life of software developed in cycles <term>C<row>What is the waterfall life cycle model? 
-
-(a) Software developed under a waterfall 
-(b) A process model in which each phase is completed before the next phase is started 
-(c) A process model in which phases are overlapped 
-(d) A process model in which phases are cyclic <term>B<row>Which of the following is a limitation of the waterfall life cycle model? 
-
-(a) Software is developed in phases. 
-(b) Each phase is completed before the next phase is started. 
-(c) Software development is cyclic. 
-(d) Software requirements are not properly tested until a working system is available. <term>D<row>Which of the following approaches can overcome the limitation in the previous question? 
-
-(a) Phased software development 
-(b) Throwaway prototyping 
-(c) Evolutionary prototyping 
-(d) Incremental development <term>B<row>What is evolutionary prototyping? 
-
-(a) Phased software development 
-(b) Throwaway prototyping 
-(c) Risk-driven development 
-(d) Incremental development <term>D<row>What approach does the spiral model emphasize? 
-
-(a) Phased software development 
-(b) Throwaway prototyping 
-(c) Risk-driven development 
-(d) Incremental development <term>C<row>What is the goal of software validation? 
-
-(a) Building the system 
-(b) Building the right system 
-(c) Building the system right 
-(d) Testing the system <term>B<row>What is the goal of software verification? 
-
-(a) Building the system 
-(b) Building the right system 
-(c) Building the system right 
-(d) Testing the system <term>C<row>What is "white box" testing? 
-
-(a) Unit testing 
-(b) Integration testing 
-(c) Testing with knowledge of the system internals 
-(d) Testing without knowledge of the software internals <term>C<row>What is "black box" testing? 
-
-(a) System testing 
-(b) Integration testing 
-(c) Testing with knowledge of the system internals 
-(d) Testing without knowledge of the software internals <term>D<row>Which of the following are object oriented concepts? 
-
-(a) Modules and interfaces 
-(b) Modules and information hiding 
-(c) Classes, information hiding, and inheritance 
-(d) Concurrency and information hiding <term>C<row>Which of the following is a characteristic of an object? 
-
-(a) A function or subroutine 
-(b) A module 
-(c) Groups data and procedures that operate on the data 
-(d) Groups a function and an algorithm <term>C<row>What is a class? 
-
-(a) An object instance 
-(b) The implementation of the object 
-(c) A collection of objects with the same characteristics 
-(d) A collection of objects with different characteristics <term>C<row>What is an operation (also known as method) of a class? 
-
-(a) Specification and the implementation of a function performed by a class 
-(b) Specification and the implementation of a subroutine provided by a class 
-(c) Specification and the implementation of a function or procedure provided by a class 
-(d) Specification and the implementation of an interface provided by a class <term>C<row>What is the signature of an operation? 
-
-(a) The operation's name 
-(b) The operation's function or subroutine 
-(c) The operation's name, parameters, and return value 
-(d) The object's interface <term>C<row>What is an attribute? 
-
-(a) A description of a class 
-(b) An internal property of a class
-(c) A data item held by a class 
-(d) A parameter of a class <term>C<row>What is information hiding in software design? 
-
-(a) Hiding information so that it cannot be found 
-(b) Hiding a design decision that is considered likely to change 
-(c) Hiding information to make it secure 
-(d) Encapsulating data in a class <term>B<row>What is data abstraction? 
-
-(a) Another name for information hiding 
-(b) Encapsulating data so that its structure is hidden 
-(c) Storing data in a database 
-(d) Storing data in a data structure <term>B<row>What is inheritance? 
-
-(a) A mechanism for inheriting characteristics from a parent 
-(b) A mechanism for sharing and reusing code between classes 
-(c) A mechanism for sharing data between classes 
-(d) A mechanism for hiding information between classes <term>B<row>What is carried out during requirements modeling? 
-
-(a) Functional requirements of the system are described in terms of functions, inputs, and outputs. 
-(b) Functional requirements of the system are described in terms of actors and use cases. 
-(c) Functional requirements of the system are described textually. 
-(d) Functional requirements of the system are determined by interviewing users. <term>B<row>What is carried out during analysis modeling? 
-
-(a) Developing use case models 
-(b) Developing data flow and entity relationship diagrams 
-(c) Developing static and dynamic models 
-(d) Developing software architectures <term>C<row>What is carried out during design modeling? 
-
-(a) Developing use case models 
-(b) Developing data flow and entity relationship diagrams 
-(c) Developing static and dynamic models 
-(d) Developing software architectures <term>D<row>What is carried out during incremental software construction? 
-
-(a) Detailed design and coding of the classes in a subset of the system 
-(b) Detailed design, coding, and unit testing of the classes in a subset of the system 
-(c) Coding and unit testing of the classes in a subset of the system 
-(d) Unit and integration testing of the classes in a subset of the system <term>B<row>What is carried out during incremental software integration? 
-
-(a) Implementation of the classes in each software increment 
-(b) Unit testing of the classes in each software increment 
-(c) Integration testing of the classes in each software increment 
-(d) System testing of the classes in each software increment <term>C<row>What is carried out during system testing? 
-
-(a) White box testing 
-(b) Black box testing 
-(c) Unit testing 
-(d) Integration testing <term>B<row>What is a use case? 
-
-(a) A case study involving users 
-(b) A sequence of interactions between the user and the system 
-(c) A sequence of interactions between the user and the objects in the system 
-(d) A sequence of user inputs to the system <term>C<row>What is an actor in a use case? 
-
-(a) An object inside the system 
-(b) A person who performs on stage 
-(c) An external entity that interacts with the system 
-(d) The customer to whom the system will be delivered <term>C<row>What is a primary actor? 
-
-(a) The actor who goes on stage first 
-(b) The actor that starts the use case 
-(c) An actor that participates in the use case 
-(d) An object inside the system <term>B<row>What is a secondary actor? 
-
-(a) The actor who goes on stage second 
-(b) The actor that starts the use case 
-(c) An actor that participates in the use case 
-(d) An object inside the system <term>C<row>What can an inclusion use case be used for? 
-
-(a) To describe an inclusive use case 
-(b) To describe a lengthy interaction with an actor 
-(c) To describe functionality that is common to more than one use case 
-(d) To describe a use case that includes other use cases <term>C<row>What can an extension use case be used for? 
-
-(a) To describe a lengthy interaction with an actor 
-(b) To describe functionality that is common to more than one use case 
-(c) To describe the functionality of a use case that is extended by another use case(s) 
-(d) To describe a conditional part of a different use case that is only executed under certain circumstances <term>D<row>What can an activity diagram be used for in use case modeling? 
-
-(a) To depict the sequence of activities executed by all the use cases in the system 
-(b) To depict the sequence of external activities that the use case interacts with 
-(c) To depict the sequence of active objects in a use case 
-(d) To depict the activities in the main and alternative sequences of a use case <term>D<row>How can a nonfunctional requirement be described in a use case model? 
-
-(a) In a separate section of the use case description 
-(b) As a use case precondition 
-(c) As a use case postcondition 
-(d) In a separate document <term>A<row>What is a use case package? 
-
-(a) A package describing the actors in the system 
-(b) A package describing the use cases in the system 
-(c) A group of related use cases 
-(d) The package of objects that participate in the use case <term>C<row>What is a class? 
-
-(a) A course 
-(b) An object instance 
-(c) A client or server in the system 
-(d) A collection of objects with the same characteristics <term>D<row>What is an attribute? 
-
-(a) A relationship between two classes 
-(b) A parameter of an operation or method 
-(c) A data value held by an object in a class 
-(d) The return value from an operation <term>C<row>What is an association? 
-
-(a) A relationship between two classes 
-(b) A relationship between two objects 
-(c) A link between two classes 
-(d) A link between two objects <term>A<row>What is meant by the multiplicity of an association? 
-
-(a) The number of associations in a class 
-(b) The number of associations between two classes 
-(c) How many instances of one class relate to how many instances of another class 
-(d) How many instances of one class relate to a single instance of another class. <term>D<row>What is an association class? 
-
-(a) A class with multiple associations 
-(b) A class with one association 
-(c) A class that models an association between two or more classes 
-(d) A class that models an association between two or more objects <term>C<row>What is a generalization/specialization hierarchy? 
-
-(a) A whole/part relationship 
-(b) An inheritance relationship 
-(c) An association between a generalized class and a specialized class 
-(d) A layered hierarchy <term>B<row>What is a composition hierarchy? 
-
-(a) A weak form of a generalization/ specialization hierarchy 
-(b) A strong form of a generalization/ specialization hierarchy 
-(c) A weak form of a whole/part relationship 
-(d) A strong form of a whole/part relationship <term>D<row>What is an aggregation hierarchy? 
-
-(a) A weak form of a generalization/ specialization hierarchy 
-(b) A strong form of a generalization/specialization hierarchy 
-(c) A weak form of a whole/part relationship 
-(d) A strong form of a whole/part relationship <term>C<row>What does the system context class diagram define? 
-
-(a) The entity classes in the system 
-(b) How the system interfaces to other systems 
-(c) The boundary between the system and the external environment 
-(d) The context classes in the system <term>C<row>What is an entity class? 
-
-(a) A class on an entity/relationship diagram 
-(b) A class that stores data 
-(c) A class that interfaces to an external entity 
-(d) An external class <term>B<row>What is a boundary object? 
-
-(a) An external object 
-(b) An object that stores data 
-(c) An object that communicates with an external object 
-(d) An object that controls other objects <term>C<row>What is a control object? 
-
-(a) An object that depends on other objects 
-(b) An object that communicates with an external object 
-(c) An object that controls other objects 
-(d) An object that is controlled by other objects <term>C<row>What is a coordinator object? 
-
-(a) A manager object 
-(b) An object that makes decisions based on a state machine 
-(c) A decision-making object 
-(d) An object that decides which entity object to interact with <term>C<row>How would you determine a boundary class from the context diagram? 
-
-(a) By looking at it 
-(b) By selecting the external classes on the context diagram 
-(c) By determining the software classes that communicate with the external classes 
-(d) By drawing the boundary between the hardware and software classes <term>C<row>What is a timer object? 
-
-(a) An external clock 
-(b) An internal clock 
-(c) An object that is awakened by an external timer 
-(d) An object that interacts with a clock <term>C<row>What do class structuring criteria help with? 
-
-(a) Structuring an application into classes 
-(b) Defining the attributes of a class 
-(c) Defining the associations of a class 
-(d) Defining the operations of a class <term>A<row>What is the classification process for application classes analogous to? 
-
-(a) Categorizing books in a library 
-(b) Deciding how many copies of a book are needed 
-(c) Finding the classrooms in a school 
-(d) Identifying what labs the school has <term>A<row>What is a business logic object? 
-
-(a) An object used in business applications 
-(b) An object that defines business specific application logic 
-(c) The internal logic of an object 
-(d) A business object that determines whether a client request is logical <term>B<row>What does an interaction diagram depict? 
-
-(a) The state and transitions inside a control object 
-(b) Classes and their relationships 
-(c) Software objects and the sequence of their interactions 
-(d) The external objects communicating with the system <term>C<row>How is an actor depicted on an interaction diagram? 
-
-(a) An actor has an association with the interaction diagram. 
-(b) An actor can provide input to or receive output from a boundary object. 
-(c) An actor can provide input to or receive output from a boundary class. 
-(d) An instance of an actor can provide input to or receive output from a boundary object. <term>D<row>What does a sequence diagram depict? 
-
-(a) The sequence of external objects communicating with each other 
-(b) Classes and their relationships 
-(c) Software objects and the sequence of their interactions 
-(d) The external objects communicating with the system <term>C<row>What does a communication diagram depict? 
-
-(a) The sequence of external objects communicating with each other 
-(b) Classes and their relationships 
-(c) Software objects and the sequence of their interactions 
-(d) The external objects communicating with the system <term>C<row>What is the instance form of an interaction diagram? 
-
-(a) Depicts several object instances interacting with each other 
-(b) Depicts one possible sequence of interactions among object instances 
-(c) Depicts all possible interactions among object instances 
-(d) Depicts all object instances and their links to each other <term>B<row>What is the generic form of an interaction diagram? 
-
-(a) Depicts several objects interacting with each other 
-(b) Depicts one possible sequence of interactions among objects 
-(c) Depicts all possible interactions among objects 
-(d) Depicts all classes and their associations with each other <term>C<row>During dynamic interaction modeling, use cases are realized as follows: 
-
-(a) Determine objects that participate in each use case and the sequence of interactions among them. 
-(b) Determine external objects and the sequence in which they provide inputs to and receive outputs from each use case. 
-(c) Determine sequence of interactions among use cases. 
-(d) Determine how a use case is depicted through internal states and transitions between them. <term>A<row>Which of the following interactions could happen on an interaction diagram? 
-
-(a) An external user sends a message to a user interaction object. 
-(b) An external user sends a message to an entity object. 
-(c) An external user sends a message to an I/O object. 
-(d) An external user sends a message to a printer object. <term>A<row>Which of the following interactions is NOT likely to happen on an interaction diagram? 
-
-(a) A user interaction object sends a message to an entity object. 
-(b) An input object sends a message to a state-dependent control object. 
-(c) An input object sends a message to a printer object. 
-(d) A user interaction object sends a message to a proxy object. <term>C<row>What kind of object would be the first object to receive an input from an external object? 
-
-(a) A user interaction object 
-(b) A proxy object 
-(c) An entity object 
-(d) A boundary object <term>D<row>What is a state in a state machine? 
-
-(a) A recognizable situation that exists over an interval of time 
-(b) A condition that is True or False 
-(c) An input from the external environment 
-(d) An output from the system <term>A<row>What is an event in a state machine? 
-
-(a) A discrete signal that causes a change of state 
-(b) An input from the external environment 
-(c) An input that is True or False 
-(d) The result of a state transition <term>A<row>What is an action in a state machine? 
-
-(a) An occurrence at a point in time 
-(b) A cause of a state transition 
-(c) An interval between two successive events 
-(d) A computation that executes as a result of a state transition <term>D<row>What is an entry action in a state machine? 
-
-(a) An action that is performed when the state is entered 
-(b) An action that is performed when the state is left 
-(c) An action that starts executing when the state is entered and completes executing when the state is left 
-(d) An action that executes as a result of a state transition <term>A<row>What is an exit action in a state machine? 
-
-(a) An action that is performed when the state is entered 
-(b) An action that is performed when the state is left 
-(c) An action that starts executing when the state is entered and completes executing when the state is left 
-(d) An action that executes as a result of a state transition <term>B<row>What is a condition used for in a state machine? 
-
-(a) A conditional action 
-(b) A conditional state 
-(c) A conditional state transition 
-(d) A conditional event <term>C<row>What is a state transition into a composite state equivalent to? 
-
-(a) A transition into only one of the substates 
-(b) A transition into each of the substates 
-(c) A transition into none of the substates 
-(d) A transition into any one of the substates <term>A<row>What is a state transition out of a composite state equivalent to? 
-
-(a) A transition out of only one of the substates 
-(b) A transition out of each of the substates 
-(c) A transition out of none of the substates 
-(d) A transition out of any one of the substates <term>B<row>How does a composite state relate to a substate? 
-
-(a) A composite state is decomposed into substates. 
-(b) Composite states are composed into substates. 
-(c) A composite state transitions to a substate. 
-(d) A substate transitions to a composite state. <term>A<row>If two actions are shown on a given state transition, which of the following is true? 
-
-(a) The two actions are dependent on each other. 
-(b) The two actions are independent of each other.
-(c) One action provides an input to the other action. 
-(d) The second action executes when the first action completes execution. <term>B<row>What does a state-dependent interaction involve? 
-
-(a) A control object 
-(b) A state-dependent entity object 
-(c) A state-dependent control object
-(d) A state-dependent user interaction object <term>C<row>Which kind of object executes a state machine 
-
-(a) Any software object 
-(b) An entity object 
-(c) A state-dependent control object 
-(d) A statechart <term>C<row>An input message to a state-dependent control object corresponds to: 
-
-(a) An event on the internal state machine 
-(b) An action on the internal state machine 
-(c) A condition on the internal state machine 
-(d) A state on the internal state machine <term>A<row>An output message from a state dependent control object corresponds to: 
-
-(a) An event on the internal state machine 
-(b) An action on the internal state machine 
-(c) A condition on the internal state machine 
-(d) A state on the internal state machine <term>B<row>An interaction diagram should be developed for: 
-
-(a) Only the main sequence of the use case 
-(b) The main sequence and every alternative sequence of the use case 
-(c) The main sequence and a representative alternative sequence of the use case 
-(d) The alternative sequences of the use case <term>B<row>Which of the following could happen on an interaction diagram? 
-
-(a) A state-dependent control object sends a message to an entity object. 
-(b) A state-dependent control object sends a message to a coordinator object. 
-(c) A state-dependent control object sends a message to a printer object. 
-(d) All of the above <term>D<row>If the same state machine is used in more than one use case, how is this modeled on interaction diagrams? 
-
-(a) Develop one state-dependent control object for each use case. 
-(b) Develop one state-dependent control object containing states from each use case. 
-(c) Develop a hierarchical state machine. 
-(d) Develop a coordinator object. <term>B<row>How would two state-dependent control objects communicate with each other? 
-
-(a) By sending messages to each other 
-(b) By transitioning to the same state 
-(c) Through an entity object 
-(d) Through a proxy object <term>A<row>An object can send alternative messages a or b to a state-dependent control object. How is this handled in the state machine? 
-
-(a) One state with a different transition out of it for each incoming message 
-(b) One state for each of the alternative messages 
-(c) A composite state to handle the alternative messages 
-(d) A substate for each alternative message <term>A<row>In a system in which a client object executes a state machine and communicates with a service, which of the following is true? 
-
-(a) The client has a state-dependent control object but the service does not. 
-(b) The service has a state-dependent control object but the client does not. 
-(c) Both the client and the service have state-dependent control objects. 
-(d) Neither the client nor the service has a state-dependent control object. <term>A<row>What does the software architecture describe? 
-
-(a) The software inside a building 
-(b) The structure of a client/server system 
-(c) The overall structure of a software system 
-(d) The software classes and their relationships <term>C<row>Which of the following statements is NOT true for a component? 
-
-(a) A composite object composed of other objects 
-(b) An operation 
-(c) A simple object 
-(d) Provides an interface <term>B<row>What is a structural view of a software architecture? 
-
-(a) A view in terms of a module hierarchy 
-(b) A view in terms of components and connectors 
-(c) A view of the physical configuration in terms of nodes and interconnections 
-(d) A view in terms of objects and messages <term>B<row>What is a dynamic view of a software architecture? 
-
-(a) A view in terms of a module hierarchy 
-(b) A view in terms of components and connectors 
-(c) A view of the physical configuration in terms of nodes and interconnections 
-(d) A view in terms of objects and messages <term>D<row>What is a deployment view of a software architecture? 
-
-(a) A static view in terms of a module hierarchy 
-(b) A static view in terms of components and connectors 
-(c) A view of the physical configuration in terms of nodes and interconnections 
-(d) A dynamic interaction view in terms of objects and messages <term>C<row>What is a software architectural pattern? 
-
-(a) The structure of the major subsystems of a system 
-(b) The components and connectors in a software architecture 
-(c) A small group of collaborating objects 
-(d) A recurring architecture used in a variety of systems <term>A<row>What happens in a Layers of Abstraction pattern? 
-
-(a) Each layer uses services in the layer immediately below it. 
-(b) Each layer uses services in the layer immediately above it. 
-(c) Each layer uses services in the layers immediately above it and below it. 
-(d) Each layer is independent of the other layers. <term>A<row>What happens in a Call/Return pattern? 
-
-(a) A calling operation in the calling object sends a message to an operation (a.k.a. method) in the called object. 
-(b) A calling operation in the calling object invokes an operation (a.k.a. method) in the called object. 
-(c) The calling object waits for a response from the called object. 
-(d) The calling object does not wait for a response from the called object. <term>B<row>A producer sends a message to a consumer. Which one of the following is asynchronous message communication? 
-
-(a) The producer waits for a response from the consumer. 
-(b) The producer does not wait for a response from the consumer. 
-(c) The producer goes to sleep. 
-(d) The producer waits for a timeout. <term>B<row>A producer sends a message to a consumer. Which one of the following is synchronous message communication with reply? 
-
-(a) The producer waits for a response from the consumer. 
-(b) The producer does not wait for a response from the consumer. 
-(c) The producer goes to sleep. 
-(d) The producer waits for a timeout <term>A<row>What is an integrated communication diagram? 
-
-(a) A communication diagram formed by combining objects 
-(b) A synthesis of all the communication diagrams developed to support the use cases 
-(c) A communication diagram depicting the objects that realize a use case 
-(d) A communication diagram that integrates the entity objects from the static model <term>B<row>Which of the following objects should be assigned to the same subsystem? 
-
-(a) Objects that are part of the same composite object 
-(b) Client and server objects 
-(c) User interface and entity objects 
-(d) Objects that are associated with each other <term>A<row>Objects that are in geographically different locations should be: 
-
-(a) In the same subsystem 
-(b) In different subsystems 
-(c) In a composite subsystem 
-(d) In layered subsystems <term>B<row>If scope of control is used in subsystem structuring, then: 
-
-(a) A user interface object is placed in the same subsystem as an entity object it updates. 
-(b) A state-dependent control object is placed in the same subsystem as the objects it controls. 
-(c) A state-dependent control object is placed in a different subsystem from the objects it controls. 
-(d) A user interface object is placed in a different subsystem from an entity object it updates. <term>B<row>How should an external object be designed to interface to the system? 
-
-(a) It should interface to one subsystem. 
-(b) It should interface to several subsystems. 
-(c) It should interface to every subsystem. 
-(d) It should interface to none of the subsystems. <term>A<row>A user interface subsystem is a type of: 
-
-(a) Control subsystem 
-(b) Service subsystem 
-(c) Client subsystem 
-(d) I/O subsystem <term>C<row>Which of the following objects are NOT likely to be in the same subsystem? 
-
-(a) User interface object and entity object 
-(b) State-dependent control object and coordinator object 
-(c) Business logic object and entity object 
-(d) I/O object and state-dependent control object <term>B<row>Which of the following subsystems is NOT likely to be a client subsystem? 
-
-(a) Control subsystem 
-(b) User interaction subsystem 
-(c) Service subsystem 
-(d) I/O subsystem <term>C<row>When is a coordinator subsystem required? 
-
-(a) If the subsystem needs to coordinate several internal objects 
-(b) If the subsystem needs to coordinate multiple I/O devices 
-(c) If the subsystem receives messages from multiple client subsystems 
-(d) If the subsystem needs to coordinate the execution of other subsystems <term>D<row>When is a control subsystem required? 
-
-(a) If the subsystem needs to control several internal objects 
-(b) If the subsystem needs to control multiple I/O devices 
-(c) If the subsystem needs to control multiple client subsystems 
-(d) If the subsystem needs to control the execution of other subsystems <term>A<row>What is an information hiding object? 
-
-(a) An active object that encapsulates data 
-(b) A passive object that encapsulates data 
-(c) A class that encapsulates data 
-(d) A task that encapsulates data <term>B<row>What is a class interface? 
-
-(a) Specifies the internals of the operations of a class 
-(b) Specifies the externally visible operations of a class 
-(c) Specifies the parameters of a class operation. 
-(d) Specifies the signature of a class operation <term>B<row>Which of the following is NOT an object-oriented concept? 
-
-(a) Information hiding 
-(b) Class 
-(c) Subclass 
-(d) Subroutine <term>D<row>Which of the following is a class that realizes an interface? 
-
-(a) The class calls the interface. 
-(b) The class implements the interface. 
-(c) The class is called by the interface. 
-(d) The class is independent of the interface. <term>C<row>Which of the following is an entity class? 
-
-(a) An information hiding class 
-(b) A subclass 
-(c) A control class 
-(d) A data abstraction class <term>D<row>What does a state machine class encapsulate? 
-
-(a) A state transition table 
-(b) A statechart 
-(c) The current state of the machine 
-(d) A state transition table and the current state of the machine <term>D<row>Which of the following is unlikely to be a graphical user interface class? 
-
-(a) A menu 
-(b) A window 
-(c) A button 
-(d) A pin <term>D<row>Which of the following is unlikely to be encapsulated in a business logic class? 
-
-(a) A business rule 
-(b) Calls to operations of an entity class 
-(c) Deny cash withdrawal if balance of account is less than $10 
-(d) A dialog box <term>D<row>Which of the following is NOT allowed through inheritance? 
-
-(a) Subclass inherits attributes from superclass. 
-(b) Subclass inherits operations from superclass. 
-(c) Subclass redefines attributes inherited from superclass. 
-(d) Subclass redefines operations inherited from superclass. <term>C<row>Which of the following is true for an abstract class? 
-
-(a) It is used as a template for creating objects. 
-(b) It is used as a template for creating subclasses. 
-(c) It is used as a template for creating classes. 
-(d) It is used as a template for creating superclasses. <term>B<row>In object-oriented design, polymorphism means that: 
-
-(a) Different classes may have the same name. 
-(b) Different classes may have the same interface name. 
-(c) Different classes may have the same superclass name. 
-(d) Different classes may have the same operation name. <term>D<row>With polymorphism and dynamic binding, an object can: 
-
-(a) Invoke operation of different names on the same objects. 
-(b) Invoke operations of different names on different objects. 
-(c) Invoke an operation of the same name on the same object. 
-(d) Invoke an operation of the same name on different objects. <term>D<row>What is a server? 
-
-(a) A hardware/software system that serves customers 
-(b) A subsystem that makes requests and waits for the responses 
-(c) A subsystem that responds to requests from clients 
-(d) A hardware/software system that provides one or more services for multiple clients <term>D<row>The basic client/single service architectural pattern states that: 
-
-(a) Multiple clients request services, and multiple services fulfill client requests. 
-(b) Multiple clients request services, and a service fulfills client requests. 
-(c) A client requests services, and a service fulfills client requests. 
-(d) A client requests services, and multiple services fulfill client requests. <term>B<row>In a Multi-tier Client/Service architectural pattern, which of the following is true about an intermediate tier? 
-
-(a) An intermediate tier is a client tier. 
-(b) An intermediate tier is a service tier. 
-(c) An intermediate tier is both a control tier and a service tier. 
-(d) An intermediate tier is both a client tier and a service tier. <term>D<row>How is Multiple Client/Multiple Service architectural pattern different from a Multiple Client/Single Service architectural pattern? 
-
-(a) A service can receive requests from multiple clients. 
-(b) A client can send requests to multiple services. 
-(c) A client can send requests to other clients. 
-(d) A service can respond to requests from multiple clients. <term>B<row>How is a sequential service designed? 
-
-(a) One object that responds to requests from clients 
-(b) Multiple objects that respond to requests from clients 
-(c) One subsystem that responds to requests from clients 
-(d) Multiple subsystems that respond to requests from clients <term>A<row>How is a concurrent service designed? 
-
-(a) One object that responds to requests from clients 
-(b) Multiple objects that respond to requests from clients 
-(c) One subsystem that responds to requests from clients 
-(d) Multiple subsystems that respond to requests from clients <term>B<row>What is a database wrapper class? 
-
-(a) A class that encapsulates a data structure 
-(b) A class that encapsulates a database 
-(c) A class that encapsulates the details of how to access data in a database 
-(d) A class that encapsulates a relational table <term>C<row>When designing an entity class as a relational table, which of the following is NOT true? 
-
-(a) The relational table has multiple primary keys. 
-(b) The relational table has multiple foreign keys. 
-(c) The relational table has a primary key. 
-(d) The relational table has a concatenated primary key. <term>A<row>When mapping an aggregation hierarchy to a relational table, which of the following is NOT true? 
-
-(a) The aggregate and part tables have different primary keys. 
-(b) The aggregate and part tables have the same primary key. 
-(c) The primary key of the aggregate table is a foreign key of the part table. 
-(d) The primary key of the part table is a foreign key of the aggregate table. <term>D<row>When mapping a generalization/specialization relationship to a relational database, which of the following is NOT possible? 
-
-(a) The superclass and each subclass are designed as relational tables. 
-(b) Only subclasses are designed as relational tables. 
-(c) The aggregate and part classes are designed as relational tables. 
-(d) Only the superclass is designed as a relational table. <term>C<row>What is a service-oriented architecture (SOA)? 
-
-(a) A distributed software architecture consisting of multiple related services 
-(b) A distributed software architecture consisting of multiple autonomous services 
-(c) A distributed client/service architecture 
-(d) A distributed software architecture <term>B<row>Which of the following properties DOES NOT apply to a service? 
-
-(a) Reusable 
-(b) Discoverable 
-(c) Fixed 
-(d) Autonomous <term>C<row>In a SOA, which of the following is NOT true? 
-
-(a) A client communicates with a specific service provided on a fixed server configuration. 
-(b) A client discovers and links to a service. 
-(c) Multiple clients communicate with a service. 
-(d) Standard protocols are provided to allow clients to communicate with services. <term>A<row>What is an object broker? 
-
-(a) An object that breaks into a system 
-(b) An object that sends requests to other objects 
-(c) An object that handles requests sent by other objects 
-(d) An object that mediates interactions between clients and services <term>D<row>Why does a service register with a broker? 
-
-(a) So that service requesters can discover it 
-(b) So that a service can interrogate the broker 
-(c) So that the registry is up to date 
-(d) So that the service can relocate <term>A<row>When is it particularly useful to use the Broker Handle pattern in place of the Broker Forwarding pattern? 
-
-(a) If the client only communicates with the service once 
-(b) If the client needs to have a dialog with the service 
-(c) If the client knows the type of service required but not the specific service 
-(d) If the client needs to provide the broker with a handle <term>B<row>Yellow pages brokering is useful when a service requester: 
-
-(a) Needs to discover the location of the service 
-(b) Knows the type of service required but not the specific service 
-(c) Knows the specific service required but not the type of service 
-(d) Needs to discover the broker <term>B<row>What is a transaction? 
-
-(a) Consists of two or more operations 
-(b) Consists of one operation 
-(c) Consists of two or more operations that are indivisible 
-(d) Consists of two or more operations that are divisible <term>C<row>What is a compound transaction? 
-
-(a) The compound transaction is indivisible. 
-(b) The compound transaction is atomic. 
-(c) The compound transaction is decomposed into atomic transactions. 
-(d) The compound transaction is decomposed into subatomic transactions. <term>C<row>With a Negotiation pattern, which of the following is NOT true? 
-
-(a) The client agent can propose a service. 
-(b) The service agent can offer a service in response to a client agent proposal. 
-(c) The client agent can request a service. 
-(d) The service agent can offer a service in response to a client agent request. <term>D<row>In a distributed component-based software architecture, which of the following statements is the most complete description of component deployment? 
-
-(a) Component instances can be deployed to different nodes in a geographically distributed environment. 
-(b) Component instances can be deployed to different nodes in a geographically distributed environment before design. 
-(c) Component instances can be deployed to different nodes in a geographically distributed environment before implementation. 
-(d) Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation. <term>D<row>What does a component interface consist of? 
-
-(a) The externally visible operations of a component 
-(b) The operations provided by a component 
-(c) The operations required by a component 
-(d) The operations that a component supports <term>A<row>What does a component's provided interface consist of? 
-
-(a) The operations that a component must fulfill 
-(b) The operations inside a component 
-(c) The operations that a component uses 
-(d) The operations of a component <term>A<row>What does a component's required interface consist of? 
-
-(a) The operations that a component must fulfill 
-(b) The operations inside a component 
-(c) The operations that a component uses 
-(d) The visible operations of a component <term>B<row>What does a connector join? 
-
-(a) The provided port of one component to the required port of another component 
-(b) The provided port of one component to the provided port of another component 
-(c) The required port of one component to the provided port of another component 
-(d) The required port of one component to the required port of another component <term>C<row>What does a delegation connector join? 
-
-(a) An outer provided port to an inner provided port 
-(b) An outer provided port to an inner required port 
-(c) An outer required port to an inner provided port 
-(d) An outer provided port to an outer required port <term>A<row>What is broadcast message communication? 
-
-(a) A message sent to several recipients 
-(b) A message sent to a specific recipient 
-(c) A message sent to all recipients 
-(d) A message sent to recipients who are members of a group <term>C<row>What are the communication characteristics of subscription/notification? 
-
-(a) A message sent to several recipients 
-(b) A message sent to a specific recipient 
-(c) A message sent to all recipients 
-(d) A message sent to recipients who have joined a group <term>B<row>During application deployment: 
-
-(a) The application is executed. 
-(b) Component instances are executed. 
-(c) Component instances are assigned to hardware nodes. 
-(d) Component instances are instantiated. <term>C<row>What is an advantage of localized autonomy in component-based design? 
-
-(a) If a component goes down, other components can continue to execute. 
-(b) Components execute concurrently. 
-(c) Components are distributed. 
-(d) Components communicate using messages. <term>A<row>What is the difference between an active object and a passive object? 
-
-(a) An active object controls a passive object. 
-(b) An active object does not have a thread of control; a passive object has a thread of control. 
-(c) An active object executes in a distributed system; a passive object executes in a centralized system. 
-(d) An active object has a thread of control; a passive object does not have a thread of control. <term>D<row>What is an event-driven input task? 
-
-(a) A task that executes every few seconds 
-(b) A task that controls other tasks 
-(c) A task that receives inputs from an external device when it generates interrupts 
-(d) A task that checks whether there is new input from an external device <term>C<row>What is a periodic task? 
-
-(a) A task that responds to each message it receives 
-(b) A task that is activated by a timer event 
-(c) A task that is activated by an external event 
-(d) A task that is activated by an input event <term>B<row>What is a demand-driven task? 
-
-(a) A task that responds to each message it receives 
-(b) A task that is activated by an internal message or event from another task 
-(c) A task that is activated by an external event 
-(d) A task that is activated by an input event <term>B<row>What is a control task? 
-
-(a) A task that control other tasks 
-(b) A task that executes a statechart 
-(c) A task that executes on demand 
-(d) A task that controls I/O devices <term>B<row>What is a user interaction task? 
-
-(a) A task that interacts with I/O devices 
-(b) A task that interacts with users 
-(c) A task that interacts with a user sequentially 
-(d) A task that interacts with a user concurrently <term>C<row>Which of the following is true for a Centralized Control architectural pattern? 
-
-(a) Control is divided among various control components. 
-(b) It provides the overall control and sequencing of the system. 
-(c) It provides overall control by coordinating several control components. 
-(d) It provides overall control over various I/O objects. <term>B<row>Which of the following is true for a Distributed Control architectural pattern?
-
-(a) Control is divided among various control components. 
-(b) It responds to multiple requests from client subsystems. 
-(c) It provides overall control by coordinating several control components. 
-(d) It provides distributed control over various I/O objects. <term>A<row>Which of the following is true for a Hierarchical Control architectural pattern? 
-
-(a) Control is divided among various control components. 
-(b) It provides overall control over several client subsystems. 
-(c) It provides overall control by coordinating several control components. 
-(d) It provides overall control over various I/O objects. <term>C<row>Which of the following is NOT a case of event synchronization? 
-
-(a) External event 
-(b) Internal event 
-(c) Timer event 
-(d) User event <term>D<row>What is a software product line (SPL)? 
-
-(a) A family of systems with some common components and some variable components 
-(b) An assembly line 
-(c) A family of identical systems 
-(d) The software products marketed by a company <term>A<row>What is an optional use case? 
-
-(a) A use case with some optional steps 
-(b) A use case that does not need to be developed 
-(c) A use case that is required by some product line members but not others 
-(d) A use case that can be chosen in place of a different use case in a SPL member <term>C<row>What is a use case variation point? 
-
-(a) A variable use case 
-(b) A location in the use case at which change can occur 
-(c) An alternative use case 
-(d) A location in the use case where an alternative path can start <term>B<row>What is a SPL feature? 
-
-(a) A requirement or characteristic that is provided by one or more SPL members 
-(b) A marketing need 
-(c) A class provided by the SPL 
-(d) A SPL use case <term>A<row>What is a SPL feature group? 
-
-(a) A collection of features 
-(b) A group of features with a particular constraint on their usage in a SPL member 
-(c) A group of mutually exclusive features 
-(d) A group of optional features with a particular constraint on their usage in a SPL member <term>B<row>What is a kernel class in a SPL? 
-
-(a) An entity class in the SPL 
-(b) A SPL class that stores essential data 
-(c) A class that is required by all members of the SPL 
-(d) An external class to the SPL <term>C<row>What two categories of stereotypes are used in modeling SPL classes? 
-
-(a) Kernel and optional stereotypes 
-(b) Optional and variant stereotypes 
-(c) Common and variant stereotypes 
-(d) Reuse and application role stereotypes <term>D<row>How are feature conditions used in a SPL state machine? 
-
-(a) A guard condition 
-(b) A condition that is True or False 
-(c) To identify if a feature is selected or not in the state machine 
-(d) To allow state machine inheritance <term>C<row>What is a kernel system in a SPL? 
-
-(a) A member of the SPL only composed of kernel classes 
-(b) A member of the SPL composed of kernel classes and possibly some default classes 
-(c) A member of the SPL composed of kernel classes and possibly some optional classes 
-(d) A member of the SPL composed of kernel classes and possibly some entity classes <term>B<row>What does the SPL software architecture describe? 
-
-(a) The software inside a family of buildings 
-(b) The structure of a client/server product family 
-(c) The overall structure of the software product line 
-(d) The software product line classes and their relationships <term>C<row>What do software quality attributes address? 
-
-(a) Software functional requirements 
-(b) Software nonfunctional requirements 
-(c) Software performance requirements 
-(d) Software availability requirements <term>B<row>What is maintainability? 
-
-(a) The extent to which software is capable of being changed before deployment 
-(b) The extent to which software is capable of being changed after deployment 
-(c) The extent to which software is capable of being changed during development 
-(d) The extent to which software is capable of being changed after development <term>B<row>What is modifiability? 
-
-(a) The extent to which software is capable of being modified after deployment 
-(b) The extent to which software is capable of being modified after initial development 
-(c) The extent to which software is capable of being modified during and after initial development 
-(d) The extent to which software is capable of being changed before deployment <term>C<row>What is testability? 
-
-(a) The extent to which software is capable of being developed 
-(b) The extent to which software is capable of being tested before deployment 
-(c) The extent to which software is capable of being tested after deployment 
-(d) The extent to which the software is understood <term>B<row>Traceability is the extent to which a product: 
-
-(a) Can be traced back to products of previous phases 
-(b) Traced back to the requirements 
-(c) Traced forward to implementation 
-(d) Deployed to a hardware configuration <term>A<row>What is scalability? 
-
-(a) The extent to which an application can grow 
-(b) The extent to which the system is capable of growing after its initial deployment 
-(c) The extent to which the system is capable of growing during development 
-(d) The extent to which the system is capable of being scaled <term>B<row>What is reusability? 
-
-(a) The extent to which software implementation is reusable 
-(b) The extent to which software is capable of being reused 
-(c) The extent to which SPL technology can be introduced 
-(d) The extent to which the software is common among a program family <term>B<row>Which of the following is not performance-related? 
-
-(a) System response time 
-(b) System throughput 
-(c) System availability 
-(d) System capacity <term>C<row>Which of the following is not addressed by a secure system? 
-
-(a) System penetration 
-(b) Denial of service 
-(c) System scalability 
-(d) System authorization <term>C<row>Which of the following system problems does availability address? 
-
-(a) Denial of service 
-(b) Single point of failure 
-(c) System throughput 
-(d) System penetration <term>B<row>The purpose of the software design phase is to produce a software requirement specification. 
-
-A. True 
-B. False <term>B<row>Which of the following structures describe the dynamic properties of software architecture? 
-
-A. Software management structure 
-B. Software deployment structure 
-C. Software code structure 
-D. Software runtime structure <term>D<row>
+c<term>QN=1 Dell's cornerstone business model is based on the concept of:
+a. rapid business growth and threatening competitors
+b. selling directly to small and medium sized businesses
+c. build-to-order which allows customers to configure their own customized systems
+d. e-collaboration with a few select business partners<row>b<term>QN=2 ______ refers to the buying and selling of goods and services; servicing of
+ customers; collaborating with business partners; and conducting electronic transactions within an organization.
+a. E-commerce
+b. E-business
+c. Pure EC
+d. Partial EC<row>a<term>QN=3 EC can take several forms depending on the degree of digitization of the following
+ three dimensions:
+a. the product or service sold, the process, and the delivery method
+b. the business process, the collaboration, and the transaction
+c. the payment method, the delivery method, and the production method
+d. the marketing channel, the agent, and the collaboration methods<row>b<term>QN=4 Purely physical companies are referred to as ____ companies, where as companies that are engaged only in EC are considered ______ companies.
+a. pure play; virtual
+b. brick-and-mortar; virtual
+c. click-and-mortar; click-and-brick
+d. virtual; pure play<row>d<term>QN=5 The ways in which EC is done include:
+a. the Internet and extranets
+b. the Internet and private networks
+c. the Internet, extranets, and private networks
+d. the Internet, value-added networks, on local area networks using intranets, or on a single computerized machine<row>b<term>QN=6 ______ are systems where only routine transaction processing and information flow take place between two or more organizations using a standard protocol, such as electronic data interchange (EDI).
+a. E-CRM
+b. Interorganizational information systems
+c. Intrabusiness EC
+d. 13213<row>d<term>QN=7 EC applications are supported by infrastructure and by each of the following support
+ areas EXCEPT:
+a. People
+b. Public policy
+c. Marketing and advertisement
+d. Mobile devices<row>a<term>QN=8 Intrabusiness EC is usually performed over intranets and/or .
+a. corporate portals
+b. mobile networks
+c. exchanges
+d. P2P networks<row>c<term>QN=9 A technology that is used to electronically transfer routine documents, such as
+ invoices and purchase orders, and for financial transactions is .
+a. Electronic funds transfer
+b. Exchange-to-exchange
+c. Electronic data interchange
+d. Peer-to-peer<row>c<term>QN=10 ________refers to the second-generation of Internet-based services that let people collaborate and share information online in new ways, such as social networks and wikis.
+a. Virtual Web
+b. Media Web
+c. Web 2.0
+d. Social Web<row>a<term>QN=11 Which of the following is not a characteristic of the Digital Revolution ?
+a. Many business processes are expedited by up to 50 percent.
+b. Intelligent search agents to help manage information overload.
+c. A high rate of obsolescence.
+d. Fraud and other cybercons carried out via the Internet.<row>a<term>QN=12 According to the Business Environment Impact Model, _____ provide support to organizations' activities and to actual performance, countering business pressures.
+a. EC and IT
+b. missions and strategies
+c. core competencies and critical response activities
+d. markets and government<row>b<term>QN=13 A _____ is a company's method of doing business to generate revenue to
+ sustain itself.
+a. marketing strategy
+b. business model
+c. value chain
+d. business plan<row>c<term>QN=14 According to the _____ revenue model, companies receive commissions for referring customers to others' EC Web sites.
+a. subscription fees
+b. advertising fees
+c. affiliate fees
+d. transaction fees<row>a<term>QN=15 According to the _____ revenue model, customers page a fixed amount, usually monthly, to receive some type of service.
+a. subscription fees
+b. advertising fees
+c. affiliate fees
+d. transaction fees<row>a<term>QN=16 Large private organizational buyers and government agencies make large-volume or large-value purchases through ______ , also known as reverse
+auctions.
+a. electronic tendering systems
+b. online direct marketing
+c. name-your-own-price models
+d. viral marketing<row>d<term>QN=17 According to the _______ model, an organization can increase brand awareness or even generate sales by Web-based word-of-mouth marketing or promoting a product or service to other people.
+a. electronic tendering systems
+b. online direct marketing
+c. name-your-own-price models
+d. viral marketing<row>b<term>QN=18 Online group purchasing organizations are known as:
+a. SMEs
+b. e-co-ops
+c. exchanges
+d. barters<row>d<term>QN=19 Major barriers to EC include all of the following EXCEPT:
+a. cost
+b. lack of potential customers
+c. implementation difficulties
+d. lack of technology<row>c<term>QN=20 Which of the following is a technological limitation of EC?
+a. Security and privacy concerns that deter customers from buying.
+b. Difficulty obtaining venture capital.
+c. Order fulfillment requirements of large-scale B2C.
+d. Unresolved taxation, public policy, and legal issues.<row>d<term>QN=19 A job opening in the Sales Department posted on the company's Intranet by the Human Resources Department is an example of:
+a. E2C
+b. B2S
+c. B2B
+d. B2E<row>a<term>QN=21 Boeing designing a product together with a business partner is this type of interaction:
+a. Collaborative Commerce
+b. Nonbusiness EC
+c. B2B2C
+d. B2B.<row>c<term>QN=22 The second-generation of Internet-based services that lets people collaborate and share information online is known as Web 2.0. An example of this is:
+a. mp3.com
+b. DoubleClick
+c. blogging
+d. Evite<row>b<term>QN=23 The digital enterprise shifts the focus from managing individual information resources such as devices, applications, and data to_____that define the business
+and ultimately deliver value to customers and end users.
+a. developing models
+b. orchestrating the services and workflows
+c. organizing supply chains
+d. transforming revenue models<row>d<term>QN=24 A corporation uses the Internal Revenue Service's Web site to learn how to pay its estimated quarterly income taxes. This is an example of:
+a. G2G
+b. G2B
+c. G2C
+d. E2E<row>a<term>QN=25 Many companies employ a(n) _____ , which is a gateway for customers, employees, and partners to reach corporate information and to communicate with the company.
+a. corporate portal
+b. intranet
+c. extranet
+d. social network<row>b<term>QN=26 Because the rate of change and the level of uncertainty are expected to accelerate, organizations are
+a. unable to react quickly enough to threats and opportunities.
+b. operating under increasing pressures to produce more products, faster, and with fewer resources.
+c. making fewer decisions and/or decisions less frequently.
+d. considering less information when making decisions.<row>b<term>QN=27 A large number of EC companies, especially e-tailing and B2B ones, failed from 1999 to 2005 for each of the following reasons EXCEPT:
+a. The companies lacked financial skills.
+b. The companies failed to register with search engines, such as Google.
+c. The companies failed to ensure they had sufficient inventory and a distribution setup to Meet initial demand.
+d. The companies had little marketing experience.<row>a<term>QN=28 Intrabusiness EC is usually performed over intranets and/or .
+a. corporate portals
+b. mobile networks
+c. exchanges
+d. P2P networks<row>a<term>QN=29 A business such as Apple Computers making online transactions with its trading partners is an example of:
+a. B2B
+b. B2C
+c. e-CRM
+d. EDI<row>d<term>QN=30 Challenges that Boeing faced with its global collaboration for the design and assembly process of its new Dreamliner passenger plane included each of the following EXCEPT:
+a. Data management
+b. Information security
+c. Teams working across various time zones
+d. Lag time<row>d<term>QN=31 Fundamentally, the success of the pure-play jewelry e-tailer Blue Nile was due to the company's use of Internet technologies to:
+a. go public
+b. provide quality ratings
+c. eliminate intermediaries
+d. offer lower prices than competitors<row>a<term>QN=32 Traditional and electronic markets have three main functions, which include each of the following EXCEPT:
+a. transforming raw materials into finished products.
+b. matching buyers and sellers.
+c. facilitating the exchange of information, goods, services, and payments associated with market transactions.
+d. providing an institutional infrastructure, such as a legal and regulatory framework that enables the efficient functioning of the market.<row>b<term>QN=33 Digital products have different cost curves than those of regular products because:
+a. in digitization, most of the costs are variable and fixed costs are low.
+b. in digitization, most of the costs are fixed, and variable costs are very low.
+c. in digitization, most of the costs are fixed, but variable costs are high.
+d. in digitization, all of the costs are variable.<row>a<term>QN=34 The portion of an e-seller's business processes through which customers interact, including the seller's portal, electronic catalogs, a shopping cart, a search engine, and a payment gateway is referred to as the of the business.
+a. front end
+b. back end
+c. infrastructure
+d. intermediary<row>d<term>QN=35 The major e-marketplaces are storefronts and Internet malls.
+a. B2B
+b. C2B
+c. B2B2C
+d. B2C<row>c<term>QN=36 An electronic storefront includes several mechanisms that are necessary for conducting the sale. The most common mechanisms include each of the following EXCEPT:
+a. an electronic catalog
+b. a search engine
+c. a supply chain
+d. a payment gateway<row>b<term>QN=37 All the activities that are related to order aggregation and fulfillment, inventory management, purchasing from suppliers, accounting and finance, insurance, payment processing, packaging, and delivery are done in what is termed the of the _____business.
+a. front end
+b. back end
+c. infrastructure
+d. intermediary<row>a<term>QN=38 _____are online markets owned and operated by a single company and may be either sell-side or buy-side.
+a. Private e-marketplaces
+b. Commercial portals
+c. E-malls
+d. 13213 marketplaces<row>c<term>QN=39 A(n) _____is a single point of access through a Web browser to help users find relevant and accurate business information and reduce information overload.
+a. intermediary
+b. search engine
+c. information portal
+d. browser<row>a<term>QN=40 Finding relevant and accurate information is often time-consuming and requires access to multiple systems causing organizations to lose a lot of productive employee time. One solution to this problem is the use of:
+a. portals.
+b. intermediaries.
+c. browsers.
+d. intranets.<row>c<term>QN=41 A type of broker that helps consumers compare different stores is a:
+a. virtual mall.
+b. search agent.
+c. shopping facilitator.
+d. metamediary.<row>d<term>QN=42 Human or electronic intermediaries attempt to address each of the following limitations of direct interaction EXCEPT:
+a. search costs.
+b. lack of privacy for those wanting to remain anonymous.
+c. contract risk.
+d. product distribution.<row>b<term>QN=43 The elimination of various types of agents that mediate between buyers and sellers, such as travel and insurance agents, is referred to as:
+a. remediation
+b. disintermediation
+c. e-distribution
+d. automation<row>a<term>QN=44 A mode is purchasing where prices are negotiated or discounted is, which refers to nonfixed prices, such as those in auctions or stock markets.
+a. dynamic pricing
+b. commodity pricing
+c. pre-shopping
+d. negotiation<row>b<term>QN=45 Although used occasionally in 132C commerce, customized catalogs are especially useful in 13213 e-commerce for each of the following reasons EXCEPT:
+a. e-catalogs can show only the items that the employees in a specific organization are allowed to purchase.
+b. Intranets, in particular, can deliver customized catalogs to different business customers.
+c. e-catalogs can show the buyer's ID number for the item, model, or SKU number rather than the seller's ID numbers.
+d. E-catalogs can be customized to show the same item to different customers at different prices, reflecting discounts or purchase-contract agreements.<row>a<term>QN=46 To be successful and useful, large e-catalogs need a(n) __________.
+a. search engine
+b. directory
+c. data mining technology
+d. enhanced viewing capability<row>c<term>QN=47 A_____has capabilities that can be used to perform routine tasks that require intelligence such as providing customers with assistance based on their movements on a Web site.
+a. search engine
+b. intelligent engine
+c. software agent
+d. software engine<row>c<term>QN=48 Popular search engines include all of the following EXCEPT:
+a. Google
+b. MSN
+c. AltaVista
+d. Lycos<row>c<term>QN=49 A(n)_____is an order-processing technology that allows customers to
+accumulate items they wish to buy while they continue to shop.
+a. intelligent agent
+b. e-fulfillment agent
+c. electronic shopping cart
+d. merchant server<row>a<term>QN=50 The most common and traditional form of auctions in which one seller entertains bids from many buyers is referred to as:
+a. forward auctions.
+b. reverse auctions.
+c. double auction.
+d. e-auctions.<row>b<term>QN=51 An auction in which there is one buyer and many potential sellers; or in which a buyer places an item for bid on an RFQ system and the lowest bid wins is referred to as all of
+ the following EXCEPT:
+a. reverse auctions.
+b. forward auctions.
+c. bidding system.
+d. tendering system.<row>d<term>QN=52 What is a benefit of e-auctions to sellers?
+a. Convenience since the bidding can occur anywhere and any time.
+b. High stickiness to the Web site.
+c. Anonymity.
+d. The optimal price is determined by the market.<row>c<term>QN=53 Organizations are embracing mobilized computing technologies for several reasons EXCEPT:
+a. It improves the productivity of workers in the field.
+b. Wireless telecom support for mobility is growing quickly.
+c. Wireless security problems have been solved with encryption.
+d. The prices of notebook computers, wireless handhelds, and smart phones continue to fall and the capabilities continue to increase.<row>b<term>QN=54 EC competition is very intense because online transactions enable each of the following EXCEPT:
+a. For buyer, e-markets reduce the cost of searching for product information; e.g., sellers, models,prices, frequently to zero.
+b. Higher prices because of a greater number of potential buyers.
+c. Setting up a Web site is relatively easy and inexpensive, and doing so reduces the need for a saforce and brick-and-mortar stores.
+d. Product or service differentiation and personalization.<row>a<term>QN=55 Which of the following statements about differentiation and personalization is not correct?
+a. Products must be differentiated for perfect competition.
+b. Consumers like differentiation and personalization and are frequently willing to pay more for them.
+c. Differentiation reduces the substitutability between products, benefiting sellers who use this strategy.
+d. Price cutting in differentiated markets does not impact market share very much.<row>d<term>QN=56 It can be said that competition between companies is being replaced by competition between .
+a. industries
+b. digital products and services
+c. differentiated products and services
+d. networks<row>b<term>QN=57 The Internet has influenced industry structures in each of the following ways EXCEPT:
+a. A flood of new entrants has come into many industries because of reduced barriers to entry.
+b. Increases differences among competitors whose offerings are kept proprietary.
+c. There has been a shift in bargaining and buyer power to end users.
+d. Industries are more efficient overall.<row>c<term>QN=58 Impacts of e-marketplaces on B2C direct marketing include all of the following EXCEPT:
+a. The existence of e-marketplaces has increased the promotion of products and services through direct marketing.
+ 
+b. The administrative work related to physical delivery, especially across international borders, can be reduced significantly, cutting the cycle time by more than 90 percent.
+c. Brand images for new companies have become more difficult to establish.
+d. EC enables customization of products and services, which is changing marketing and sales activities both in B2C and in B2B.<row>a<term>QN=59 One of the major benefits of e-markets is the improvement in supply chains with the creation of a(n) .
+a. hub-based chain
+b. customized chain
+c. support chain
+d. logistics chain<row>b<term>QN=60 provides customers with exactly what they want, when and where
+ they want it. Effective communication between the supply chain and the factory floor is needed to make it happen
+a. Virtual manufacturing
+b. Demand-driven manufacturing
+c. Build-to-order manufacturing
+d. Real-time manufacturing<row>a<term>QN=61 Which of the following is true of virtual banks?
+a. Virtual banks have no physical location.
+b. Virtual banks combine online and traditional branch banking services.
+c. Stringent regulations have eliminated fraud risk in virtual banks.
+d. Virtual banks have proven very successful and profitable.<row>b<term>QN=62 According to data from eMarketer, approximately shop online
+ and/or research offline-sales online
+a. two in five Internet users age 18 and over.
+b. three in four Internet users age 14 and over
+c. three in four Internet users age 25 and over
+d. two in five Internet users age 30 and over<row>a<term>A traditional brick-and-mortar store with a mature Web site uses a click- and mortar strategy to do all of the following EXCEPT:
+a. reduce refunds and exchanges.
+b. empower customers.
+c. leverage each channel's advantages for all customers.
+d. speak with one voice.<row>a<term>QN=64 All of the following categories have already been selling well online EXCEPT:
+a. new cars
+b. travel
+c. computer hardware and software
+d. pet supplies<row>a<term>QN=65 DeFreshFish has been in business for ten years selling custom fishing lures to local fishermen through its store in a shopping mall. The company's owners are considering opening a Web site and selling their products internationally. One new risk they will face in going from a brick-and-mortar strategy to a click-and-mortar strategy is:
+a. the risk associated with trying to comply with conflicting rules and regulations in many different locales.
+b. the risk that their products will not meet the needs of their target market.
+c. the risk that costs will erode their profit margin.
+d. the risks associated with shifting their cost structure from mostly fixed costs to mostly variable costs<row>c<term>QN=66 ....are those who are young and comfortable with technology.
+a. Leading edgers
+b. Time-starved customers
+c. New technologists
+d. Shopping avoiders<row>b<term>QN=67 The original click-and-mortar strategy used by Toys R Us failed, as did the original toy venture of Amazon.com. Afterwards, Toys R Us sold toys online through Amazon.com. This is an example of:
+a. disintermediation.
+b. an alliance of a pure-player with a traditional retailer.
+c. channel conflict.
+d. reintermediation.<row>d<term>QN=68 The TRUSTe seal is an example of:
+a. a business rating.
+b. an intermediary.
+c. a B2B exchange.
+d. a trustmark.<row>b<term>QN=69 Software tools that scout the Web for stores that sell similar items at low prices are called:
+a. Shopping portals.
+b. Shopbots.
+c. Shopping browsers.
+d. Intelligent search engines.<row>b<term>QN=70 are extremely busy customers willing to shop online in order to free up time.
+a. Leading edgers
+b. Time-starved customers
+c. New technologists
+d. Shopping avoiders<row>b<term>QN=71 Important trends in B2C EC include all of the following EXCEPT:
+a. many offline transactions are now heavily influenced by research conducted online.
+b. the Internet will influence approximately 25 percent of all retail sales by 2010.
+c. the use of cell phones to shop online is increasing rapidly.
+d. online advertising will increasingly use rich media.<row>c<term>QN=72 Sears marketing strategy would best be described as:
+a. a brick-and-mortar strategy.
+b. a shared service mall strategy.
+c. a click-and-mortar strategy.
+d. direct marketing from a manufacturer.<row>d<term>QN=73 Dell's strategy is best described as:
+a. a brick-and-mortar strategy.
+b. a shared service mall strategy.
+c. a click-and-mortar strategy.
+d. direct marketing from a manufacturer.<row>c<term>QN=74 Amazon.com experienced all of the following EXCEPT:
+a. Amazon.com maintained its position as the number one e-tailer in 2006.
+b. Amazon.com have trended upward, driven largely by product diversification and its international presence.
+c. The company's financial success has been assured.
+d. Despite increasing a sales and net profits, in percentage terms, Amazon has seen a drop in profitability in 2006, attributed to huge spending on further developing its technology infrastructure and its investment in the Amazon Prime discount shipping program.<row>c<term>QN=75 With all else being equal in the online environment, goods with any of the following
+ product characteristics are expected to facilitate greater online sales EXCEPT:
+a. High brand recognition.
+b. Digitized format.
+c. Relatively expensive items.
+d. Frequently purchased items.<row>a<term>QN=76 Marketing that takes place without the help of intermediaries is called:
+a. direct marketing.
+b. disintermediation
+c. pure-play e-tailing
+d. e-malls.<row>c<term>QN=77 In direct marketing:
+a. shipments are made directly from the seller to the customer.
+b. electronic distributors must be used.
+c. customers are contacted directly without the help of intermediaries.
+d. sales are made in malls only.<row>b<term>QN=78 An online seller of travel services that generates revenue by charging fees for its
+ services is an example of a(n):
+a. market maker.
+b. transaction broker.
+c. content disseminator.
+d. viral marketer.<row>d<term>QN=79 A marketer that uses e-mail to advertise to potential customers is called a:
+a. market maker.
+b. transaction broker.
+c. content disseminator.
+d. viral marketer.<row>a<term>QN=80 A company that creates and manages many-to-many markets is called a:
+a. market maker.
+b. transaction broker.
+c. content disseminator.
+d. viral marketer.<row>b<term>QN=81 In an e-market, Federal Express is an example of a(n):
+a. intermediary.
+b. service provider.
+c. content disseminator.
+d. viral marketer.<row>a<term>QN=82 All of the following are potential sources of revenue for online independent travel
+ agents EXCEPT:
+a. direct marketing revenues.
+b. transaction fees.
+c. subscription fees.
+d. advertising fees.<row>a<term>QN=83 Which of the following is true of virtual banks?
+a. Virtual banks have no physical location.
+ 
+b. Virtual banks combine online and traditional branch banking services.
+c. Stringent regulations have eliminated fraud risk in virtual banks.
+d. Virtual banks have proven very successful and profitable.<row>d<term>QN=84 are customers who are willing to shop online because they dislike
+ going to grocery stores.
+a. Leading edgers
+b. Time-starved customers
+c. New technologists
+d. Shopping avoiders<row>b<term>QN=85 All of the following are examples of interactive entertainment EXCEPT:
+a. Internet gaming.
+b. purchasing theatre tickets online.
+c. adult sites.
+d. fantasy sports games.<row>a<term>QN=86 are gateways to storefronts and e-malls.
+a. Shopping portals
+b. Shopbots
+c. Shopping browsers
+d. Intelligent search engines<row>c<term>QN=87 are sites that evaluate and verify the trustworthiness of e-tailers
+a. Shopping portals
+b. Shopbot sites
+c. Trust verification sites
+d. Business rating sites.<row>a<term>QN=88 Charles wants to buy a John Lennon lithograph over the Internet, but he is unwilling to pay for it until he inspects it to ascertain authenticity. The auction site through which he purchases the painting agrees to hold his money until he tells them to release it to the seller. This is an example of:
+a. an escrow service.
+ 
+b. a trustmark.
+c. a warranty.
+d. a verification.<row>d<term>QN=89 A software agent that surveys user's reading interests, then uses machine learning to
+ find new Web pages and news articles using neural-network-based collaborative filtering technology is called:
+a. an aggregator portal.
+b. a real-time agent.
+c. the sponsorship model.
+d. a learning agent.<row>a<term>QN=90 A traditional brick-and-mortar store with a mature Web site uses a click-and-mortar
+ strategy to do all of the following EXCEPT:
+a. reduce refunds and exchanges.
+b. empower customers.
+c. leverage each channel's advantages for all customers.
+d. speak with one voice.<row>c<term>QN=91 The single factor that will determine which intermediaries continue to exist and which
+ are replaced is:
+a. the ability of the intermediary to match up buyers and sellers
+b. the profitability of the intermediary
+c. the addition of value-added services by the intermediary
+d. the length of the relationship between the intermediary and its customers<row>a<term>QN=92 An e-tailer uses cookies to identify returning customers and to provide suggested products for purchase based on prior shopping behavior. This is an example of:
+a. personalization.
+b. channel cooperation.
+c. on-demand delivery.
+d. advertising supported model.<row>a<term>QN=93 According to the EC consumer behavior model, personal characteristics and
+ environmental characteristics are classified as:
+a. independent variables
+b. dependent variables
+c. intervening variables
+d. decision variables<row>b<term>QN=94 The major environmental variables influencing EC purchasing are:
+a. price, brand, frequency of purchase, and tangibility.
+b. social, cultural, community, regulatory, political, and legal.
+c. age, gender, ethnicity, education, and lifestyle.
+d. price, social, cultural, ethnicity, and lifestyle.<row>c<term>QN=95 Pricing, technical support, and logistics support are several of the
+ that can be controlled by EC vendors and sellers
+a. independent variables
+b. dependent variables
+c. intervening variables
+d. decision variables<row>b<term>QN=96 Because online buyer's decisions depend on numerous independent and intervening variables, decisions made by customers are classified as:
+a. independent variables
+b. dependent variables
+c. intervening variables<row>a<term>QN=97 Banner advertising on Web sites helps trigger a realization that there is a gap between reality and a desired state, which occurs in the stage of the EC purchase
+ decision-making process.
+a. need identification
+b. information search
+c. evaluation, negotiation, and selection
+d. purchase, payment, and deli<row>b<term>QN=98 Marketing and advertising approaches has evolved from mass marketing to market segmentation to one-to-one marketing. This evolution occurred because:
+a. the marketing focus shifted from customers to products.
+b. the Internet enabled companies to better communicate with customers and understand their needs and buying habits.
+c. companies sought to decrease the number of marketing campaigns.
+d. concerns about privacy had diminished.<row>d<term>QN=99 The core of the "new marketing model" consists of:
+a. four P's—product, place, price, and promotion.
+b. customer profiles.
+c. online marketing channels.
+d. customer relationships.<row>a<term>QN=100 Personalization and user profiling strategies include each of the following EXCEPT:
+a. Segmenting the market based on demographics.
+b. Using questionnaires to collect information directly from the user.
+c. Placing cookies on a user's hard drive to collect information with or without the user's knowledge.
+d. Building from previous purchases or purchase patterns.<row>c<term>QN=101 The two key factors limiting the use of personalization to more precisely target marketing efforts to individual customers are:
+a. matching profiles with product offerings and delivering those offerings.
+b. communication costs and filtering costs.
+c. privacy and trust issues.
+d. lack of customer loyalty and service customization costs.<row>b<term>QN=102 The term refers to the number of times users call up a page that has a banner on
+ it during a specific period
+a. conversion rate
+b. ad view
+c. click through
+d. unique visit<row>d<term>QN=103 By increasing customer loyalty, EC companies can achieve each of the following benefits EXCEPT:
+a. lower marketing and advertising costs.
+b. lower warranty claims costs.
+c. lower transaction costs.
+d. lower resistance to competitors.<row>a<term>QN=104 What has been the impact of the introduction of EC on customer loyalty in general?
+a. Loyalty has decreased because of customers' ability to shop, compare, and shift vendors.
+b. Loyalty has increased because of targeted relationship marketing.
+c. There has been little change in loyalty because the impacts have cancelled each other out.
+d. It is not known whether loyalty has increased or decreased.<row>c<term>QN=105 According to research, customer satisfaction with an Internet store:
+a. cannot be predicted.
+b. depend on two types of factors: information quality and customer service quality.
+c. drops dramatically when certain Web site features fail to perform properly, such as the content's reliability, loading speed, or usefulness.
+d. is higher for new customers than former customers.<row>b<term>QN=106 The Internet introduced the concept of , which has enabled marketers and
+ advertisers to interact or communicate directly with customers and consumers can interact with marketers/advertisers
+a. direct marketing
+b. interactive marketing
+c. one-to-one marketing
+d. advertising channel<row>a<term>QN=107 Issues related to trust in EC include all of the following EXCEPT:
+a. As a result of trust-transference programs through portal affiliation, seal of approval programs, online shopping communities, and customer endorsements, customers are fully confident in online purchasing transactions.
+b. When parties trust each other, they have confidence that transaction partners will keep their promises. However, both parties in the transaction assume some risk.
+c. Trust is particularly important in global EC transactions due to the difficulty of taking legal action in cases of a dispute or fraud.
+d. If people do not trust the security of the EC infrastructure, they will not feel
+ 
+ comfortable about using credit cards to make EC purchases.<row>a<term>QN=108 is an advertising strategy that uses word-of-mouth marketing in which
+ customers promote a product or service by telling others about it
+a. viral marketing
+b. affiliate marketing
+c. ad customizing
+d. ads as a commodity<row>c<term>QN=109 All of the following are correct about market research methods EXCEPT:
+a. It is important first to understand how groups of consumers are classified or segmented.
+b. Markets can be segmented to increase the percentage of responses and to formulate effective marketing strategies that appeal to specific consumer groups.
+c. Direct mail marketing methods are usually cost-effective.
+d. Market segmentation is done with the aid of tools such as data modeling and data warehousing.<row>c<term>QN=110 Social class, lifestyle, personality, and activities are descriptors used in
+ market segmentation.
+a. geographic
+b. demographic
+c. psychographic
+d. cognitive, affective, behavioral<row>c<term>QN=111 Advertising in chat rooms, blogs, or social networks can achieve each of the following EXCEPT:
+a. advertising can become more thematic than on static Web sites.
+b. they improve a company's search engine ranking
+c. they can be used as one-to-one connections between a company and its customers
+d. advertising can be easily targeted to customer interests<row>d<term>QN=112 To avoid getting false information from participants of online surveys, marketers learn about customers by observing their behavior using each of the following EXCEPT:
+a. Transaction logs that record user activities at a company's Web site.
+ 
+b. Cookies that allow a Web site to store data on the user's PC.
+c. Spyware that gathers user information through an Internet connection without the user's knowledge.
+d. Data mining to analyze clickstream data.<row>a<term>QN=113 According to Inmon, B2C clickstream data can reveal information each of the following EXCEPT:
+a. What goods the customer wanted to but could not find.
+b. What goods the customer examined but did not purchase.
+c. Which ads and promotions were effective and which were not.
+d. Whether there are too many products for the customer to wade through.<row>b<term>QN=114 Web analytics and mining tools and services:
+a. simply report which pages were clicked and how long a visitor stayed there.
+b. offer advanced functions that help marketers decide which products to promote, and merchandisers achieve a better understanding of the nature of demand.
+c. are used to redesign Web sites quickly and on the fly.
+d. provide most companies with knowledge about how to use clickstream data effectively.<row>c<term>QN=115 Once a company knows a consumer's preferences, the company can predict, without asking the consumer directly, what other products or services that consumer might enjoy through .
+a. active web bugs
+b. spyware
+c. collaborative filtering
+d. personalization<row>d<term>QN=116 Limitations of online research methods are all of the following EXCEPT:
+a. Loss of respondents because of equipment problems.
+b. The ethics and legality of Web tracking.
+c. Focus group responses lose eye contact and body language.
+d. E-mail surveys have the lowest response rate.<row>b<term>QN=117 The risks of e-mail advertising management include all of the following EXCEPT:
+a. spam
+b. measuring e-mail advertising effectiveness
+c. e-mail hoaxes
+d. fraud<row>b<term>QN=118 Procter & Gamble (P&G) used the Internet in the new product development of Whitestrips, a teeth-brightening product. Based on this experience, P&G:
+a. decided to add Internet research to its traditional marketing test model.
+b. reduced the time-to-market from concept to market launch by approximately two years.
+c. learned that the cost of online surveys were about the same as similarly sized telephone surveys, but online surveys expedited research considerably,
+d. could not determine the target market segments for the Whitestrips.<row>a<term>QN=119 Online methods of bringing new customers to a B2B site when a B2B vendor wants to grow by adding new customers or products include all of the following EXCEPT:
+a. through direct mail campaigns.
+b. through an affiliation service.
+c. through Web advertising such as using an ad server network provider.
+d. by contacting all of its targeted customers individually to attract them to an electronic exchange.<row>a<term>QN=120 The major disadvantage of banners is .
+a. their cost
+b. the limited amount of information can be placed on the banner
+c. the limited amount of time the banner is present to the visitor
+d. viewers have become immune to banners and seldom notice them<row>c<term>QN=121 A(n) is an HTML coding statement that describes the content of a Web page
+ and is used by search engines to index the site's content so that it can be found.
+a. domainer
+b. associated ad display
+c. meta-tag
+d. advertorial<row>c<term>QN=122 A(n) is a type of pop-up ad that appears after a user clicks a link and remains
+ while content is loading to capture the user's attention for a short time, either as a promotion or a lead-in to the site's homepage or to advertise a product or a service.
+a. banner exchange
+b. keyword banner
+c. interstitial
+d. CPM<row>c<term>QN=123 Key business drivers for B2B are all of the following EXCEPT:
+a. the availability of a secure broadband Internet platform.
+b. numerous private and public B2B e-marketplaces.
+c. the willingness of companies to incur higher costs to improve collaboration.
+d. the need for collaborations between suppliers and buyers.<row>c<term>QN=124 In selling directly, manufacturers may encounter a similar problem to that of B2C, namely with the regular distributors, including corporate dealers
+a. the availability of a secure broadband Internet platform.
+b. numerous private and public B2B e-marketplaces.
+c. the willingness of companies to incur higher costs to improve collaboration.
+d. the need for collaborations between suppliers and buyers.<row>a<term>QN=125 In selling directly, manufacturers may encounter a similar problem to that of B2C, namely with the regular distributors, including corporate dealers
+a. channel conflict
+b. multichannel distribution
+c. direct sales conflict
+d. indirect competition<row>b<term>QN=126 B2B transactions that involve communication, design, planning, information sharing, and activites beyond financial transactions among business partners is referred to as
+.
+a. exchanges
+b. collaborative commerce
+c. trading communities
+d. public marketplaces<row>a<term>QN=127 The Cisco Connection Online (CCO) Website receives over 2 million hits per month for technical assistance, ordering, order checking, or software downloads. This online service had been so well received that nearly percent of all customer service
+a. 25/35
+b. 45/55
+c. 85/95
+d. 15/25<row>a<term>QN=128 The aggregation of suppliers' catalogs on the buyer's server to make it easier to centralize and control all procurement is called a(n):
+a. internal procurement marketplace
+b. buy-side e-marketplace
+c. sell-side e-marketplace
+d. bartering exchange<row>a<term>QN=129 In general, the benefits of contract-management software include all of the following EXCEPT
+a. Reduces contract-related risks
+b. Reduces contract negotiation time and efforts
+c. Enables standardization of contracts throughout the enterprise
+d. Provides more efficient approval provesses<row>a<term>QN=130 With , a business sells to a business but delivers small quantities to
+ customers of the buying business.
+a. B2B2C
+b. B2B
+c. B2C2B
+d. B2C<row>d<term>QN=131 A(n) is an online third party that brokers B2B transactions between a
+ buyer and seller.
+a. strategic source
+b. horizontal marketplace
+c. vertical marketplace
+d. intermediary<row>c<term>QN=132 The purchase of goods and services as they are needed, usually at prevailing market prices is referred to as:
+a. direct materials
+b. Consolidation
+c. spot buying
+d. strategic sourcing<row>a<term>QN=133 Indirect materials are typically used in activities
+a. maintenance, repair, and operation (MRO)
+b. sales and marketing
+c. intermediary
+d. supply chain<row>c<term>QN=134 Some of the benefits of a(n) are that distributor scan check inventory,
+ make transactions, and look up the status of their orders significantly reducing the number of phone calls, e-mails, and incorrect product shipments
+a. custom catalog
+b. electronic data interchange
+c. extranet-based order-entry tool
+d. intranet-based order-entry tool<row>d<term>QN=135 Purchases of goods and services based on long-term contracts is referred to as.
+a. direct materials
+b. Consolidation
+c. spot buying
+d. strategic sourcing<row>a<term>QN=136 can be supported more effectively and efficiently through direct buyer-
+ seller offline or online negotiations, which can be done in private exchanges or private trading rooms in public exchanges.
+a. Strategic purchases
+b. Spot buying
+c. B2C commerce
+d. MRO<row>b<term>QN=137 What are the two types of materials and supplies that are traded in B2B?
+a. Digital and physical.
+b. Direct and indirect.
+c. Horizontal and vertical.
+d. Commodities and nonproduction.<row>a<term>QN=138 Nonproduction materials such as equipment and tools that support production are called:
+a. indirect materials
+b. operational materials
+c. direct materials
+d. virtual materials<row>a<term>QN=139 The consists of a number of interrelated subprocesses that extend from
+ the acquisition of materials from suppliers to packaging it and moving it to distributors and retailers.
+a. supply chain
+b. vertical market
+c. horizontal market
+d. production chain<row>a<term>QN=140 1. Companies will usually separate B2C orders from B2B orders because B2C and
+B2B orders have different
+a. order-sulfillment processes and different pricing models
+b. marketing processes
+c. buying and delivery processes
+d. accounting processes<row>b<term>QN=141
+ Because conducting reverse auction in B2B can be afairly complex process, a(n) may be essenial
+a. open RFQ
+b. third-party intermediary
+c. online directory
+d. software agent<row>b<term>QN=142 Companies that use an intermediary to do their buying and selling tend to be:
+a. high on supply chain power and low on buying/selling capabilities
+b. low on supply chain power and low on buying/selling capabilities
+c. high on supply chain power and high on buying/selling capabilities
+d. low on supply chain power and high on buying/selling capabilities<row>d<term>QN=143 The major 13213 services include each of the following EXCEPT:
+a. Travel and hospitality
+b. Financial
+c. Stock trading
+d. Retail<row>d<term>QN=144 Major implementation challenges that companies must consider when planning e¬procurement initiatives include all of the following EXCEPT:
+a. reviewing and changing the procurement process it self
+b. coordinating the buyer's information system with that of the sellers
+c. Providing interfaces between e-procurement and integrated enterprisewide information systems, such as ERP or supply chain management
+d. Increasing the number of regular suppliers and integrating with their information systems and possibly with their business processes<row>b<term>QN=145 Which of the following is not one of the major benefits of 13213?
+a. Expedites processing and reduces cycle time.
+b. Enables customized online catalogs with the same prices for different customers.
+c. Increases production flexibility, permitting just-in-time delivery.
+d. Increases opportunities for collaboration.<row>c<term>QN=146 occurs when 13213 eliminates a distributor or a retailer.
+a. Purging
+b. Collaboration
+c. Disintermediation
+d. Just-in-time delivery<row>a<term>QN=147 In a sell-side e-marketplace, a business sells products and services to business customers, frequently over .
+a. an extranet
+b. an intranet
+c. an exchange
+d. a web service<row>a<term>QN=148 One of the major problems facing direct sellers is .
+a. how to find buyers
+b. how to find suppliers
+c. how to advertise in traditional channels
+d. how to manage the supply chain<row>c<term>QN=149 Companies use to sell their unneeded assets for quick disposal or to
+ easily dispose of excess, obsolete, and returned products.
+a. private auctions
+b. liquidation
+c. forward auctions
+d. reverse auctions<row>a<term>QN=150 Benefits of using a third-party hosting company for conducting B2B auctions instead of developing an auction site in-house include all of the following EXCEPT:
+a. Time-to-market of several weeks.
+b. No additional resources are needed such as hardware, bandwidth, engineering resources, or IT personnel.
+c. No hiring costs.
+d. No redeployment of corporate resources.<row>b<term>QN=151 A company-based acquisition site that uses e-procurement methods such as reverse auctions, negotiations, or group purchasing, to overcome the manual searching of e-stores and e-malls is referred to as a(n):
+a. desktop procurement method
+b. buy-side e-marketplace
+c. intermediary
+d. aggregated catalog<row>c<term>QN=152 Benefits of e-procurement over traditional procurement methods include all of the following EXCEPT:
+a. Increasing the productivity of purchasing agents.
+b. Lowering purchase prices through product standardization, reverse auctions, volume discounts, and consolidation of purchases.
+c. Increasing the skill requirements and training needs of purchasing agents.
+d. Streamlining invoice reconciliation and dispute resolution.<row>c<term>QN=153 By using the Internet and automatic-response software agents, GE reduced the cost of customer service calls from $5.00 per call when done by phone to per
+ electronically answered call.
+a. $2.50
+b. $1.00
+c. $0.20
+d. $0.50<row>b<term>QN=154 Before the Internet, the trading process for raw and partially processed chemicals, plastics, and fuel oil was each of the following EXCEPT:
+a. slow
+b. disintermediated
+c. fragmented
+d. expensive<row>b<term>QN=155 A third party that operates an exchange and in many cases, also owns the exchange is known as a(n):
+a. intermediary
+b. market maker
+c. negotiator
+d. agent<row>a<term>QN=156 In the context of EC, are electronic trading-community meeting places
+ for many sellers and many buyers, and possibly for other business partners.
+a. exchanges
+b. portals
+ 
+c. social networks
+d. B2C<row>b<term>QN=157 In spot-sourcing, prices are:
+a. set by the market maker
+b. dynamic and set based on supply and demand
+c. fixed and set by contract
+d. based solely on the cost structure of the seller<row>a<term>QN=158 An exchange whose members are in one industry or industry segment and that trades only in materials/services unique for that industry is referred to as a(n):
+a. vertical exchange
+b. horizontal exchange
+c. lateral exchange
+d. commodity exchange<row>b<term>QN=159 Light bulbs and office supplies might be purchased in a(n) by
+ both an automaker and a steelmaker.
+a. vertical exchange
+b. horizontal exchange
+c. lateral exchange
+d. commodity exchange<row>d<term>QN=160 In , the prices are usually dynamic and are based on changes in
+ supply and demand.
+a. strategic sourcing
+b. vertical sourcing
+c. horizontal sourcing
+d. spot sourcing<row>a<term>QN=161 In , the prices are usually negotiated or fixed.
+a. strategic sourcing
+b. vertical sourcing
+c. horizontal sourcing
+d. spot sourcing<row>c<term>QN=162 The exchange model in which RFQs are aggregated then linked to a pool of suppliers who are notified automatically of the RFQ is the model
+a. seller aggregation
+b. supplier aggregation
+c. buyer aggregation
+d. reverse auction<row>b<term>QN=163 Spot sourcing of direct materials takes place:
+a. on exchanges which operate without a market maker.
+b. in vertical exchanges.
+c. in horizontal exchanges.
+d. only in virtual exchanges.<row>c<term>QN=164 In an exchange where plastic components are bought and sold, the market maker collects money from the buyer, and releases it to the seller once successful delivery is completed. This is an example of:
+a. matching buyers and sellers.
+b. maintaining exchange infrastructure.
+c. transaction facilitation.
+d. maintaining exchange policies.<row>b<term>QN=165 In an exchange where plastic components are bought and sold, the market maker purchases a new server that will be used to conduct auctions. This is an example of:
+a. matching buyers and sellers.
+b. maintaining exchange infrastructure.
+c. transaction facilitation.
+d. maintaining exchange policies<row>b<term>QN=166 A market maker evaluates an exchange between a buyer in the United States and a seller in Spain to ensure that import laws for the U.S. are followed. This is an example of the market maker:
+a. matching buyers and sellers.
+b. maintaining exchange infrastructure.
+c. transaction facilitation.
+ 
+d. maintaining exchange policies.<row>b<term>QN=167 In the consortia model:
+a. a neutral third party establishes and manages the exchange.
+b. several industry players come together to establish the exchange for the benefit of all.
+c. the public is invited to join the exchange as a way to offset expenses.
+d. a dominant player in the industry establishes the exchange and invites others to join.<row>a<term>QN=168 The exchange model in which a third party sets up the exchange and promises to run it efficiently and without bias is called the:
+a. neutral entrepreneur model.
+b. industry giant model.
+c. co-op model.
+d. consortia model.<row>b<term>QN=169 A market maker charges a percentage on every buy and sell made in the exchange. The revenue model in place in this exchange is the:
+a. fee for service model.
+b. transaction fee model.
+c. advertising fee model.
+d. membership fee model.<row>a<term>QN=170 A market maker bills a buyer for reviewing several seller contracts and making a recommendation on what to buy and from whom. The revenue model being used in this example is the:
+a. fee for service model.
+b. transaction fee model.
+c. advertising fee model.
+d. membership fee model.<row>a<term>QN=171 Chem Connect is an example of a successful e-exchange with:
+a. many buyers and many sellers
+b. many buyers and few sellers
+c. many buyers and one sellers
+d. few buyers and few sellers<row>b<term>QN=172 All of the following are potential sources of revenue for an exchange EXCEPT:
+a. advertising fees.
+b. shipping and handling fees.
+c. fees for services rendered.
+d. membership fees.<row>b<term>QN=173 An exchange charges an annual fee of $25,000 for all parties who want to trade in the exchange. The revenue model in use by this exchange is the
+a. transaction fee model
+b. membership fee model
+c. fee for service model
+d. advertising fee model<row>b<term>QN=174 Markets in which several large sellers sell to a large number of buyers are called
+a. fragmented markets
+b. seller-concentrated markets
+c. buyer-concentrated markets
+d. differentiated markets<row>d<term>QN=175 The concept of liquidity for a 13213 exchange is the:
+a. ease with which information flows between exchange members
+b. ease with which orders can be placed, processed, and shipped using the exchange
+c. amount of available cash on hand
+d. number of buyers and sellers in a market <271><row>b<term>QN=176 The most attractive industries for a vertical exchange are characterized by:
+a. stagnant technology
+b. a market in which a small number of very large orders account for more than half the total market volume per year
+c. many fragmented buyers and sellers
+d. a few very large players that totally dominate the industry<row>c<term>QN=177 When membership fees are the basis for revenue generation in an e-exchange, it has been shown that:
+a. there should be a fee for every service provided; there should be no free services for members.
+b. the higher the fees charged, the greater the total profit.
+c. low membership fees often result in losses to the exchange,; however, high fees discourage participation.
+d. when fees are very low, the exchange sees greater utilization which leads to greater revenue and profit.<row>a<term>QN=178 In dealing with exchange members, the management of the exchange should:
+a. make certain that the exchange is neutral in its dealings with all members.
+b. leave the management of day-to-day operations of the exchange to the members.
+c. strive to maximize exchange revenues through charging the highest possible fees.
+d. take special care of the companies that share ownership in the exchange.<row>c<term>QN=179 Brand building is important in B2B exchanges because:
+a. exchange members typically buy only the best brands of product.
+b. information flow is poor in most exchanges, making trust of suppliers very important.
+c. it is easy for exchange members to change to another exchange.
+d. exchange members typically buy products at the lowest cost unless branded.<row>b<term>QN=180 From 2001 to 2006, a majority of e-exchanges:
+a. devised new methods to increase revenues and profits
+b. folded due to a lack of customers, cash, or both
+c. increased in size due to mergers of small e-exchanges
+d. expanded by adding business partners<row>c<term>QN=181 Attracting large business sellers to public exchanges is often difficult for all of the following reasons EXCEPT:
+a. it is sometimes difficult to recruit large suppliers
+b. they are required to pay transaction fees even when they engage in transactions with existing customers
+c. advertising costs in public exchanges are very expensive <288>
+d. competitors who are also exchange member may gain access to confidential information<row>b<term>QN=182 Using tunneling technology to improve security of communication over the Internet is called:
+a. electronic data interchange (EDI).
+b. virtual private network (VPN).
+c. Internet protocol (IP)
+d. local area network (LAN)<row>b<term>QN=183 An exchange that handles materials used by companies in different industries is referred to as a(n):
+a. vertical exchange
+b. horizontal exchange <264>
+c. commodity exchange
+d. lateral exchange<row>b<term>QN=184 A company's internal operations and its relationships with suppliers and other business partners are frequently:
+a. much more complex than customer-facing applications such as taking an order online.
+b. as complex as customer-facing applications such as taking an order online.
+c. much less complex than customer-facing applications such as taking an order online.
+d. replaced by customer-facing applications.<row>b<term>QN=185 For a manufacturer, the supply chain ends:
+a. when the supplier delivers raw materials and component parts to the manufacturer.
+b. when the product is used up and disposed of.
+c. when the customer buys the product.
+d. when the customer decides he/she is satisfied with a product.<row>c<term>QN=186 The use of Web technologies to manage warehousing and transportation processes is called:
+a. collaborative planning
+b. downstream processing
+c. e-logistics
+d. e-replenishment<row>a<term>QN=187 The e-SCM process that includes integrated production and distribution processes is:
+a. supply chain replenishment
+b. collaborative planning
+c. e-procurement
+d. e-logistics<row>b<term>QN=188 All of the following are true about product lifecycle management (PLM) EXCEPT:
+a. PLM is a big step for an organization because it requires integrating different processes and systems
+b. The demand for PLM in limited because it does not apply to products that have short lifecycles or are complex <337+338>
+c. PLM can have significant beneficial impacts in cycle time, design reuse, and engineering
+d. PLM tools are offered by SAP, Matrix One, EDS, and IBM<row>d<term>QN=189 The major benefit of group decision support systems is:
+a. in passive listening while information is distributed
+b. in faster decision making with greater agreement
+c. in easier decision making
+d. in conducting virtual meetings<row>b<term>QN=190 is the transfer of documents and computer files while video
+ conferencing
+a. CPFR
+b. Data conferencing
+c. Web conferencing
+d. Interactive white boarding<row>c<term>QN=191 RFID can provide immediate, short-term, and long-term value to organizations. An example of immediate value from RFID is when
+a. an RFID tag tells customer service which factory made the faulty product returned by a customer
+b. an RFID tag reveals the supplier of a faulty component without the need for quality control to research component order records
+ 
+c. an RFID tag tells inventory control every time a roll of wire moves out of the ware house and onto the factory floor
+d. an RFID tag send a report to the supplier every time one of its component parts is used in the manufacturing process<row>c<term>QN=192 B2B systems which are used for communication, design, planning, information sharing, and information discovery are called:
+a. electronic bartering systems.
+b. information aggregation systems.
+c. collaborative commerce.
+d. electronic data systems.<row>a<term>QN=193 All of the following would be considered c-commerce EXCEPT:
+a. aggregating catalogs on a central server.
+b. connecting suppliers.
+c. communication and collaboration with suppliers.
+d. sharing on-demand training courses across many locations simultaneously.<row>d<term>QN=194 A major block in the widespread implementation of collaborative commerce is:
+a. the theory of collaborative commerce hasn't been proven effective in real-world applications.
+b. the technology needed isn't available.
+c. collaborative commerce is extremely expensive.
+d. the lack of universally accepted standards.<row>d<term>QN=195 The last fifteen orders from a manufacturer to its suppliers range from $100,000 to $8,740,000. This is an example of:
+a. order instability
+b. supply inadequacy
+c. demand manipulation
+d. the bullwhip effect<row>b<term>QN=196 Wal-Mart and LeviStrauss collaborate on demand forecasting in order to optimize the flow of materials along the supply chain. This is an example of:
+a. reducing design cycle time
+ 
+b. CPFR
+c. APS
+d. Reducing product development time<row>a<term>QN=197 Addressing mission-critical, high-volume transaction processes is the goal of:
+a. production workflow applications
+b. collaborative workflow applications
+c. administrative workflow applications
+d. portal applications<row>c<term>QN=198 is a business strategy that enables manufacturers to control and share
+ product-related data as part of product design and development efforts.
+a. Advanced planning and scheduling
+b. Collaborative planning
+c. Product lifecycle management
+d. Internal commerce<row>a<term>QN=199 Today, many business experts agree with each of the following EXCEPT:
+a. Supply chain integration has reduced the intensity of competition in most industries.
+b. The insightful way to view contemporary business is that competition exists between or among supply chains rather then individual companies.
+c. Supply chains from the suppliers' suppliers to the customers' customers should be jointly planned and designed for overall optimality by all of the supply chain partners.
+d. The supply chain needs to be operationally integrated so that inventory activities link seamlessly to manufacturing activities.<row>b<term>QN=200 When planning, designing and implementing integrated supply chain operations, management requires a holistic focus that takes account all of the following primary factors EXCEPT:
+a. strategy, structure, and people.
+b. location and revenues.
+c. IT and business processes.
+d. culture, including performance measurement, monitoring, and incentives.<row>a<term>QN=201 Software that helps integrate different types of information systems among collaborating companies is called:
+a. middleware.
+b. browser technology.
+c. collaborative software.
+d. extranet technology.<row>a<term>QN=202 Collaborative workflow applications:
+a. address project-oriented and collaborative processes.
+b. address mission-critical, transaction-oriented, high volume processes.
+c. are business process automation tools that place system controls in the hands of users.
+d. have predefined workflows, but can be redefined quickly when needed.<row>b<term>QN=203 Software applications that address project management concerns are examples of:
+a. portal applications.
+b. collaborations workflow applications.
+c. production workflow applications.
+d. administrative workflow applications.<row>c<term>QN=204 The steps required to approve an expense report is an example of:
+a. production workflow applications
+b. collaborative workflow applications
+c. administrative workflow applications
+d. portal applications<row>a<term>QN=205 When large suppliers or buyers are involved, a workflow system:
+a. is needed for both the collaborative efforts and for supply chain and production improvements.
+b. is needed for collaborative efforts only.
+c. may be helpful for supply chain improvements.
+d. will fail because of system incompatibilities<row>b<term>QN=206 Corporations are moving their phone systems to to cut costs and boost
+ efficiency 
+a. video kiosks 
+b. VoIP
+c. GDSS
+d. RTC<row>d<term>QN=207 The primary benefits of workflow management systems include all of the following EXCEPT:
+a. cycle time reduction.
+b. less management intervention.
+c. fewer chances for delay or misplaced work.
+d. increased data security.<row>a<term>QN=208 When large suppliers or buyers are involved, a workflow system:
+a. is needed for both the collaborative efforts and for supply chain and production improvements.
+b. is needed for collaborative efforts only.
+c. may be helpful for supply chain improvements.
+d. will fail because of system incompatibilities.<row>a<term>QN=209 means that the communication and collaboration are done in real
+ time.
+a. Synchronous
+b. Asynchronous
+c. Bi-synchronous
+d. Multi-Synchronous<row>d<term>QN=210 Group ware is appropriate in all of the following situations EXCEPT:
+a. for networked environments
+b. for groups to share idea and opinions
+c. for people in the same room
+d. for people working on different tasks or projects<row>d<term>QN=211 The purpose of CPFR is to:
+a. minimize quality problems in supplies
+b. eliminate intermediaries
+c. optimize the flow of materials along the supply chain
+ 
+d. ensure that members of the supply chain will have the right amount of raw
+ materials and finished good when they need them <334><row>a<term>QN=212 All of the following are types of communication and collaboration done in real time EXCEPT:
+a. blogging
+b. webinars
+c. instant messaging
+d. VoIP<row>a<term>QN=213 The growth in electronic meeting systems has been driven by all of the following EXCEPT:
+a. Shorter cycle times.
+b. Improvements in supporting technology.
+c. Reductions in the price of the technology.
+d. Acceptance of virtual meetings as a respected way of doing business.<row>d<term>QN=214 All of the following apply to instant video EXCEPT:
+a. It evolved from the spread of instant messaging and Internet telephony.
+b. The idea is for a kind of video chat room that allows users to chat in real time and see the person(s) they are communicating with.
+c. It is the natural result of wanting to link people via both voice and audio.
+d. The highest quality approach is to add video cameras to the participants' computers.<row>a<term>QN=215 All of the following are examples of e-government EXCEPT:
+a. a company sells army and navy surplus supplies at auction over the Internet.
+b. a contractor submits an application for a building permit using a city hall Web site.
+c. an unemployed worker consults a Web site operated by the state employment department to learn about job openings in his city.
+d. a state purchasing officer places an online order for office supplies from an e-catalog sent to her by a national office supply store.<row>d<term>QN=216 The exclusively online publication of Stephen King's e-book Riding the Bullet in March 2000
+a. produced very few sales
+b. was an unqualified success and established electronic publishing as a legitimate competitor for traditional publishers
+c. was a failure because the cost of the book was too high
+d. as disrupted by hackers who breached security, then distributed free copies of the book<row>c<term>QN=217 The tasks if KM include each of the following EXCEPT:
+a. creating knowledge repositories where knowledge can be stored and retrieved easily
+b. enhancing a knowledge environment in order to conduct more effective knowledge creation, transfer, and use
+c. restricting knowledge access to prevent its transfer between individuals <393>
+d. managing knowledge as an asset so as to increase the effective use of knowledge assets over time<row>a<term>QN=218 Risks in corporate blogging include all of the following EXCEPT:
+a. the risk of disciplinary action against abusive bloggers
+b. the risk making statements that are or could be construed as libel or defamation
+c. the risk of lawsuits
+d. the risk of revealing trade secrets<row>b<term>QN=219 An example of G2C is:
+a. an employee at the Chamber of Commerce gets local demographic data from a U.S. Census site.
+b. a driver applies for and pays for the renewal of his auto tag online.
+c. a road contractor uses the Internet to submit a closed bid on a paving contract.
+d. a regional hospital conducts an online reverse auction for cleaning supplies.<row>c<term>QN=220 are a popular online publishing technology for creating a Web page that
+ can be edited by anyone with a standard Web browser.
+a. Blogs
+b. Point-casts
+c. Wikis
+d. P2P<row>d<term>QN=221 A type of e-book referred to as the is a truly multimedia, online-only
+ book that has hyperlinks, three-dimensional text and display, graphics, audio, and video. It supports non linear exploration of topics
+a. download
+b. online reference book model
+c. interactive, build-your-own decision book
+d. rubics-cube hyperlink book<row>c<term>QN=222 Chaplin reports quarterly sales revenue from his business to city hall over the Internet. He pays his local business tax with a credit card. This is an example of:
+a. e-government
+b. G2C e-commerce
+c. G2B e-commerce
+d. e-Procurement<row>c<term>QN=223 A podcast is distinguished from other digital audio formats by:
+a. its lack of proprietary content
+b. its use of unpaid subscriptions
+c. its ability to be downloaded automatically, using software capable of reading feed formats such as RSS
+d. the iPod hardware required to hear it<row>d<term>QN=224 A government agency uses an online reverse auction to satisfy the tendering system requirements specified by law. This is an example of:
+a. e-government
+b. G2C e-commerce
+c. G2B e-commerce
+d. e-Procurement<row>a<term>QN=225 Government-to-employee applications can lead to significant efficiency improvements for all of the reasons EXCEPT:
+a. Most government employees use handheld digital devices.
+b. Governments employ large numbers of people that need to be paid and trained.
+c. Employees of federal and state governments often work in a variety of geographic locations.
+d. Many military employees are stationed in remote locations that are best served via the Internet<row>a<term>QN=226 Which of the following is an example of edutainment?
+a. an online game that uses colorful characters to teach young children about
+ numbers
+b. an online science fiction game whose object is to blast as many aliens as possible in a 60 second round
+c. a community college providing an online college course on digital media
+d. two or more student sharing music over the Internet<row>c<term>QN=227 One of the most important issues in implementing e-government is:
+a. designing feature-rich Web sites.
+b. the use of encryption and digital signatures.
+c. its adoption and usage by citizens.
+d. providing for secure payments.<row>a<term>QN=228 All of the following are advantages of e-learning EXCEPT:
+a. college professors are anxious to develop new online courses.
+b. knowledge retention is higher.
+c. learning time is reduced.
+d. it costs less to deliver education online than in a traditional classroom.<row>b<term>QN=229 All of the following are problems in implementing e-Government EXCEPT:
+a. it is difficult to protect personal data collected through an e-Government site
+b. the technology needed to implement stage 6 of the Deloitte transformation process does not exist yet
+c. businesses have been more receptive to G2B than individuals to G2C
+d. transformation is typically very slow<row>b<term>QN=230 All of the following are potential drawbacks of e-learning EXCEPT:
+a. instructors must be retrained.
+b. knowledge retention is lower than in traditional classrooms.
+c. assessment issues remain to be resolved.
+d. protecting the intellectual property of content developers.<row>d<term>QN=231 Most universities use e-learning:
+a. exclusively in reaching students who couldn't otherwise attend classes.
+b. only when forced by administrators to use it as a way to recruit distant students or reduce costs.
+c. as a total replacement for traditional classrooms.
+d. as a supplementary channel to traditional classrooms.<row>a<term>QN=232 Knowledge is of limited value if:
+a. it is not shared
+b. company databases are not accessible to decision makers
+c. companies protect it to maintain competitive advantage
+d. users contribute their own specialized content<row>b<term>QN=233 Knowledge generated in e-business contributes to the enhancement of three core operating process, which include all of the following EXCEPT:
+a. supply chain management
+b. project management
+c. product development management
+d. customer relationship management<row>d<term>QN=234 The business forces that are driving the transition from traditional education to online learning are all of the following EXCEPT:
+a. technological change.
+b. competition and cost pressures.
+c. network connectivity.
+d. limited supply of faculty with specialized expertise.<row>a<term>QN=235 One of the facilitators of e-learning is technology such as wikipedia.org.
+a. Web 2.0
+b. Blackboard
+c. WebCT
+d. Macromedia<row>c<term>QN=236 More and more people are willing to pay for digital music, as shown by the success of .
+a. a. Napster
+b. b. Kazaa
+c. c. Apple's iTunes
+d. d. P2P<row>a<term>QN=237 is the electronic delivery of newspapers, magazines, books, videos,
+ music, and other digitizable information over the Internet.
+a. Online publishing
+b. Blogging
+c. Webinar
+d. Social networking<row>b<term>QN=238 is commonly used to broadcast public lectures and e-seminars, promote
+ the work of new or unknown musicians, and broadcast international entertainment activities.
+a. Podcasting
+b. Webcasting
+c. File sharing
+d. Dynamic publishing<row>b<term>QN=239 The primary advantage that e-books offer publishers is:
+a. the ability to reach many readers.
+b. lower production, marketing, and delivery costs.
+c. the ease of customizing textbooks and trade books.
+d. the ease of updating books in real-time.<row>c<term>QN=240 Which of the following statements about blogs is not true?
+a. A blog is a personal Web site, open to the public, in which the owner expresses his or her feelings or opinions.
+b. Blogs became very popular after the September 11, 2001 terrorist attacks when people were looking for as many sources of information as possible and for personal connections to the tragedy.
+c. Blogs are limited to one-way communication.
+d. The most common types of blogs are professional blogs.<row>a<term>QN=241 A major purpose of an organizational knowledge base is to support and allow .
+a. knowledge sharing
+b. e-learning
+c. responsible blogging
+d. organizational capital<row>a<term>QN=242 involves using various computer-based tools and techniques to
+ analyze transaction data and generate new ideas.
+a. Knowledge creation
+b. Knowledge capture
+c. Knowledge classification
+d. Knowledge management<row>a<term>QN=243 Customer-to-customer (C2C) e-commerce is conducted in various ways on the Internet, but the best-known C2C activities are:
+a. C2C auctions
+b. Classified ads
+c. Personal services
+d. C2C exchanges<row>c<term>QN=244 P2P systems have all of the following key characteristics EXCEPT:
+a. They provide for real-time access to other users through techniques such as instant messaging and multichannel collaboration applications.
+b. The users' computers can act as both clients and servers.
+c. The overall system is well integrated, but lacks tools for easy creation of content or for adding functionalities.
+d. They support cross-networking protocols such as SOAP or XML-RPC, which enables a program on one computer to execute a program on a server computer.<row>c<term>QN=245 M-commerce transactions and activities require and
+ . 
+a. wired networks; access points 
+ 
+b. cell phones; portable computers
+c. hardware and software infrastructures; infrastructure support
+d. smartphones; switches<row>a<term>QN=246 Infrastructures that support the wireless connection are:
+a. network access points, mobile communications server switches, and cellular transmitters and receivers.
+b. WAP gateways, GPS locators, and GPS satellites.
+c. PDAs, smartphones, and portable computers.
+d. web servers, mobile devices, and microbrowsers.<row>b<term>QN=247 Components of a wireless infrastructure that support delivery of services over a wireless connection are:
+a. network access points, mobile communications server switches, cellular transmitters, and receivers.
+b. WAP gateways, GPS locators, and GPS satellites.
+c. PDAs, smartphones, and portable computers.
+d. web servers, mobile devices, and microbrowsers.<row>d<term>QN=248 Characteristics of mobile devices that create special requirements that hardware and software designers need to anticipate when designing mobile computing systems include all of the following EXCEPT:
+a. small screens
+b. reduced memory
+c. restricted input capabilities
+d. broad bandwidth<row>c<term>QN=249 The exchange of updated information with other computing devices is called:
+a. docking
+b. data transferring
+c. synchronization
+d. marking<row>a<term>A suite of network protocols designed to enable different kinds of wireless devices is called:
+a. Wireless Application Protocol.
+b. a mobile operating system.
+c. a mobile application user interface.
+d. wireless middleware.<row>c<term>QN=251 The application logic in a handheld PDA, smart phone, Palm or Wintel notebook is called:
+a. Wireless Application Protocol.
+b. a mobile operating system.
+c. a mobile application user interface.
+d. wireless middleware.<row>b<term>QN=252 enables the determination of the location of an enabled device.
+a. PDA
+b. GPS
+c. SMS
+d. WAP<row>c<term>QN=253 Rick sends a message from a delayed flight to his friend on her cell phone that he will be arriving late. The service that allows the sending and receiving of such short text messages on mobile phones is called:
+a. TMG
+b. MSG
+c. SMS
+d. LOL<row>c<term>QN=254 Micropayments are electronic payments:
+a. from a mobile device.
+b. that are less than $1.00.
+c. that are less than $10.00.
+d. that are less than $100.00.<row>a<term>QN=255 Infrastructures that sua. pport the wireless connection are:
+a. a. network access points, mobile communications server switches, and cellular transmitters and receivers.
+b. b. WAP gateways, GPS locators, and GPS satellites.
+c. c. PDAs, smartphones, and portable computers.
+d. d. web servers, mobile devices, and microbrowsers.<row>a<term>QN=256 The IEEE standard offers bandwidth transfer rates of 200 to 540 Mbps,
+ which makes it impractical because it exceeds the limits of most broadband connections used by homes and small businesses
+a. 802.11n
+b. 802.1 1b
+c. 802.16
+d. 802.11<row>d<term>QN=257 Most WLANs run on a telecommunications standard known as , which
+ is more commonly called .
+a. WLAN; hotspot
+b. IEEE 802.16; WiMax
+c. IEEE 802.11; Bluetooth
+d. IEEE 802.11; Wi-Fi<row>a<term>QN=258 ...is suitable for mobile users who need to make very short-range device 
+ to-device wireless connections within a small space, such as a single room, and most commonly with Bluetooth.
+a. personal area network
+b. local area network
+c. wireless area network
+d. Wi-Fi area network<row>a<term>QN=259 All of the following about wireless wide area networks (WWAN) are true EXCEPT:
+a. The single WWAN network standard insures compatibility of handsets within and between countries.
+b. Most WWANs are cellular phone networks.
+c. At the center of each cell is a base station transceiver or cell tower that is used to send and receive signals to and from mobile devices operating within the cell.
+d. When a device is turned on, a SIM card inside the device identifies itself to the WWAN.<row>b<term>QN=260 The major attributes that enable development of new applications that are possible only in a mobile environment include all of the following EXCEPT:
+a. Ubiquity
+b. Security
+c. Localization
+d. Personalization<row>c<term>QN=261 As in e-commerce, m-commerce B2C applications are concentrated in each of the following areas EXCEPT:
+a. a. retail shopping for products and services
+b. b. targeted advertising
+c. c. telecommunications
+d. d. providing content for a fee through mobile portals<row>c<term>QN=262 Mobile access supports the two functions of sales force mobilization and field service, which extends the reach of to both employees and business partners on a 24/7 basis to any place where recipients are located.
+a. supply chain management
+b. inventory management
+c. customer relationship management <442>
+d. vendor management<row>c<term>QN=263 One way to share information with supply chain partners is wireless , which is the science of measuring physical phenomena such as temperature, volume, or an on/off condition at a remote point and transmitting the value to a distant recorder or observer.
+a. RFID
+b. mobilization
+c. telemetry
+d. osmosis<row>a<term>QN=264 The development of m-commerce is being driven by the following technological, business, social, and economic factors EXCEPT:
+a. The transition to a manufacturing economy.
+b. The widespread availability of more powerful wireless devices.
+c. The growth of a handset culture and mobile workforce.
+d. The improved price/performance of mobile services.<row>d<term>QN=265 One initiative underway that could lead to widespread support for the introduction of RFID
+is the , which identifies the manufacturer, producer, version, and serial number of each item and does not require line-of-sight contact to be read.
+a. Universal Product Code
+b. Sensor Network
+c. Smart Product Network
+d. Electronic Product Code<row>d<term>QN=266 The major enterprise mobile applications are all of the following EXCEPT:
+a. e-mail and cell phone contacts
+b. customer relations and sales force automation
+c. logistics and supply chain
+d. research and development<row>b<term>QN=267 By enabling sales force employees to record orders in real time, the organization benefits through each of the following EXCEPT:
+a. improved manufacturing and delivery scheduling.
+b. more extensive collaboration and sharing of customer leads.
+c. fewer data entry errors.
+d. lower clerical and administrative overhead.<row>b<term>QN=268 refers to the integration of computers and wireless communications in order to improve information flow
+a. mobility
+b. telematics
+c. E-911
+d. remote telemetry<row>b<term>QN=269 All of the following about RFID are true EXCEPT:
+a. an RFID tag remains inactive until radio frequency energy from the tag's radio transmitter hits its antenna, giving the chip enough power to emit a 96-bit string of information
+b. an RFID tag can hold 20 times the amount of information a bar code can hold, and the tag can be read through cardboard, wood, and plastic at a range of up to 100 feet <456> 
+c. an RFID tag includes an antenna and a chip with information about the item
+d. an RFID reader contains a radio transmitter and receiver<row>a<term>QN=270 All of the following are barriers to location-based m-commerce EXCEPT:
+a. There are presently not enough location-based systems to make this a viable technology.
+b. Wireless bandwidth is limited.
+c. The accuracy of location technologies is often less than consumers expect.
+d. Consumers see constant location data transmissions as a violation of privacy.<row>c<term>QN=271 The services provided through location-based m-commerce focus on key factors which include all of the following EXCEPT:
+a. Navigation, or plotting a route from one location to another.
+b. Tracking, or monitoring the movement of a person or thing.
+c. Geocaching, or determining the topography of an area.
+d. Timing, or determining the precise time at a specific location.<row>a<term>QN=272 A(n) is a computer system capable of integrating, storing, editing, analyzing, sharing, and displaying spatial information.
+a. geographical information system
+b. global positioning system
+c. l-commerce system
+d. on-star system<row>b<term>QN=273 You are walking near a coffee shop and suddenly your cell phone beeps with a message: "Come inside and get a free biscotti with any purchase." This is an example of:
+a. permission marketing
+b. location-based advertising
+c. customer relationship management
+d. m-commerce<row>d<term>QN=274 Many experts believe that the next major step in the evolution of computing will be in which almost every object will have processing power and a wired or wireless connection to a network.
+a. persistent computing
+b. mobile computing
+c. universal computing
+d. pervasive computing<row>a<term>QN=275 Auctions are all of the following EXCEPT:
+a. They are suitable for most consumer goods.
+b. They are a market mechanism.
+c. They are an established method of commerce for generations.
+d. They are a marketing channel.<row>d<term>QN=276 Dynamic pricing refers to :
+a. prices that are negotiated.
+b. prices that are regulated by government agencies.
+c. prices that maximize revenue.
+d. prices that are determined by market forces.<row>b<term>QN=277 ... work best with many buyers and many sellers.
+a. Bartering
+b. Dynamic exchanges
+c. Forward auctions
+d. Reverse auctions<row>b<term>QN=278 The process of building auction applications is complex for all of the following reasons EXCEPT:
+a. auctions must be integrated with the back-end offices
+b. auctions must provide payment systems
+c. the number of needed features can be very large
+d. auctions must be integrated with the legacy systems of participating companies<row>b<term>QN=279 Two purposes of a types of auctions are liquidation and market efficiency 
+a. one-buyer, one-seller 
+b. one seller, many potential buyers 
+c. one buyer, many potential sellers
+d. many buyers, many sellers<row>a<term>QN=280 The auction model is popular in B2B.
+a. one-buyer, one-seller
+b. one seller, many potential buyers
+c. one buyer, many potential sellers
+d. many buyers, many sellers<row>c<term>QN=281 Reverse auctions are a type of auctions.
+a. one-buyer, one-seller
+b. one seller, many potential buyers
+c. one buyer, many potential sellers
+d. many buyers, many sellers<row>c<term>QN=282 The "name-your own-price" model pioneered by Priceline.com is a type of auction.
+a. one-buyer, one-seller
+b. one seller, many potential buyers
+c. one buyer, many potential sellers
+d. many buyers, many sellers<row>d<term>QN=283 Auctions done in exchanges or double auctions are auctions.
+a. one-buyer, one-seller
+b. one seller, many potential buyers
+c. one buyer, many potential sellers
+d. many buyers, many sellers<row>a<term>QN=284 Jackie uses a software system to place bids automatically on her behalf until her predetermined maximum price is reached. The software bids in such a way as to minimize the final bid. This is referred to as:
+a. proxy bidding
+b. pricing agents
+c. sniping
+d. bidding agents<row>a<term>QN=285 Bidders sometimes use phantom bidders to drive bid prices up rapidly at the beginning of an auction, thus discouraging bidding from legitimate bidders. At the last minute, the phantom bidders pull out, which awards the item to a very low bidding customer. This practice is called:
+a. bid shielding
+b. sniping
+c. bid fixing
+d. shilling<row>b<term>QN=286 A(n) takes place between sellers and buyers in one industry or for one
+ commodity, such as flowers, cars, or cattle.
+a. open auction
+b. vertical auction
+c. exchange
+d. negotiation vortal<row>c<term>QN=287 All of the following are potential benefits from auctions to sellers EXCEPT:
+a. auctions can broaden the customer base and reduce cycle time.
+b. sellers receive valuable price sensitivity information.
+c. sellers are always anonymous.
+d. sellers can liquidate large quantities of obsolete items very quickly.<row>d<term>QN=288 In electronic auctions, near-perfect market information is available about prices, products, current supply and demand, and so on. This feature provides benefits to .
+a. companies and individuals
+b. buyers
+c. sellers
+d. buyers and sellers<row>b<term>QN=289 Benefits of electronics auctions (e-auctions) to sellers include all of the following EXCEPT:
+a. Larger reach and increased revenues
+b. Anonymity
+c. Removal of expensive intermediaries
+d. Lower transaction and administrative costs<row>d<term>QN=290 refers to the tendency of customers to stay at Web sites longer and come back more often.
+a. High repeat
+b. Loyalty
+c. Frequent purchase
+d. Stickiness<row>a<term>QN=291 Research has shown that e-commerce sites that use an auction model tend to:
+a. reach critical mass more quickly than catalog-order-based.
+b. reach critical mass more slowly than other models.
+c. become liquid.
+d. fail more often than other models.<row>d<term>QN=292 the limitations of mobile auctions are all of the following EXCEPT:
+a. Internet-enabled phones have limited memory capacity
+b. Portable devices are small and may have a problem showing pictures of auction items
+c. Wireless systems are not as safe as wireline ones
+d. Internet cell phones are less private than a PC <498: more private><row>b<term>QN=293 The practice by sellers of having associates place fake bids in an auction as a way to drive up the selling price is called:
+a. bid fixing.
+b. shilling.
+c. sniping.
+d. bid shielding.<row>d<term>QN=294 The first step in the auction process is:
+a. registration and participants' profiles.
+b. preparing the bids.
+c. arranging financing.
+d. searching and comparing.<row>b<term>QN=295 Compared to competitive markets, auction prices are often when there are multiple bidders.
+a. lower
+b. higher
+c. the same
+d. dynamic<row>a<term>QN=296 Compared to competitive markets, auction prices are often when there are very few bidders.
+a. lower
+b. higher
+c. the same
+d. dynamic<row>d<term>QN=297 Many auction sites are implementing because of the significant increase in the number of users who browse the Internet wirelessly.
+a. authentication
+b. instant message notification
+c. vortals
+d. m-commerce applications<row>a<term>QN=298 The most serious disadvantage of e-auctions is:
+a. the risk of fraud.
+b. Logistics.
+c. unreliable auction software.
+d. payment delays.<row>a<term>QN=299 Each of the following is true about auction rules EXCEPT:
+a. rules eliminate conflicts with existing distributors and distribution 
+b. rules are intended to smooth the auction mechanism and to prevent fraud
+c. auction rules vary from country to country due to legal considerations
+d. the success of auctions depends on complying with auction rules<row>a<term>QN=300 A major shortcoming with authentication services is:
+a. two different authenticators may come up with different opinions regarding the authenticity and description of a given item.
+b. it is impossible to tell whether many items are reproductions or genuine.
+c. dishonest authenticators are the primary sources of fraud on the Internet.
+d. most auction sites forbid the use of authentication services.<row>B<term>QN=301 John wants to know if the first edition novel he just purchased through an e-auction is actually a first edition. The auction host helps him locate an expert that will him whether the novel is a genuine first edition or a fake. This is an example of:
+a. certification
+b. authentication
+c. verification
+d. integrity<row>C<term>QN=302 Many companies use intermediaries or trading assistants instead of implementing e-auctions themselves for each of the following reasons EXCEPT:
+a. The company name is not widely recognized.
+b. To bring many more buyers to the auction.
+c. To avoid tax and legal fees.
+d. Costs of auction intermediaries or assistants are less than the costs of physical auctions.<row>A<term>QN=303 Each of the following is one of the three major categories of auction rules EXCEPT:
+a. timing rules
+b. bidding rules
+c. clearing rules
+d. information-revelation rules<row>C<term>QN=304 The incidence of online fraud and identify theft has increased for each of the following reasons except:
+a. Growth in EC sales and the number of shoppers with higher incomes.
+b. Information is today's most valuable form of international currency.
+c. New effective phishing scams and schemes being carried out by computer experts.
+d. Scammers outsourcing work to programmers to seize control of computers or wireless networks.<row>A<term>QN=305 Cyber cons have a negative effect on EC because
+a. defending against these cons and compensating for damages significantly increase the costs of EC.
+b. a majority of potential customers do not shop online because they are too afraid of fraud to trust online merchants.
+c. companies cannot expand their e-business to other countries with underdeveloped legal systems.
+d. con artists have gone low-tech.<row>B<term>QN=306 The key reasons why EC criminals cannot be stopped include each of the following except:
+a. Strong EC security makes online shopping inconvenient and demanding on customers.
+b. Sophisticated hackers use browsers to crack into Web sites.
+c. Lack of cooperation from credit card issuers and foreign ISPs.
+d. Online shoppers do not take necessary precautions to avoid becoming a victim.<row>A<term>QN=307 It is currently known that if a front-end application such as a Web site is effectively secured, then
+a. the data itself may not be secure because the application may not function as planned.
+b. the data itself is secured by firewalls.
+c. the data itself is secure because web applications are not targeted by attackers.
+d. the data itself may not be secure because back-end databases may not function as planned.<row>D<term>QN=308 A vulnerability
+a. is a software bug.
+b. is the probability that a weakness will be known and used.
+c. is the estimated cost, loss, or damage that can result if a threat exploits a vulnerability.
+d. is a weakness in software or other mechanisms that a hacker can use directly to gain access to a system or network.<row>C<term>QN=309 The underlying reasons why a comprehensive EC security strategy is needed include all of the following except:
+a. The Internet was designed for maximum efficiency without regard for its security or users with malicious intent.
+b. The shift toward profit-motivated crimes.
+c. Managers treating EC security as a process.
+d. Many companies fail to implement basic IT security management best practices, business continuity plans, and disaster recovery plans.<row>A<term>QN=310 The protection of information systems against unauthorized access to or modification of information that is stored, processed, or being sent over a network is referred to as .
+a. Information assurance.
+b. Information defense.
+c. Information security triad.
+d. Information integrity.<row>D<term>QN=31 1 The success and security of EC depends on the of information and the
+ business Web site.
+a. encryption, functionality, and privacy
+b. quality, reliability, and speed
+c. authentication, authorization, and nonrepudiation
+d. confidentiality, integrity, and availability<row>A<term>QN=312 The basic security concepts relating to customers and other users are:
+a. authentication, authorization, and nonrepudiation.
+b. confidentiality, integrity, and availability.
+c. information assurance, confidentiality, and authentication.
+d. authorization, nonrepudiation, and information assurance.<row>D<term>QN=313 Digital signatures or digital certificates:
+a. are used to validate the sender and time stamp of the transaction so it cannot be later claimed that the transaction was unauthorized or invalid.
+b. have been compromised by phishers and spammers.
+c. provide complete confidence that the transactions are secure.
+ 
+d. a and b<row>B<term>QN=314 The most cost-effective approach to EC security is to develop and implement a strategy that
+a. depends on the trust and confidence of customers.
+b. proactively meets regulatory, financial, marketing and operational requirements.
+c. protects against unauthorized transactions and overrides of accounting controls.
+d. requires digital signatures or digital certificates for all transactions.<row>A<term>QN=315 To be effective, an acceptable use policy (AUP) needs
+a. to inform all users of their responsibilities when using company networks, computer equipment, wireless devices, and customer data.
+b. to be written by the company's legal department.
+c. to be incorporated into business projects and proposals.
+d. to specify rules for firewalls, access control lists, monitoring, and intrusion detection systems.<row>A<term>QN=316 Which of the following statements about hardware and software security defenses is false?
+a. Hardware and software security defenses protect against irresponsible business practices or corrupt management.
+b. There is no single hardware or software solution for all companies.
+c. If firewalls and antivirus software are not upgraded and monitored constantly, they will not remain useful.
+d. After the EC security program and policies are defined and risk assessment completed, then the software and hardware needed to support and enforce them can be put in place.<row>C<term>QN=317 Social engineering attacks are:
+a. an example of technical attacks requiring software or systems knowledge.
+b. are a combination of technical and nontechnical attacks.
+c. take advantage of Web 2.0 applications like social networking sites, blogs, wikis and RSS feeds.
+d. no longer considered to be serious Internet threats due to the increased security of MySpace, LinkedIn, and YouTube.<row>A<term>QN=318 A technique known as web page hijacking
+a. enables a malicious Web master to displace the pages of an EC Web site in the Search Engine Results Pages (SERPS) to redirect customers to another site.
+b. causes a high volume of search engine traffic similar to a denial of service attack.
+c. downloads what appears to be an "important document," but which contains a trojan, a program that gives the sender control of the infected machine.
+d. enables online gambling that are actually fronts for international money laundering operations.<row>D<term>QN=319 A botnet is:
+a. a collection of a few hundred hijacked Internet computers that have been set up to forward traffic, including spam and viruses, to other computers on the Internet.
+b. a piece of software code that inserts itself into a host or operating system to launch DOS attacks.
+c. a piece of code in a worm that spreads rapidly and exploits some known vulnerability.
+d. a coordinated network of computers that can scan for and compromise other computers and launch DOS attacks.<row>A<term>QN=320 Public key infrastructure (PKI) is an authentication method
+a. that has become the cornerstone for secure e-payments and intranet applications.
+b. that is based on the Data Encryption Standard, which is the standard symmetric encryption algorithm supported by U.S. government agencies.
+c. that encrypts and decrypts large amounts of data effectively.
+d. that uses encryption keys ranging from 64 bits to 128 bits.<row>A<term>QN=321 Access to a network ought to be based on:
+a. the policy of least privilege where access to network resources are blocked and permitted only when needed to conduct business.
+b. the policy of acceptable use where access is restricted by the firewall.
+c. role-specific security protocols where access is limited by a user's level of trust.
+d. the policy of need-to-know where access by all non-employees is blocked.<row>C<term>QN=322 Which of the following does not correctly describe what firewalls protect against?
+a. Some programs have bugs or special features that create application backdoors, which allowing for remote access.
+b. Spammers often use SMTP session hijacking to redirect e-mail through the SMTP server of an unsuspecting host, which helps hide their identity.
+c. Macros are the electronic equivalent of junk mail.
+d. Remote logins occur when an unauthorized users connects to a PC and gains control of<row>A<term>QN=323 Firewalls that filter requests from the Internet to a private network based on the IP address of the computer sending or receiving those requests are called:
+a. packet-filtering routers.
+b. IP blockers.
+c. application-level proxies.
+d. bastion gateways.<row>D<term>QN=324 All of the following are important security functions of proxy servers except:
+a. They help control inbound traffic to a network.
+b. They help control outbound traffic to a network.
+c. They hide the IP addresses of a company's internal computers.
+d. They improve network performance.<row>B<term>QN=325 The advantages of virtual private networks (VPN) for data communications include all of the following except:
+a. They are less expensive than private leased lines because they use the public Internet to carry information.
+b. They ensure the confidentiality and integrity of the data transmitted over the Internet without requiring encyption.
+c. They can reduce communication costs dramatically because VPN equipment is cheaper than other remote solutions.
+d. Remote users can use broadband connections rather than make long distance calls to access an organization's private network.<row>A<term>QN=326 A host-based intrusion detection system (IDS):
+a. Resides on the server that is being monitored where it can detect whether critical or security-related files have been tampered with or whether a user has attempted to access files that he or she is not authorized to use.
+b. Uses rules to analyze suspicious activity at the perimeter of a network or at key locations in the network.
+c. Can perform certain actions when an attack occurs, such as terminating network connections based on security policies.
+d. Consists of information system resources—firewalls, routers, Web servers, database servers, and files that look like production systems, but do no real work.<row>B<term>QN=327 Factors that come into play in determining whether a particular method of e-payment achieves critical mass include all of the following EXCEPT:
+a. hardware and software independence.
+b. full traceability of the buyers.
+c. the degree of security of the transfer.
+d. interoperability with other enterprise systems and applications.<row>D<term>QN=328 A card that draws the payment amount directly from the user's checking account is called a(n):
+a. e-payment card.
+b. credit card.
+c. charge card
+d. debit card<row>D<term>QN=329 The process of determining whether a card is active and whether the customer has sufficient funds for the purchase is called:
+a. approval.
+b. settlement.
+c. procurement.
+d. authorization.<row>B<term>QN=330 The transfer of money from the buyer's to the seller's account is called:
+a. approval.
+b. settlement.
+c. procurement.
+d. authorization.<row>B<term>QN=331 are financial institutions that provides a customer with a payment
+ card.
+a. Credit card associations
+b. Issuing banks
+c. Payment processing services
+d. Acquiring banks<row>C<term>QN=332 provide connectivity among merchants, customers, and financial
+ networks enabling authorization and payments is called the:
+a. Credit card associations
+b. Issuing banks
+c. Payment processing services
+d. Acquiring banks<row>C<term>QN=333 Each of the following are ways to pay bills over the Internet EXCEPT:
+a. online banking.
+b. biller direct.
+c. customer service provider.
+d. bill consolidator.<row>C<term>QN=334 From the perspective of the billing firm, all of the following are advantages of e-billing EXCEPT:
+a. opportunity for targeted advertising.
+b. reduced processing expense.
+c. universal availability.
+d. improved customer service.<row>A<term>QN=335 From the perspective of the customer, all of the following are advantages of e-billing EXCEPT:
+a. greater security than other types of payments.
+b. lower costs.
+c. simplifies and centralizes payment processing.
+d. makes record keeping easier.<row>C<term>QN=336 Characteristics of 13213 payments include all of the following EXCEPT:
+a. They are much larger than payments by individuals.
+b. They are significantly more complex than payments by individuals.
+c. They require less rigor and security than 132C payments.
+d. They are more likely to involve disputes that require significant rework to resolve.<row>B<term>QN=337 B2B payments are part of a much larger financial supply chain that includes all of the following EXCEPT:
+a. procurement.
+b. financial reporting.
+c. contract administration.
+d. payment authorization.<row>D<term>QN=338 In financial supply chain management, the goal is to optimize all of the following EXCEPT:
+a. accounts payable
+b. accounts receivable
+c. financial risks
+d. the physical supply chain<row>A<term>QN=339 Unlike the physical supply chain, characterize the financial supply
+ chains of most companies.
+a. inefficiencies
+b. efficiencies
+c. greater accuracy
+d. transparency<row>A<term>QN=340 The vast majority of B2B payments are:
+a. still made by paper check.
+b. electronic payments.
+c. made using electronic funds transfer (EFT)
+d. made with letters of credit.<row>B<term>QN=341 The process by which companies present invoices and make payments to one another through the Internet is known as:
+a. online accounts payable.
+b. enterprise invoice presentment and payment.
+c. electronic data interchange.
+d. online accounts receivable.<row>C<term>QN=342 For many firms, presentment and payment processes are all of the following EXCEPT:
+a. costly.
+b. time consuming.
+c. secure.
+d. error-prone.<row>D<term>QN=343 The implementation of most EC applications requires the use of all of the following support services EXCEPT:
+a. security
+b. order fulfillment, delivery, and payment
+c. infrastructure and technology
+d. manufacturing<row>A<term>QN=344 Most EC applications are based on that begin with an order, frequently a
+ order.
+a. pull operations; customized
+b. push operations; customized
+c. pull operations; standard
+d. push operations; standard<row>C<term>QN=345 Packing, delivery, accounting and logistics are examples of:
+a. logistics.
+b. order fulfillment.
+c. back-office operations.
+d. front-office operations.<row>D<term>QN=346 Customer-facing activities or are activities, such as advertising and
+ order taking, that are visible to customers.
+a. logistics.
+b. order fulfillment.
+c. back-office operations.
+d. front-office operations.<row>A<term>QN=347 The Council of Supply Chain Management Professionals defines as
+ "the process of planning, implementing, and controlling the efficient and effective flow and storage of goods, services, and related information from point of origin to point of consumption for the purpose of conforming to customer requirements."
+a. logistics.
+b. order fulfillment.
+c. back-office operations.
+d. front-office operations.<row>B<term>QN=348 A typical EC fulfillment process involves all of the following activities EXCEPT:
+a. Making sure the customer will pay.
+b. Just-in-time inventory management.
+c. Checking for in-stock availability.
+d. Replenishment and returns.<row>D<term>QN=349 The administrative activities of order taking and fulfillment involve all of the following activities EXCEPT:
+a. sales quote.
+b. order acknowledgment.
+c. shipment release.
+d. accounts payable.<row>B<term>QN=350 The major difference between e-logistics and traditional logistics is:
+a. traditional logistics applies only to manufacturers.
+b. traditional logistics deals with movement of large amounts of materials to a few destinations.
+c. e-logistics outsources all logistics functions.
+d. e-logistics deals with the movement of large amounts of materials to a few destinations.<row>B<term>QN=351 The inability to deliver products on time is a typical problem:
+a. in traditional logistics only because the problem has been solved in e-commerce.
+b. in both off-line and e-commerce.
+c. unique to e-commerce.
+d. in global operations, but it is rarely a problem in domestic operations.<row>d<term>QN=352 are a major source of uncertainty in supply chains.
+a. Inventory delivery schedules
+b. Foreign currency exchange rates
+c. Internal manufacturing schedules
+d. Demand forecasts<row>a<term>QN=353 Solutions to problems in the supply chain for EC companies are:
+a. generic across both EC and traditional companies.
+b. so complex that most EC companies cannot afford to implement them.
+c. critical during start-up but usually become manageable and insignificant as EC companies mature.
+d. usually unique for each EC company.<row>c<term>QN=354 Automated warehouses for 132C companies are designed:
+a. to accommodate much larger inventory levels than traditional warehouses.
+b. to facilitate the delivery of large quantities of product to a small number of customers.
+c. to facilitate the delivery of small quantities of product to a very large number of customers.
+d. to help transition 132C companies into 13213 companies.<row>a<term>QN=355 The second most often cited reason for customers not buying on the Web is:
+a. the lack of a good return mechanism.
+b. concern that ordered products won't be delivered on time.
+c. concerns about fraud.
+d. not being able to see or try on a product before buying it.<row>C<term>QN=356 recognizes that are the core of a business and
+ that a company's success depends on effectively managing its relationships with them.
+a. Supplier relationship management; suppliers
+b. Partner relationship management; partners
+c. Customer relationship management; customers
+d. Vendor relationship management; vendor<row>c<term>QN=357 Data analytics are a valuable tool because it can provide all of the following EXCEPT:
+a. customer segmentation groupings.
+b. profitability analysis.
+c. financial reporting
+d. what-if scenarios.<row>B<term>QN=358 For companies, it may be even more important to change strategies
+ quickly.
+a. traditional
+b. pure play
+c. service
+d. retail<row>d<term>QN=359 Capabilities of the Internet that have made it more difficult for companies to capture profits include all of the following EXCEPT:
+a. The Internet makes information widely available.
+b. The Internet reduces the difficulty of purchasing, marketing, and distribution.
+c. The Internet allows buyers and sellers to find and transact business with one another more easily.
+d. The Internet makes it easier to make secure payments.<row>a<term>QN=360 Projections of the business technological, political, economic, and other environments are called:
+a. forecasts.
+b. SWOT analysis
+c. competitive intelligence
+d. value propositions<row>c<term>QN=361 All of the following are elements of a company's strategy EXCEPT:
+a. competitor analysis.
+b. forecasts.
+c. day-to-day operations.
+d. company analysis.<row>d<term>QN=362 All of the following about the strategic planning process are true EXCEPT:
+a. The strategic planning process is cyclical and continuous.
+b. The process of developing a strategy maybe even more important than the strategy.
+c. The strategic planning process forces corporate executives, a company's general manager, or a small business owner to assess the current position of the firm, where it should be, and how to achieve objectives.
+d. The strategic planning process begins with strategy formulation.<row>a<term>QN=363 A specific outcome of the strategy initiation phase is the , which
+ includes the vision, mission, value proposition, goals, capabilities, constraints, strengths, and weaknesses of the company.
+a. company analysis
+b. value proposition
+c. core competency
+d. functional strategy<row>c<term>QN=364 Google's is its expertise in information search technology.
+a. company analysis
+b. value proposition
+c. core competency
+d. functional strategy<row>A<term>QN=365 is the process of making the selected applications and projects a
+ reality by hiring staff; purchasing equipment; licensing, purchasing, or writing software; and contracting vendors.
+a. Project management
+b. Resource allocation
+c. Project planning
+d. Strategy assessment<row>b<term>QN=366 An analytical tool in which a company looks for points of differentiation between competitors and itself is called:
+a. SWOT analysis
+b. competitor analysis grid
+c. scenario planning
+d. strategy assessment<row>d<term>QN=367 is the continuous evaluation of progress toward the organization's
+ strategic goals, resulting in corrective action and, if necessary, strategy reformulation.
+a. SWOT analysis
+b. competitor analysis grid
+c. scenario planning
+d. strategy assessment<row>a<term>QN=368 All of the following are situations when a business plan should be done EXCEPT:
+a. When an existing business is deploying a CRM system.
+b. When a new business is seeking start-up funds and other resources.
+c. When an existing company is planning to create a separate division.
+d. When an existing company is planning to launch the company in a new direction.<row>c<term>QN=369 Which of the following about business plans and business cases is NOT correct?
+a. The content of a business case is similar to that of a business plan.
+b. One difference is that the business plan concentrates on the viability of a company, whereas a business case assesses both viability of the project and the fit of the initiative with the firm's mission and goals.
+c. The audiences are the same—senior management and the board or directors.
+d. The purposes are the same—to justify a specific investment of funds.<row>a<term>QN=370 The most efficient way to expand an organization's scope is:
+a. to introduce new products or services into new or existing markets without increasing production facilities or staff.
+b. by increasing the size or scale of the business.
+c. by expanding the firm's appeal to a new set of customers.
+d. to buy a company with complementary products or services.<row>c<term>QN=371 Separating a company's online operations into a new company makes sense in each of the following situations EXCEPT:
+a. when the volume of anticipated e-business is large.
+b. when the subsidiary can be created without dependence on current operations and legacy systems.
+c. when the company is unable to form new alliances, attract new talent, or raise additional funding.
+d. when a new business model needs to be developed apart from the constraints of current operation.<row>b<term>QN=372 The most dangerous risk to a company engaged in e-commerce is:
+a. threat posed by hackers.
+b. business risk.
+c. negligent loss of data.
+d. customer and business partner risk.<row>c<term>QN=373 All of the following determine the degree of collaboration between off-line and online activities in a business EXCEPT:
+a. corporate culture.
+b. the ability of top management to introduce change properly.
+c. the pricing strategy.
+d. the use of innovative processes that support collaboration.<row>d<term>QN=374 Internet technologies can provide consumers with easier access to pricing information, which increases their bargaining power. To remain competitive and profitable, sellers need smarter pricing strategies, which include all of the following strategies EXCEPT:
+a. greater precision in setting prices.
+b. more adaptability in changing prices.
+c. new ways of customer segmentation for differentiated pricing.
+d. reducing prices.<row>c<term>QN=375 A is a form of business alliance composed of several business
+ partners that share the costs and resources for the development or production of a product or service.
+a. temporary corporation
+b. supply chain
+c. virtual corporation
+d. co-opetition<row>D<term>QN=376 The most important objectives of strategic assessment are all of the following EXCEPT:
+a. Measure the extent to which the EC strategy and ensuing projects are delivering what they were supposed to deliver.
+b. Determine if the EC strategy and projects are still viable in the current environment.
+c. Reassess the initial strategy in order to learn from mistakes and improve future planning.
+d. Identify what competitors are doing to avoid head-on competition.<row>c<term>QN=377 To defend against unethical and illegal business tactics that exploit EC operations, Google, MSN Search, and Yahoo have turned to all of the following aggressive measures except:
+a. Implemented spam site reporting systems.
+b. Built algorithms that check for and penalize deceptive rank-boosting practices.
+c. Implemented honeypots.
+d. Banned violators' sites.<row>d<term>QN=378 Having control over the collection, storage, and dissemination of personal information is included in the category of:
+a. property
+b. rights
+c. duties
+d. privacy<row>b<term>QN=379 A decision by a judge that may be used as a standard in similar cases that follow is referred to as:
+a. intellectual property
+b. legal precedent
+c. common law
+d. tort<row>A<term>QN=380 Critics of political spam are against its use because they believe that:
+a. all spam is a nuisance, clogs mail servers, and creates security risks
+b. it is illegal
+c. it increases candidates' dependence on wealthy fundraisers
+d. it leads to political favoritism<row>c<term>QN=381 Due process is
+a. a legal claim that others not interfere with a protected interest.
+b. a set of enforceable rules and regulations.
+c. a guarantee of basic fairness and fair procedures in legal action.
+d. a legal obligation not to interfere with a protected interest.<row>a<term>QN=382 Property rights relevant to e-commerce include all of the following EXCEPT:
+a. The right to bring criminal charges against a violator.
+b. Control of the use of the property.
+c. The right to benefit, transfer, or sell the property.
+d. The right to exclude others from the property.<row>a<term>QN=383 Intellectual property law is the area of law that is associated with each of the following EXCEPT:
+a. business contracts.
+b. visual and performing arts.
+c. patent law, copyright law, trademark law, and trade secret law.
+d. electronic databases, advertising, and video games.<row>d<term>QN=384 Which of the following is true about copyrights?
+a. Copyright protection on artistic property such as a movie or music lasts forever, even after the death of the author or creator.
+b. In the United States, after work is created and in a tangible form such as through writing or recording, the author can apply for a federal copyright.
+c. The Recording Industry Association of America (RIAA) uses lawsuits against universities, but not students, to stamp out rampant music piracy on university campuses.
+d. The entertainment industry, led primarily by the Motion Picture Association of America (MPAA) and RIAA, is trying technical solutions via the legal system to protect its interests.<row>b<term>QN=385 Each of the following statements about digital rights management (DRM) is true EXCEPT:
+a. DRM are technology-based protection measures.
+b. DRM technologies were developed with strict regard for privacy protection.
+c. Typically, the content is a copyrighted digital work to which the vendor holds right.
+d. DRM is an umbrella term for any arrangement that allows a vendor of content in
+ 
+ electronic form to control the material and restrict its usage.<row>A<term>QN=386 Which of the following is true about the scope of business ethics?
+a. The scope of business ethics has expanded to encompass the nature and quality of the relationships with shareholders, customers, business partners, suppliers, the community, environment, and future generations.
+b. The scope of business ethics has been limited to company's actions with regard to how it treats employees and obeys laws.
+c. The scope of business ethics has not changed because laws have not changed.
+d. The scope of business ethics has not changed even though laws have expanded.<row>c<term>QN=387 Which of the following statements about the rights to privacy andfree speech is not correct?
+a. Those rights have an increasingly important role in an information society and to EC.
+b. As with all rights, the right of free speech is not unlimited.
+c. The Internet has destroyed the right to privacy.
+d. Defamation laws put restrictions on what may be freely said or published.<row>A<term>QN=388 All of the following are ways to use the Internet to find information about an individual EXCEPT:
+a. Stealing the individual's computer.
+b. Using cookies, spyware or keystroke loggers.
+c. Wiretapping communication lines.
+d. Reading an individual's e-mail, IM, blogs, or text messages.<row>b<term>QN=389 A domain name is:
+a. tangible property protected by law
+b. intangible property protected by law
+c. tangible property that is not protected by law
+d. intangible property that is not protected by law<row>b<term>QN=390 The least effective method to protect against pop-up ads and their risk is:
+a. Pop-up blocking software on users' computers.
+b. Minimizing the pop-up window.
+c. ISPs using tools that stop pop-ups from appearing.
+ 
+d. Mozilla and Firefox Web browsers preventing pop-ups.<row>d<term>QN=391 All of the following statements apply to hate Web sites EXCEPT:
+a. Web sites that contain legitimate complaints that aren't defamatory, sponsored by competitors, or infringe upon trademark rights by confusing consumers are usually protected by the First Amendment.
+b. Many hate sites are directed against large corporations such as Wal-Mart, Microsoft, and Nike.
+c. Cyberbashing is the registration of a domain name that criticizes an organization or person.
+d. The intent of most hate Web sites is to commit fraud.<row>c<term>QN=392 A legally binding contract requires a few basic elements. Which of the following is not one of those elements?
+a. an offer
+b. acceptance
+c. agreement
+d. consideration<row>d<term>QN=393 Examples of electronic signatures to help distinguish between legitimate and fraud transactions include all of the following EXCEPT:
+a. a name typed at the end of an e-mail message by the sender
+b. a digitized image of a handwritten signature attached to an electronic document
+c. a secret code or PIN to identify the sender to the recipient
+d. a Web site development agreement<row>
